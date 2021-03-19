@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring.iml" filepath="$PROJECT_DIR$/.idea/modules/spring.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring-beans/spring.spring-beans.iml" filepath="$PROJECT_DIR$/.idea/modules/spring-beans/spring.spring-beans.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring-context/spring.spring-context.iml" filepath="$PROJECT_DIR$/.idea/modules/spring-context/spring.spring-context.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring-core/spring.spring-core.iml" filepath="$PROJECT_DIR$/.idea/modules/spring-core/spring.spring-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring-expression/spring.spring-expression.iml" filepath="$PROJECT_DIR$/.idea/modules/spring-expression/spring.spring-expression.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring-jms/spring.spring-jms.iml" filepath="$PROJECT_DIR$/.idea/modules/spring-jms/spring.spring-jms.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring-orm/spring.spring-orm.iml" filepath="$PROJECT_DIR$/.idea/modules/spring-orm/spring.spring-orm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring-oxm/spring.spring-oxm.iml" filepath="$PROJECT_DIR$/.idea/modules/spring-oxm/spring.spring-oxm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring-test/spring.spring-test.iml" filepath="$PROJECT_DIR$/.idea/modules/spring-test/spring.spring-test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/tanglongan/spring.tanglongan.iml" filepath="$PROJECT_DIR$/.idea/modules/tanglongan/spring.tanglongan.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.context.annotation.configuration.ScopingTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2021-03-19T02:34:12" hostname="Dream.local" time="0.069">
+  <properties/>
+  <testcase name="testRawScopes" classname="org.springframework.context.annotation.configuration.ScopingTests" time="0.024"/>
+  <testcase name="testScopedProxyConfigurationWithClasses" classname="org.springframework.context.annotation.configuration.ScopingTests" time="0.007"/>
+  <testcase name="testScopedProxyConfiguration" classname="org.springframework.context.annotation.configuration.ScopingTests" time="0.008"/>
+  <testcase name="testScopeOnClasses" classname="org.springframework.context.annotation.configuration.ScopingTests" time="0.007"/>
+  <testcase name="testScopeOnInterfaces" classname="org.springframework.context.annotation.configuration.ScopingTests" time="0.009"/>
+  <testcase name="testSameScopeOnDifferentBeans" classname="org.springframework.context.annotation.configuration.ScopingTests" time="0.012"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

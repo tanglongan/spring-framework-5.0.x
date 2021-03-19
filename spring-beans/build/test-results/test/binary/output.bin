@@ -1,0 +1,356 @@
+¨∑®10:33:12.892 [Test worker] WARN  org.springframework.beans.factory.support.DefaultListableBeanFactory - Bean creation exception on non-lazy FactoryBean type check: org.springframework.beans.factory.BeanIsAbstractException: Error creating bean with name 'factoryBean': Bean definition is abstract
+ÿŸç10:33:13.556 [Test worker] WARN  org.springframework.beans.factory.config.YamlMapFactoryBean - Could not load map from non-existent: planned
+ÿﬂÁ10:33:13.563 [Test worker] WARN  org.springframework.beans.factory.config.YamlMapFactoryBean - Could not load map from file [/Users/tanglongan/Codes/spring-framework-5.0.x/spring-beans/non-exsitent-file.yml]: non-exsitent-file.yml
+Œ⁄¯10:33:13.794 [Test worker] WARN  org.springframework.beans.factory.config.YamlPropertiesFactoryBean - Could not load map from class path resource [no-such-file.yml]: class path resource [no-such-file.yml] cannot be opened because it does not exist
+©˜Ö10:33:14.436 [Test worker] WARN  org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor - Inconsistent constructor declaration on bean with name 'annotatedBean': single autowire-marked constructor flagged as optional - this constructor is effectively required since there is no default constructor to fall back to: public org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessorTests$ConstructorWithoutFallbackBean(org.springframework.tests.sample.beans.ITestBean)
+œ
+–
+õ10:33:15.927 [Test worker] WARN  org.springframework.beans.factory.support.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'spring-destroy': java.security.AccessControlException: access denied ("java.util.PropertyPermission" "security.destroy" "write")
+œ
+—
+Ç10:33:15.934 [Test worker] WARN  org.springframework.beans.factory.support.DefaultListableBeanFactory - FactoryBean threw exception from getObjectType, despite the contract saying that it should return null if the type of its object cannot be determined yet
+œ
+—
+sjava.security.AccessControlException: access denied ("java.util.PropertyPermission" "factory.object.type" "write")
+œ
+—
+e	at java.security.AccessControlContext.checkPermission(AccessControlContext.java:472) ~[?:1.8.0_261]
+œ
+—
+]	at java.security.AccessController.checkPermission(AccessController.java:886) ~[?:1.8.0_261]
+œ
+—
+W	at java.lang.SecurityManager.checkPermission(SecurityManager.java:549) ~[?:1.8.0_261]
+œ
+—
+A	at java.lang.System.setProperty(System.java:792) ~[?:1.8.0_261]
+œ
+—
+Ö	at org.springframework.beans.factory.support.security.support.CustomFactoryBean.getObjectType(CustomFactoryBean.java:34) ~[test/:?]
+œ
+—
+N	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_261]
+œ
+—
+ç	at org.springframework.beans.factory.support.FactoryBeanRegistrySupport.getTypeForFactoryBean(FactoryBeanRegistrySupport.java:60) [main/:?]
+œ
+—
+û	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.getTypeForFactoryBean(AbstractAutowireCapableBeanFactory.java:829) [main/:?]
+œ
+—
+r	at org.springframework.beans.factory.support.AbstractBeanFactory.getType(AbstractBeanFactory.java:650) [main/:?]
+œ
+—
+è	at org.springframework.beans.factory.support.security.CallbacksSecurityTests.testCustomFactoryType(CallbacksSecurityTests.java:416) [test/:?]
+œ
+—
+O	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_261]
+œ
+—
+a	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_261]
+œ
+—
+i	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_261]
+œ
+—
+D	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_261]
+œ
+—
+o	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50) [junit-4.12.jar:4.12]
+œ
+—
+n	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) [junit-4.12.jar:4.12]
+œ
+—
+m	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47) [junit-4.12.jar:4.12]
+œ
+—
+l	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17) [junit-4.12.jar:4.12]
+œ
+—
+h	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26) [junit-4.12.jar:4.12]
+œ
+—
+X	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325) [junit-4.12.jar:4.12]
+œ
+—
+l	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78) [junit-4.12.jar:4.12]
+œ
+—
+l	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57) [junit-4.12.jar:4.12]
+œ
+—
+V	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290) [junit-4.12.jar:4.12]
+œ
+—
+Z	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71) [junit-4.12.jar:4.12]
+œ
+—
+\	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288) [junit-4.12.jar:4.12]
+œ
+—
+Z	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58) [junit-4.12.jar:4.12]
+œ
+—
+[	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268) [junit-4.12.jar:4.12]
+œ
+—
+T	at org.junit.runners.ParentRunner.run(ParentRunner.java:363) [junit-4.12.jar:4.12]
+œ
+—
+ö	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecuter.runTestClass(JUnitTestClassExecuter.java:114) [gradle-testing-jvm-4.4.1.jar:4.4.1]
+œ
+—
+î	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecuter.execute(JUnitTestClassExecuter.java:57) [gradle-testing-jvm-4.4.1.jar:4.4.1]
+œ
+—
+ü	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassProcessor.processTestClass(JUnitTestClassProcessor.java:66) [gradle-testing-jvm-4.4.1.jar:4.4.1]
+œ
+—
+ö	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:51) [gradle-testing-base-4.4.1.jar:4.4.1]
+œ
+—
+H	at sun.reflect.GeneratedMethodAccessor16.invoke(Unknown Source) ~[?:?]
+œ
+—
+i	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_261]
+œ
+—
+D	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_261]
+œ
+—
+|	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35) [gradle-messaging-4.4.1.jar:4.4.1]
+œ
+—
+|	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24) [gradle-messaging-4.4.1.jar:4.4.1]
+œ
+—
+å	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:32) [gradle-messaging-4.4.1.jar:4.4.1]
+œ
+—
+õ	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93) [gradle-messaging-4.4.1.jar:4.4.1]
+œ
+—
+A	at com.sun.proxy.$Proxy1.processTestClass(Unknown Source) [?:?]
+œ
+—
+à	at org.gradle.api.internal.tasks.testing.worker.TestWorker.processTestClass(TestWorker.java:108) [gradle-testing-base-4.4.1.jar:4.4.1]
+œ
+—
+H	at sun.reflect.GeneratedMethodAccessor15.invoke(Unknown Source) ~[?:?]
+œ
+—
+i	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_261]
+œ
+—
+D	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_261]
+œ
+—
+|	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35) [gradle-messaging-4.4.1.jar:4.4.1]
+œ
+—
+|	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24) [gradle-messaging-4.4.1.jar:4.4.1]
+œ
+—
+¥	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:146) [gradle-messaging-4.4.1.jar:4.4.1]
+œ
+—
+¥	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:128) [gradle-messaging-4.4.1.jar:4.4.1]
+œ
+—
+{	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:404) [gradle-messaging-4.4.1.jar:4.4.1]
+œ
+—
+í	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63) [gradle-base-services-4.4.1.jar:4.4.1]
+œ
+—
+Å	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46) [gradle-base-services-4.4.1.jar:4.4.1]
+œ
+—
+b	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_261]
+œ
+—
+b	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_261]
+œ
+—
+ë	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55) [gradle-base-services-4.4.1.jar:4.4.1]
+œ
+—
+8	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_261]
+œ
+—
+Ç10:33:15.979 [Test worker] WARN  org.springframework.beans.factory.support.DefaultListableBeanFactory - FactoryBean threw exception from getObjectType, despite the contract saying that it should return null if the type of its object cannot be determined yet
+œ
+—
+sjava.security.AccessControlException: access denied ("java.util.PropertyPermission" "factory.object.type" "write")
+œ
+—
+e	at java.security.AccessControlContext.checkPermission(AccessControlContext.java:472) ~[?:1.8.0_261]
+œ
+—
+]	at java.security.AccessController.checkPermission(AccessController.java:886) ~[?:1.8.0_261]
+œ
+—
+W	at java.lang.SecurityManager.checkPermission(SecurityManager.java:549) ~[?:1.8.0_261]
+œ
+—
+A	at java.lang.System.setProperty(System.java:792) ~[?:1.8.0_261]
+œ
+—
+Ö	at org.springframework.beans.factory.support.security.support.CustomFactoryBean.getObjectType(CustomFactoryBean.java:34) ~[test/:?]
+œ
+—
+N	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_261]
+œ
+—
+ç	at org.springframework.beans.factory.support.FactoryBeanRegistrySupport.getTypeForFactoryBean(FactoryBeanRegistrySupport.java:60) [main/:?]
+œ
+—
+Å	at org.springframework.beans.factory.support.AbstractBeanFactory.getTypeForFactoryBean(AbstractBeanFactory.java:1530) [main/:?]
+œ
+—
+û	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.getTypeForFactoryBean(AbstractAutowireCapableBeanFactory.java:836) [main/:?]
+œ
+—
+r	at org.springframework.beans.factory.support.AbstractBeanFactory.getType(AbstractBeanFactory.java:650) [main/:?]
+œ
+—
+è	at org.springframework.beans.factory.support.security.CallbacksSecurityTests.testCustomFactoryType(CallbacksSecurityTests.java:416) [test/:?]
+œ
+—
+O	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_261]
+œ
+—
+a	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_261]
+œ
+—
+i	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_261]
+œ
+—
+D	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_261]
+œ
+—
+o	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50) [junit-4.12.jar:4.12]
+œ
+—
+n	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) [junit-4.12.jar:4.12]
+œ
+—
+m	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47) [junit-4.12.jar:4.12]
+œ
+—
+l	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17) [junit-4.12.jar:4.12]
+œ
+—
+h	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26) [junit-4.12.jar:4.12]
+œ
+—
+X	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325) [junit-4.12.jar:4.12]
+œ
+—
+l	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78) [junit-4.12.jar:4.12]
+œ
+—
+l	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57) [junit-4.12.jar:4.12]
+œ
+—
+V	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290) [junit-4.12.jar:4.12]
+œ
+—
+Z	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71) [junit-4.12.jar:4.12]
+œ
+—
+\	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288) [junit-4.12.jar:4.12]
+œ
+—
+Z	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58) [junit-4.12.jar:4.12]
+œ
+—
+[	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268) [junit-4.12.jar:4.12]
+œ
+—
+T	at org.junit.runners.ParentRunner.run(ParentRunner.java:363) [junit-4.12.jar:4.12]
+œ
+—
+ö	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecuter.runTestClass(JUnitTestClassExecuter.java:114) [gradle-testing-jvm-4.4.1.jar:4.4.1]
+œ
+—
+î	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecuter.execute(JUnitTestClassExecuter.java:57) [gradle-testing-jvm-4.4.1.jar:4.4.1]
+œ
+—
+ü	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassProcessor.processTestClass(JUnitTestClassProcessor.java:66) [gradle-testing-jvm-4.4.1.jar:4.4.1]
+œ
+—
+ö	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:51) [gradle-testing-base-4.4.1.jar:4.4.1]
+œ
+—
+H	at sun.reflect.GeneratedMethodAccessor16.invoke(Unknown Source) ~[?:?]
+œ
+—
+i	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_261]
+œ
+—
+D	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_261]
+œ
+—
+|	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35) [gradle-messaging-4.4.1.jar:4.4.1]
+œ
+—
+|	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24) [gradle-messaging-4.4.1.jar:4.4.1]
+œ
+—
+å	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:32) [gradle-messaging-4.4.1.jar:4.4.1]
+œ
+—
+õ	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93) [gradle-messaging-4.4.1.jar:4.4.1]
+œ
+—
+A	at com.sun.proxy.$Proxy1.processTestClass(Unknown Source) [?:?]
+œ
+—
+à	at org.gradle.api.internal.tasks.testing.worker.TestWorker.processTestClass(TestWorker.java:108) [gradle-testing-base-4.4.1.jar:4.4.1]
+œ
+—
+H	at sun.reflect.GeneratedMethodAccessor15.invoke(Unknown Source) ~[?:?]
+œ
+—
+i	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_261]
+œ
+—
+D	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_261]
+œ
+—
+|	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35) [gradle-messaging-4.4.1.jar:4.4.1]
+œ
+—
+|	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24) [gradle-messaging-4.4.1.jar:4.4.1]
+œ
+—
+¥	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:146) [gradle-messaging-4.4.1.jar:4.4.1]
+œ
+—
+¥	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:128) [gradle-messaging-4.4.1.jar:4.4.1]
+œ
+—
+{	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:404) [gradle-messaging-4.4.1.jar:4.4.1]
+œ
+—
+í	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63) [gradle-base-services-4.4.1.jar:4.4.1]
+œ
+—
+Å	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46) [gradle-base-services-4.4.1.jar:4.4.1]
+œ
+—
+b	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_261]
+œ
+—
+b	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_261]
+œ
+—
+ë	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55) [gradle-base-services-4.4.1.jar:4.4.1]
+œ
+—
+8	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_261]
+œ
+Ÿ
+£10:33:16.049 [Test worker] WARN  org.springframework.beans.factory.support.DisposableBeanAdapter - Destroy method 'destroy' on bean with name 'custom-destroy' threw an exception: java.security.AccessControlException: access denied ("java.util.PropertyPermission" "security.destroy" "write")

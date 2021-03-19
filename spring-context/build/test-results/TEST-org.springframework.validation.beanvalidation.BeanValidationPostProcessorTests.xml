@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.validation.beanvalidation.BeanValidationPostProcessorTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2021-03-19T02:34:57" hostname="Dream.local" time="0.079">
+  <properties/>
+  <testcase name="testSizeConstraintSatisfied" classname="org.springframework.validation.beanvalidation.BeanValidationPostProcessorTests" time="0.037"/>
+  <testcase name="testNotNullConstraintAfterInitialization" classname="org.springframework.validation.beanvalidation.BeanValidationPostProcessorTests" time="0.007"/>
+  <testcase name="testNotNullConstraintSatisfied" classname="org.springframework.validation.beanvalidation.BeanValidationPostProcessorTests" time="0.004"/>
+  <testcase name="testSizeConstraint" classname="org.springframework.validation.beanvalidation.BeanValidationPostProcessorTests" time="0.024"/>
+  <testcase name="testNotNullConstraint" classname="org.springframework.validation.beanvalidation.BeanValidationPostProcessorTests" time="0.006"/>
+  <system-out><![CDATA[10:34:57.885 [Test worker] WARN  org.springframework.context.support.GenericApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'bean': Initialization of bean failed; nested exception is org.springframework.beans.factory.BeanInitializationException: Bean state is invalid: stringValue - muss zwischen 2 und 2147483647 liegen
+10:34:57.892 [Test worker] WARN  org.springframework.context.support.GenericApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'bean': Initialization of bean failed; nested exception is org.springframework.beans.factory.BeanInitializationException: Bean state is invalid: testBean - darf nicht null sein
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

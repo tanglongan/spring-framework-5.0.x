@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.aop.target.LazyInitTargetSourceTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2021-03-19T02:33:07" hostname="Dream.local" time="0.054">
+  <properties/>
+  <testcase name="testLazyInitFactoryBeanTargetSource" classname="org.springframework.aop.target.LazyInitTargetSourceTests" time="0.029"/>
+  <testcase name="testCustomLazyInitSingletonTargetSource" classname="org.springframework.aop.target.LazyInitTargetSourceTests" time="0.02"/>
+  <testcase name="testLazyInitSingletonTargetSource" classname="org.springframework.aop.target.LazyInitTargetSourceTests" time="0.005"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
