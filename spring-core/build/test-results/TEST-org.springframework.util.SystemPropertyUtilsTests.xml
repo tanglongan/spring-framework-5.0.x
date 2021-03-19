@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.util.SystemPropertyUtilsTests" tests="12" skipped="0" failures="0" errors="0" timestamp="2021-03-19T02:33:24" hostname="Dream.local" time="0.002">
+<testsuite name="org.springframework.util.SystemPropertyUtilsTests" tests="12" skipped="0" failures="0" errors="0" timestamp="2021-03-19T10:45:12" hostname="Dream.local" time="0.004">
   <properties/>
   <testcase name="testReplaceWithExpressionDefault" classname="org.springframework.util.SystemPropertyUtilsTests" time="0.001"/>
-  <testcase name="testReplaceFromSystemProperty" classname="org.springframework.util.SystemPropertyUtilsTests" time="0.001"/>
+  <testcase name="testReplaceFromSystemProperty" classname="org.springframework.util.SystemPropertyUtilsTests" time="0.0"/>
   <testcase name="testReplaceFromEnv" classname="org.springframework.util.SystemPropertyUtilsTests" time="0.0"/>
   <testcase name="testReplaceFromSystemPropertyWithExpressionContainingDefault" classname="org.springframework.util.SystemPropertyUtilsTests" time="0.0"/>
   <testcase name="testReplaceWithExpressionContainingDefault" classname="org.springframework.util.SystemPropertyUtilsTests" time="0.0"/>
@@ -12,7 +12,7 @@
   <testcase name="testReplaceFromSystemPropertyWithExpressionDefault" classname="org.springframework.util.SystemPropertyUtilsTests" time="0.0"/>
   <testcase name="testReplaceWithEmptyDefault" classname="org.springframework.util.SystemPropertyUtilsTests" time="0.0"/>
   <testcase name="testRecursiveFromSystemProperty" classname="org.springframework.util.SystemPropertyUtilsTests" time="0.0"/>
-  <testcase name="testReplaceWithDefault" classname="org.springframework.util.SystemPropertyUtilsTests" time="0.0"/>
+  <testcase name="testReplaceWithDefault" classname="org.springframework.util.SystemPropertyUtilsTests" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

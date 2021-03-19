@@ -1,71 +1,71 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.cache.config.AnnotationNamespaceDrivenTests" tests="63" skipped="0" failures="0" errors="0" timestamp="2021-03-19T02:34:33" hostname="Dream.local" time="0.75">
+<testsuite name="org.springframework.cache.config.AnnotationNamespaceDrivenTests" tests="63" skipped="0" failures="0" errors="0" timestamp="2021-03-19T10:46:42" hostname="Dream.local" time="0.824">
   <properties/>
   <testcase name="bothSetOnlyResolverIsUsed" classname="org.springframework.cache.config.AnnotationNamespaceDrivenTests" time="0.021"/>
-  <testcase name="testKeyStrategy" classname="org.springframework.cache.config.AnnotationNamespaceDrivenTests" time="0.011"/>
-  <testcase name="testCacheErrorHandler" classname="org.springframework.cache.config.AnnotationNamespaceDrivenTests" time="0.01"/>
-  <testcase name="cacheResolver" classname="org.springframework.cache.config.AnnotationNamespaceDrivenTests" time="0.018"/>
-  <testcase name="testMultiConditionalCacheAndEvict" classname="org.springframework.cache.config.AnnotationNamespaceDrivenTests" time="0.011"/>
-  <testcase name="testClassCheckedExceptionSync" classname="org.springframework.cache.config.AnnotationNamespaceDrivenTests" time="0.011"/>
+  <testcase name="testKeyStrategy" classname="org.springframework.cache.config.AnnotationNamespaceDrivenTests" time="0.014"/>
+  <testcase name="testCacheErrorHandler" classname="org.springframework.cache.config.AnnotationNamespaceDrivenTests" time="0.017"/>
+  <testcase name="cacheResolver" classname="org.springframework.cache.config.AnnotationNamespaceDrivenTests" time="0.022"/>
+  <testcase name="testMultiConditionalCacheAndEvict" classname="org.springframework.cache.config.AnnotationNamespaceDrivenTests" time="0.012"/>
+  <testcase name="testClassCheckedExceptionSync" classname="org.springframework.cache.config.AnnotationNamespaceDrivenTests" time="0.012"/>
   <testcase name="testKeyExpression" classname="org.springframework.cache.config.AnnotationNamespaceDrivenTests" time="0.011"/>
-  <testcase name="testConditionalUpdate" classname="org.springframework.cache.config.AnnotationNamespaceDrivenTests" time="0.013"/>
-  <testcase name="testClassMultiCacheAndEvict" classname="org.springframework.cache.config.AnnotationNamespaceDrivenTests" time="0.017"/>
-  <testcase name="testCacheableSyncNull" classname="org.springframework.cache.config.AnnotationNamespaceDrivenTests" time="0.015"/>
-  <testcase name="testUnknownCustomKeyGenerator" classname="org.springframework.cache.config.AnnotationNamespaceDrivenTests" time="0.014"/>
-  <testcase name="testClassRootVars" classname="org.springframework.cache.config.AnnotationNamespaceDrivenTests" time="0.012"/>
-  <testcase name="testMethodName" classname="org.springframework.cache.config.AnnotationNamespaceDrivenTests" time="0.012"/>
+  <testcase name="testConditionalUpdate" classname="org.springframework.cache.config.AnnotationNamespaceDrivenTests" time="0.012"/>
+  <testcase name="testClassMultiCacheAndEvict" classname="org.springframework.cache.config.AnnotationNamespaceDrivenTests" time="0.012"/>
+  <testcase name="testCacheableSyncNull" classname="org.springframework.cache.config.AnnotationNamespaceDrivenTests" time="0.011"/>
+  <testcase name="testUnknownCustomKeyGenerator" classname="org.springframework.cache.config.AnnotationNamespaceDrivenTests" time="0.012"/>
+  <testcase name="testClassRootVars" classname="org.springframework.cache.config.AnnotationNamespaceDrivenTests" time="0.017"/>
+  <testcase name="testMethodName" classname="org.springframework.cache.config.AnnotationNamespaceDrivenTests" time="0.017"/>
   <testcase name="testEvictWithException" classname="org.springframework.cache.config.AnnotationNamespaceDrivenTests" time="0.011"/>
-  <testcase name="testClassUpdate" classname="org.springframework.cache.config.AnnotationNamespaceDrivenTests" time="0.01"/>
-  <testcase name="testClassEarlyInvalidate" classname="org.springframework.cache.config.AnnotationNamespaceDrivenTests" time="0.013"/>
-  <testcase name="testCustomCacheManager" classname="org.springframework.cache.config.AnnotationNamespaceDrivenTests" time="0.011"/>
-  <testcase name="testCheckedExceptionSync" classname="org.springframework.cache.config.AnnotationNamespaceDrivenTests" time="0.011"/>
-  <testcase name="testClassNullArg" classname="org.springframework.cache.config.AnnotationNamespaceDrivenTests" time="0.01"/>
-  <testcase name="testClassEvictAll" classname="org.springframework.cache.config.AnnotationNamespaceDrivenTests" time="0.011"/>
-  <testcase name="testPutRefersToResult" classname="org.springframework.cache.config.AnnotationNamespaceDrivenTests" time="0.013"/>
-  <testcase name="testClassCacheUnlessExpression" classname="org.springframework.cache.config.AnnotationNamespaceDrivenTests" time="0.011"/>
+  <testcase name="testClassUpdate" classname="org.springframework.cache.config.AnnotationNamespaceDrivenTests" time="0.011"/>
+  <testcase name="testClassEarlyInvalidate" classname="org.springframework.cache.config.AnnotationNamespaceDrivenTests" time="0.012"/>
+  <testcase name="testCustomCacheManager" classname="org.springframework.cache.config.AnnotationNamespaceDrivenTests" time="0.01"/>
+  <testcase name="testCheckedExceptionSync" classname="org.springframework.cache.config.AnnotationNamespaceDrivenTests" time="0.012"/>
+  <testcase name="testClassNullArg" classname="org.springframework.cache.config.AnnotationNamespaceDrivenTests" time="0.011"/>
+  <testcase name="testClassEvictAll" classname="org.springframework.cache.config.AnnotationNamespaceDrivenTests" time="0.01"/>
+  <testcase name="testPutRefersToResult" classname="org.springframework.cache.config.AnnotationNamespaceDrivenTests" time="0.011"/>
+  <testcase name="testClassCacheUnlessExpression" classname="org.springframework.cache.config.AnnotationNamespaceDrivenTests" time="0.01"/>
   <testcase name="testConditionalExpressionSync" classname="org.springframework.cache.config.AnnotationNamespaceDrivenTests" time="0.01"/>
-  <testcase name="testClassConditionalUpdate" classname="org.springframework.cache.config.AnnotationNamespaceDrivenTests" time="0.011"/>
-  <testcase name="testConditionalExpression" classname="org.springframework.cache.config.AnnotationNamespaceDrivenTests" time="0.01"/>
-  <testcase name="testClassMultiPut" classname="org.springframework.cache.config.AnnotationNamespaceDrivenTests" time="0.011"/>
+  <testcase name="testClassConditionalUpdate" classname="org.springframework.cache.config.AnnotationNamespaceDrivenTests" time="0.016"/>
+  <testcase name="testConditionalExpression" classname="org.springframework.cache.config.AnnotationNamespaceDrivenTests" time="0.013"/>
+  <testcase name="testClassMultiPut" classname="org.springframework.cache.config.AnnotationNamespaceDrivenTests" time="0.012"/>
   <testcase name="testInvalidateWithKey" classname="org.springframework.cache.config.AnnotationNamespaceDrivenTests" time="0.011"/>
-  <testcase name="testEarlyInvalidate" classname="org.springframework.cache.config.AnnotationNamespaceDrivenTests" time="0.01"/>
-  <testcase name="testClassUncheckedException" classname="org.springframework.cache.config.AnnotationNamespaceDrivenTests" time="0.012"/>
-  <testcase name="testClassNullValue" classname="org.springframework.cache.config.AnnotationNamespaceDrivenTests" time="0.013"/>
-  <testcase name="testEarlyInvalidateWithKey" classname="org.springframework.cache.config.AnnotationNamespaceDrivenTests" time="0.012"/>
-  <testcase name="testClassEarlyInvalidateWithKey" classname="org.springframework.cache.config.AnnotationNamespaceDrivenTests" time="0.015"/>
+  <testcase name="testEarlyInvalidate" classname="org.springframework.cache.config.AnnotationNamespaceDrivenTests" time="0.011"/>
+  <testcase name="testClassUncheckedException" classname="org.springframework.cache.config.AnnotationNamespaceDrivenTests" time="0.01"/>
+  <testcase name="testClassNullValue" classname="org.springframework.cache.config.AnnotationNamespaceDrivenTests" time="0.01"/>
+  <testcase name="testEarlyInvalidateWithKey" classname="org.springframework.cache.config.AnnotationNamespaceDrivenTests" time="0.011"/>
+  <testcase name="testClassEarlyInvalidateWithKey" classname="org.springframework.cache.config.AnnotationNamespaceDrivenTests" time="0.01"/>
   <testcase name="testUncheckedExceptionSync" classname="org.springframework.cache.config.AnnotationNamespaceDrivenTests" time="0.013"/>
-  <testcase name="testClassUncheckedExceptionSync" classname="org.springframework.cache.config.AnnotationNamespaceDrivenTests" time="0.011"/>
-  <testcase name="testClassCacheCacheable" classname="org.springframework.cache.config.AnnotationNamespaceDrivenTests" time="0.011"/>
-  <testcase name="testClassMethodName" classname="org.springframework.cache.config.AnnotationNamespaceDrivenTests" time="0.01"/>
-  <testcase name="testCustomKeyGenerator" classname="org.springframework.cache.config.AnnotationNamespaceDrivenTests" time="0.011"/>
-  <testcase name="testCacheable" classname="org.springframework.cache.config.AnnotationNamespaceDrivenTests" time="0.01"/>
-  <testcase name="testCheckedException" classname="org.springframework.cache.config.AnnotationNamespaceDrivenTests" time="0.012"/>
-  <testcase name="testClassPutRefersToResult" classname="org.springframework.cache.config.AnnotationNamespaceDrivenTests" time="0.013"/>
-  <testcase name="testVarArgsKey" classname="org.springframework.cache.config.AnnotationNamespaceDrivenTests" time="0.013"/>
+  <testcase name="testClassUncheckedExceptionSync" classname="org.springframework.cache.config.AnnotationNamespaceDrivenTests" time="0.01"/>
+  <testcase name="testClassCacheCacheable" classname="org.springframework.cache.config.AnnotationNamespaceDrivenTests" time="0.013"/>
+  <testcase name="testClassMethodName" classname="org.springframework.cache.config.AnnotationNamespaceDrivenTests" time="0.017"/>
+  <testcase name="testCustomKeyGenerator" classname="org.springframework.cache.config.AnnotationNamespaceDrivenTests" time="0.014"/>
+  <testcase name="testCacheable" classname="org.springframework.cache.config.AnnotationNamespaceDrivenTests" time="0.012"/>
+  <testcase name="testCheckedException" classname="org.springframework.cache.config.AnnotationNamespaceDrivenTests" time="0.01"/>
+  <testcase name="testClassPutRefersToResult" classname="org.springframework.cache.config.AnnotationNamespaceDrivenTests" time="0.012"/>
+  <testcase name="testVarArgsKey" classname="org.springframework.cache.config.AnnotationNamespaceDrivenTests" time="0.01"/>
   <testcase name="testMultiCache" classname="org.springframework.cache.config.AnnotationNamespaceDrivenTests" time="0.011"/>
-  <testcase name="testMultiEvict" classname="org.springframework.cache.config.AnnotationNamespaceDrivenTests" time="0.015"/>
-  <testcase name="testMultiCacheAndEvict" classname="org.springframework.cache.config.AnnotationNamespaceDrivenTests" time="0.013"/>
-  <testcase name="testRootVars" classname="org.springframework.cache.config.AnnotationNamespaceDrivenTests" time="0.012"/>
-  <testcase name="testClassMultiConditionalCacheAndEvict" classname="org.springframework.cache.config.AnnotationNamespaceDrivenTests" time="0.012"/>
-  <testcase name="testClassCacheInvalidateWKey" classname="org.springframework.cache.config.AnnotationNamespaceDrivenTests" time="0.011"/>
-  <testcase name="testClassEvictWithException" classname="org.springframework.cache.config.AnnotationNamespaceDrivenTests" time="0.012"/>
-  <testcase name="testClassCheckedException" classname="org.springframework.cache.config.AnnotationNamespaceDrivenTests" time="0.011"/>
-  <testcase name="testUnlessExpression" classname="org.springframework.cache.config.AnnotationNamespaceDrivenTests" time="0.01"/>
-  <testcase name="testEvictAll" classname="org.springframework.cache.config.AnnotationNamespaceDrivenTests" time="0.011"/>
-  <testcase name="testCacheableNull" classname="org.springframework.cache.config.AnnotationNamespaceDrivenTests" time="0.01"/>
-  <testcase name="testCacheableSync" classname="org.springframework.cache.config.AnnotationNamespaceDrivenTests" time="0.01"/>
-  <testcase name="testClassCacheInvalidate" classname="org.springframework.cache.config.AnnotationNamespaceDrivenTests" time="0.011"/>
-  <testcase name="testMultiPut" classname="org.springframework.cache.config.AnnotationNamespaceDrivenTests" time="0.015"/>
-  <testcase name="testUnknownCustomCacheManager" classname="org.springframework.cache.config.AnnotationNamespaceDrivenTests" time="0.012"/>
-  <testcase name="testUncheckedException" classname="org.springframework.cache.config.AnnotationNamespaceDrivenTests" time="0.01"/>
-  <testcase name="testNullValue" classname="org.springframework.cache.config.AnnotationNamespaceDrivenTests" time="0.011"/>
-  <testcase name="testInvalidate" classname="org.springframework.cache.config.AnnotationNamespaceDrivenTests" time="0.01"/>
-  <testcase name="testUpdate" classname="org.springframework.cache.config.AnnotationNamespaceDrivenTests" time="0.012"/>
-  <testcase name="testNullArg" classname="org.springframework.cache.config.AnnotationNamespaceDrivenTests" time="0.01"/>
-  <testcase name="testClassMultiCache" classname="org.springframework.cache.config.AnnotationNamespaceDrivenTests" time="0.011"/>
-  <testcase name="testClassMultiEvict" classname="org.springframework.cache.config.AnnotationNamespaceDrivenTests" time="0.011"/>
+  <testcase name="testMultiEvict" classname="org.springframework.cache.config.AnnotationNamespaceDrivenTests" time="0.011"/>
+  <testcase name="testMultiCacheAndEvict" classname="org.springframework.cache.config.AnnotationNamespaceDrivenTests" time="0.01"/>
+  <testcase name="testRootVars" classname="org.springframework.cache.config.AnnotationNamespaceDrivenTests" time="0.011"/>
+  <testcase name="testClassMultiConditionalCacheAndEvict" classname="org.springframework.cache.config.AnnotationNamespaceDrivenTests" time="0.015"/>
+  <testcase name="testClassCacheInvalidateWKey" classname="org.springframework.cache.config.AnnotationNamespaceDrivenTests" time="0.016"/>
+  <testcase name="testClassEvictWithException" classname="org.springframework.cache.config.AnnotationNamespaceDrivenTests" time="0.014"/>
+  <testcase name="testClassCheckedException" classname="org.springframework.cache.config.AnnotationNamespaceDrivenTests" time="0.014"/>
+  <testcase name="testUnlessExpression" classname="org.springframework.cache.config.AnnotationNamespaceDrivenTests" time="0.013"/>
+  <testcase name="testEvictAll" classname="org.springframework.cache.config.AnnotationNamespaceDrivenTests" time="0.012"/>
+  <testcase name="testCacheableNull" classname="org.springframework.cache.config.AnnotationNamespaceDrivenTests" time="0.014"/>
+  <testcase name="testCacheableSync" classname="org.springframework.cache.config.AnnotationNamespaceDrivenTests" time="0.013"/>
+  <testcase name="testClassCacheInvalidate" classname="org.springframework.cache.config.AnnotationNamespaceDrivenTests" time="0.012"/>
+  <testcase name="testMultiPut" classname="org.springframework.cache.config.AnnotationNamespaceDrivenTests" time="0.014"/>
+  <testcase name="testUnknownCustomCacheManager" classname="org.springframework.cache.config.AnnotationNamespaceDrivenTests" time="0.013"/>
+  <testcase name="testUncheckedException" classname="org.springframework.cache.config.AnnotationNamespaceDrivenTests" time="0.019"/>
+  <testcase name="testNullValue" classname="org.springframework.cache.config.AnnotationNamespaceDrivenTests" time="0.017"/>
+  <testcase name="testInvalidate" classname="org.springframework.cache.config.AnnotationNamespaceDrivenTests" time="0.016"/>
+  <testcase name="testUpdate" classname="org.springframework.cache.config.AnnotationNamespaceDrivenTests" time="0.017"/>
+  <testcase name="testNullArg" classname="org.springframework.cache.config.AnnotationNamespaceDrivenTests" time="0.017"/>
+  <testcase name="testClassMultiCache" classname="org.springframework.cache.config.AnnotationNamespaceDrivenTests" time="0.014"/>
+  <testcase name="testClassMultiEvict" classname="org.springframework.cache.config.AnnotationNamespaceDrivenTests" time="0.016"/>
   <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[java.io.IOException: b353da3d-3a06-430c-8df2-c542f8919b3b
+  <system-err><![CDATA[java.io.IOException: 71fa7d46-8dda-4e4c-ad12-99197faf7fbb
 	at org.springframework.cache.config.AnnotatedClassCacheableService.throwCheckedSync(AnnotatedClassCacheableService.java:194)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
@@ -139,7 +139,7 @@
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
 	at java.lang.Thread.run(Thread.java:748)
-java.io.IOException: c5066e84-1e5d-40d4-a622-92852f36a904
+java.io.IOException: ba60428d-b745-4825-8241-5fffbd00e57f
 	at org.springframework.cache.config.DefaultCacheableService.throwCheckedSync(DefaultCacheableService.java:203)
 	at org.springframework.cache.config.DefaultCacheableService.throwCheckedSync(DefaultCacheableService.java:34)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.context.conversionservice.ConversionServiceContextConfigTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-03-19T02:34:25" hostname="Dream.local" time="0.029">
+<testsuite name="org.springframework.context.conversionservice.ConversionServiceContextConfigTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-03-19T10:46:33" hostname="Dream.local" time="0.031">
   <properties/>
-  <testcase name="testConfigOk" classname="org.springframework.context.conversionservice.ConversionServiceContextConfigTests" time="0.029"/>
+  <testcase name="testConfigOk" classname="org.springframework.context.conversionservice.ConversionServiceContextConfigTests" time="0.031"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

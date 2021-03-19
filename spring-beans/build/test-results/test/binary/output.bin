@@ -1,14 +1,14 @@
-¨∑®10:33:12.892 [Test worker] WARN  org.springframework.beans.factory.support.DefaultListableBeanFactory - Bean creation exception on non-lazy FactoryBean type check: org.springframework.beans.factory.BeanIsAbstractException: Error creating bean with name 'factoryBean': Bean definition is abstract
-ÿŸç10:33:13.556 [Test worker] WARN  org.springframework.beans.factory.config.YamlMapFactoryBean - Could not load map from non-existent: planned
-ÿﬂÁ10:33:13.563 [Test worker] WARN  org.springframework.beans.factory.config.YamlMapFactoryBean - Could not load map from file [/Users/tanglongan/Codes/spring-framework-5.0.x/spring-beans/non-exsitent-file.yml]: non-exsitent-file.yml
-Œ⁄¯10:33:13.794 [Test worker] WARN  org.springframework.beans.factory.config.YamlPropertiesFactoryBean - Could not load map from class path resource [no-such-file.yml]: class path resource [no-such-file.yml] cannot be opened because it does not exist
-©˜Ö10:33:14.436 [Test worker] WARN  org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor - Inconsistent constructor declaration on bean with name 'annotatedBean': single autowire-marked constructor flagged as optional - this constructor is effectively required since there is no default constructor to fall back to: public org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessorTests$ConstructorWithoutFallbackBean(org.springframework.tests.sample.beans.ITestBean)
+¨∑®18:45:00.322 [Test worker] WARN  org.springframework.beans.factory.support.DefaultListableBeanFactory - Bean creation exception on non-lazy FactoryBean type check: org.springframework.beans.factory.BeanIsAbstractException: Error creating bean with name 'factoryBean': Bean definition is abstract
+ÿŸç18:45:00.961 [Test worker] WARN  org.springframework.beans.factory.config.YamlMapFactoryBean - Could not load map from non-existent: planned
+ÿﬂÁ18:45:00.970 [Test worker] WARN  org.springframework.beans.factory.config.YamlMapFactoryBean - Could not load map from file [/Users/tanglongan/Codes/spring-framework-5.0.x/spring-beans/non-exsitent-file.yml]: non-exsitent-file.yml
+Œ⁄¯18:45:01.188 [Test worker] WARN  org.springframework.beans.factory.config.YamlPropertiesFactoryBean - Could not load map from class path resource [no-such-file.yml]: class path resource [no-such-file.yml] cannot be opened because it does not exist
+©˜Ö18:45:01.771 [Test worker] WARN  org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor - Inconsistent constructor declaration on bean with name 'annotatedBean': single autowire-marked constructor flagged as optional - this constructor is effectively required since there is no default constructor to fall back to: public org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessorTests$ConstructorWithoutFallbackBean(org.springframework.tests.sample.beans.ITestBean)
 œ
 –
-õ10:33:15.927 [Test worker] WARN  org.springframework.beans.factory.support.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'spring-destroy': java.security.AccessControlException: access denied ("java.util.PropertyPermission" "security.destroy" "write")
+õ18:45:03.383 [Test worker] WARN  org.springframework.beans.factory.support.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'spring-destroy': java.security.AccessControlException: access denied ("java.util.PropertyPermission" "security.destroy" "write")
 œ
 —
-Ç10:33:15.934 [Test worker] WARN  org.springframework.beans.factory.support.DefaultListableBeanFactory - FactoryBean threw exception from getObjectType, despite the contract saying that it should return null if the type of its object cannot be determined yet
+Ç18:45:03.402 [Test worker] WARN  org.springframework.beans.factory.support.DefaultListableBeanFactory - FactoryBean threw exception from getObjectType, despite the contract saying that it should return null if the type of its object cannot be determined yet
 œ
 —
 sjava.security.AccessControlException: access denied ("java.util.PropertyPermission" "factory.object.type" "write")
@@ -179,7 +179,7 @@ b	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:
 8	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_261]
 œ
 —
-Ç10:33:15.979 [Test worker] WARN  org.springframework.beans.factory.support.DefaultListableBeanFactory - FactoryBean threw exception from getObjectType, despite the contract saying that it should return null if the type of its object cannot be determined yet
+Ç18:45:03.454 [Test worker] WARN  org.springframework.beans.factory.support.DefaultListableBeanFactory - FactoryBean threw exception from getObjectType, despite the contract saying that it should return null if the type of its object cannot be determined yet
 œ
 —
 sjava.security.AccessControlException: access denied ("java.util.PropertyPermission" "factory.object.type" "write")
@@ -353,4 +353,4 @@ b	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:
 8	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_261]
 œ
 Ÿ
-£10:33:16.049 [Test worker] WARN  org.springframework.beans.factory.support.DisposableBeanAdapter - Destroy method 'destroy' on bean with name 'custom-destroy' threw an exception: java.security.AccessControlException: access denied ("java.util.PropertyPermission" "security.destroy" "write")
+£18:45:03.515 [Test worker] WARN  org.springframework.beans.factory.support.DisposableBeanAdapter - Destroy method 'destroy' on bean with name 'custom-destroy' threw an exception: java.security.AccessControlException: access denied ("java.util.PropertyPermission" "security.destroy" "write")

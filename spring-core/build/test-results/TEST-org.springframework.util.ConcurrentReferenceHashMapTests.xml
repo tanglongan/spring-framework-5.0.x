@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.util.ConcurrentReferenceHashMapTests" tests="43" skipped="1" failures="0" errors="0" timestamp="2021-03-19T02:33:29" hostname="Dream.local" time="0.01">
+<testsuite name="org.springframework.util.ConcurrentReferenceHashMapTests" tests="43" skipped="1" failures="0" errors="0" timestamp="2021-03-19T10:45:16" hostname="Dream.local" time="0.008">
   <properties/>
-  <testcase name="shouldRemoveWhenKeyIsInMap" classname="org.springframework.util.ConcurrentReferenceHashMapTests" time="0.002"/>
+  <testcase name="shouldRemoveWhenKeyIsInMap" classname="org.springframework.util.ConcurrentReferenceHashMapTests" time="0.001"/>
   <testcase name="shouldPurgeOnGet" classname="org.springframework.util.ConcurrentReferenceHashMapTests" time="0.0"/>
   <testcase name="shouldNeedPositiveConcurrencyLevel" classname="org.springframework.util.ConcurrentReferenceHashMapTests" time="0.0"/>
   <testcase name="shouldPutAndGet" classname="org.springframework.util.ConcurrentReferenceHashMapTests" time="0.0"/>
-  <testcase name="shouldReplaceValue" classname="org.springframework.util.ConcurrentReferenceHashMapTests" time="0.0"/>
-  <testcase name="shouldCreateWithInitialCapacity" classname="org.springframework.util.ConcurrentReferenceHashMapTests" time="0.001"/>
+  <testcase name="shouldReplaceValue" classname="org.springframework.util.ConcurrentReferenceHashMapTests" time="0.001"/>
+  <testcase name="shouldCreateWithInitialCapacity" classname="org.springframework.util.ConcurrentReferenceHashMapTests" time="0.0"/>
   <testcase name="shouldSupportIsEmpty" classname="org.springframework.util.ConcurrentReferenceHashMapTests" time="0.0"/>
   <testcase name="shouldPutAll" classname="org.springframework.util.ConcurrentReferenceHashMapTests" time="0.0"/>
   <testcase name="shouldContainKey" classname="org.springframework.util.ConcurrentReferenceHashMapTests" time="0.0"/>
@@ -21,12 +21,12 @@
   <testcase name="shouldReplaceOldValueWithNewValue" classname="org.springframework.util.ConcurrentReferenceHashMapTests" time="0.0"/>
   <testcase name="shouldApplySupplimentalHash" classname="org.springframework.util.ConcurrentReferenceHashMapTests" time="0.0"/>
   <testcase name="shouldClear" classname="org.springframework.util.ConcurrentReferenceHashMapTests" time="0.0"/>
-  <testcase name="shouldGetKeySet" classname="org.springframework.util.ConcurrentReferenceHashMapTests" time="0.001"/>
-  <testcase name="shouldPutIfAbsentWithNullValue" classname="org.springframework.util.ConcurrentReferenceHashMapTests" time="0.0"/>
+  <testcase name="shouldGetKeySet" classname="org.springframework.util.ConcurrentReferenceHashMapTests" time="0.0"/>
+  <testcase name="shouldPutIfAbsentWithNullValue" classname="org.springframework.util.ConcurrentReferenceHashMapTests" time="0.001"/>
   <testcase name="shouldReplaceOnDoublePut" classname="org.springframework.util.ConcurrentReferenceHashMapTests" time="0.0"/>
   <testcase name="shouldContainValue" classname="org.springframework.util.ConcurrentReferenceHashMapTests" time="0.0"/>
   <testcase name="shouldGetValues" classname="org.springframework.util.ConcurrentReferenceHashMapTests" time="0.0"/>
-  <testcase name="shouldGetSize" classname="org.springframework.util.ConcurrentReferenceHashMapTests" time="0.0"/>
+  <testcase name="shouldGetSize" classname="org.springframework.util.ConcurrentReferenceHashMapTests" time="0.001"/>
   <testcase name="shouldNeedPositiveLoadFactor" classname="org.springframework.util.ConcurrentReferenceHashMapTests" time="0.0"/>
   <testcase name="shouldCreateWithInitialCapacityAndLoadFactor" classname="org.springframework.util.ConcurrentReferenceHashMapTests" time="0.0"/>
   <testcase name="shouldGetFollowingNexts" classname="org.springframework.util.ConcurrentReferenceHashMapTests" time="0.0"/>
@@ -34,7 +34,7 @@
   <testcase name="shouldPutIfAbsentWithNullKey" classname="org.springframework.util.ConcurrentReferenceHashMapTests" time="0.0"/>
   <testcase name="shouldCreateWithDefaults" classname="org.springframework.util.ConcurrentReferenceHashMapTests" time="0.0"/>
   <testcase name="shouldReplaceNullValue" classname="org.springframework.util.ConcurrentReferenceHashMapTests" time="0.0"/>
-  <testcase name="shouldBeFasterThanSynchronizedMap" classname="org.springframework.util.ConcurrentReferenceHashMapTests" time="0.001">
+  <testcase name="shouldBeFasterThanSynchronizedMap" classname="org.springframework.util.ConcurrentReferenceHashMapTests" time="0.0">
     <skipped/>
   </testcase>
   <testcase name="shouldPutIfAbsent" classname="org.springframework.util.ConcurrentReferenceHashMapTests" time="0.0"/>

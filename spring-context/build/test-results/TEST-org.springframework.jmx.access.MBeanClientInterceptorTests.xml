@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.jmx.access.MBeanClientInterceptorTests" tests="12" skipped="1" failures="0" errors="0" timestamp="2021-03-19T02:34:50" hostname="Dream.local" time="0.044">
+<testsuite name="org.springframework.jmx.access.MBeanClientInterceptorTests" tests="12" skipped="1" failures="0" errors="0" timestamp="2021-03-19T10:46:59" hostname="Dream.local" time="0.046">
   <properties/>
   <testcase name="testSetReadOnlyAttribute" classname="org.springframework.jmx.access.MBeanClientInterceptorTests" time="0.028"/>
-  <testcase name="testInvokeUnexposedMethodWithException" classname="org.springframework.jmx.access.MBeanClientInterceptorTests" time="0.002"/>
-  <testcase name="testSetAttributeValue" classname="org.springframework.jmx.access.MBeanClientInterceptorTests" time="0.005"/>
-  <testcase name="testTestLazyConnectionToRemote" classname="org.springframework.jmx.access.MBeanClientInterceptorTests" time="0.001">
+  <testcase name="testInvokeUnexposedMethodWithException" classname="org.springframework.jmx.access.MBeanClientInterceptorTests" time="0.001"/>
+  <testcase name="testSetAttributeValue" classname="org.springframework.jmx.access.MBeanClientInterceptorTests" time="0.007"/>
+  <testcase name="testTestLazyConnectionToRemote" classname="org.springframework.jmx.access.MBeanClientInterceptorTests" time="0.0">
     <skipped/>
   </testcase>
   <testcase name="testDifferentProxiesSameClass" classname="org.springframework.jmx.access.MBeanClientInterceptorTests" time="0.001"/>
@@ -13,7 +13,7 @@
   <testcase name="testInvokeNoArgs" classname="org.springframework.jmx.access.MBeanClientInterceptorTests" time="0.001"/>
   <testcase name="testProxyClassIsDifferent" classname="org.springframework.jmx.access.MBeanClientInterceptorTests" time="0.001"/>
   <testcase name="testInvokeArgs" classname="org.springframework.jmx.access.MBeanClientInterceptorTests" time="0.001"/>
-  <testcase name="testSetAttributeValueWithCheckedException" classname="org.springframework.jmx.access.MBeanClientInterceptorTests" time="0.001"/>
+  <testcase name="testSetAttributeValueWithCheckedException" classname="org.springframework.jmx.access.MBeanClientInterceptorTests" time="0.002"/>
   <testcase name="testSetAttributeValueWithRuntimeException" classname="org.springframework.jmx.access.MBeanClientInterceptorTests" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>

@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.beans.factory.support.security.CallbacksSecurityTests" tests="15" skipped="0" failures="0" errors="0" timestamp="2021-03-19T02:33:15" hostname="Dream.local" time="0.184">
+<testsuite name="org.springframework.beans.factory.support.security.CallbacksSecurityTests" tests="15" skipped="0" failures="0" errors="0" timestamp="2021-03-19T10:45:03" hostname="Dream.local" time="0.195">
   <properties/>
-  <testcase name="testSecuritySanity" classname="org.springframework.beans.factory.support.security.CallbacksSecurityTests" time="0.015"/>
-  <testcase name="testSpringDestroyBean" classname="org.springframework.beans.factory.support.security.CallbacksSecurityTests" time="0.008"/>
-  <testcase name="testCustomFactoryType" classname="org.springframework.beans.factory.support.security.CallbacksSecurityTests" time="0.056"/>
+  <testcase name="testSecuritySanity" classname="org.springframework.beans.factory.support.security.CallbacksSecurityTests" time="0.014"/>
+  <testcase name="testSpringDestroyBean" classname="org.springframework.beans.factory.support.security.CallbacksSecurityTests" time="0.009"/>
+  <testcase name="testCustomFactoryType" classname="org.springframework.beans.factory.support.security.CallbacksSecurityTests" time="0.075"/>
   <testcase name="testTrustedFactoryMethod" classname="org.springframework.beans.factory.support.security.CallbacksSecurityTests" time="0.009"/>
-  <testcase name="testCustomStaticFactoryMethod" classname="org.springframework.beans.factory.support.security.CallbacksSecurityTests" time="0.007"/>
-  <testcase name="testCustomInstanceFactoryMethod" classname="org.springframework.beans.factory.support.security.CallbacksSecurityTests" time="0.006"/>
-  <testcase name="testSpringInitBean" classname="org.springframework.beans.factory.support.security.CallbacksSecurityTests" time="0.007"/>
-  <testcase name="testContainerPrivileges" classname="org.springframework.beans.factory.support.security.CallbacksSecurityTests" time="0.008"/>
-  <testcase name="testPropertyInjection" classname="org.springframework.beans.factory.support.security.CallbacksSecurityTests" time="0.015"/>
+  <testcase name="testCustomStaticFactoryMethod" classname="org.springframework.beans.factory.support.security.CallbacksSecurityTests" time="0.006"/>
+  <testcase name="testCustomInstanceFactoryMethod" classname="org.springframework.beans.factory.support.security.CallbacksSecurityTests" time="0.005"/>
+  <testcase name="testSpringInitBean" classname="org.springframework.beans.factory.support.security.CallbacksSecurityTests" time="0.005"/>
+  <testcase name="testContainerPrivileges" classname="org.springframework.beans.factory.support.security.CallbacksSecurityTests" time="0.007"/>
+  <testcase name="testPropertyInjection" classname="org.springframework.beans.factory.support.security.CallbacksSecurityTests" time="0.013"/>
   <testcase name="testCustomFactoryObject" classname="org.springframework.beans.factory.support.security.CallbacksSecurityTests" time="0.006"/>
-  <testcase name="testCustomDestroyBean" classname="org.springframework.beans.factory.support.security.CallbacksSecurityTests" time="0.007"/>
-  <testcase name="testCustomInitBean" classname="org.springframework.beans.factory.support.security.CallbacksSecurityTests" time="0.006"/>
-  <testcase name="testTrustedExecution" classname="org.springframework.beans.factory.support.security.CallbacksSecurityTests" time="0.021"/>
-  <testcase name="testInitSecurityAwarePrototypeBean" classname="org.springframework.beans.factory.support.security.CallbacksSecurityTests" time="0.007"/>
-  <testcase name="testConstructor" classname="org.springframework.beans.factory.support.security.CallbacksSecurityTests" time="0.005"/>
-  <system-out><![CDATA[10:33:15.927 [Test worker] WARN  org.springframework.beans.factory.support.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'spring-destroy': java.security.AccessControlException: access denied ("java.util.PropertyPermission" "security.destroy" "write")
-10:33:15.934 [Test worker] WARN  org.springframework.beans.factory.support.DefaultListableBeanFactory - FactoryBean threw exception from getObjectType, despite the contract saying that it should return null if the type of its object cannot be determined yet
+  <testcase name="testCustomDestroyBean" classname="org.springframework.beans.factory.support.security.CallbacksSecurityTests" time="0.006"/>
+  <testcase name="testCustomInitBean" classname="org.springframework.beans.factory.support.security.CallbacksSecurityTests" time="0.005"/>
+  <testcase name="testTrustedExecution" classname="org.springframework.beans.factory.support.security.CallbacksSecurityTests" time="0.019"/>
+  <testcase name="testInitSecurityAwarePrototypeBean" classname="org.springframework.beans.factory.support.security.CallbacksSecurityTests" time="0.009"/>
+  <testcase name="testConstructor" classname="org.springframework.beans.factory.support.security.CallbacksSecurityTests" time="0.006"/>
+  <system-out><![CDATA[18:45:03.383 [Test worker] WARN  org.springframework.beans.factory.support.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'spring-destroy': java.security.AccessControlException: access denied ("java.util.PropertyPermission" "security.destroy" "write")
+18:45:03.402 [Test worker] WARN  org.springframework.beans.factory.support.DefaultListableBeanFactory - FactoryBean threw exception from getObjectType, despite the contract saying that it should return null if the type of its object cannot be determined yet
 java.security.AccessControlException: access denied ("java.util.PropertyPermission" "factory.object.type" "write")
 	at java.security.AccessControlContext.checkPermission(AccessControlContext.java:472) ~[?:1.8.0_261]
 	at java.security.AccessController.checkPermission(AccessController.java:886) ~[?:1.8.0_261]
@@ -74,7 +74,7 @@ java.security.AccessControlException: access denied ("java.util.PropertyPermissi
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_261]
 	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55) [gradle-base-services-4.4.1.jar:4.4.1]
 	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_261]
-10:33:15.979 [Test worker] WARN  org.springframework.beans.factory.support.DefaultListableBeanFactory - FactoryBean threw exception from getObjectType, despite the contract saying that it should return null if the type of its object cannot be determined yet
+18:45:03.454 [Test worker] WARN  org.springframework.beans.factory.support.DefaultListableBeanFactory - FactoryBean threw exception from getObjectType, despite the contract saying that it should return null if the type of its object cannot be determined yet
 java.security.AccessControlException: access denied ("java.util.PropertyPermission" "factory.object.type" "write")
 	at java.security.AccessControlContext.checkPermission(AccessControlContext.java:472) ~[?:1.8.0_261]
 	at java.security.AccessController.checkPermission(AccessController.java:886) ~[?:1.8.0_261]
@@ -132,7 +132,7 @@ java.security.AccessControlException: access denied ("java.util.PropertyPermissi
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_261]
 	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55) [gradle-base-services-4.4.1.jar:4.4.1]
 	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_261]
-10:33:16.049 [Test worker] WARN  org.springframework.beans.factory.support.DisposableBeanAdapter - Destroy method 'destroy' on bean with name 'custom-destroy' threw an exception: java.security.AccessControlException: access denied ("java.util.PropertyPermission" "security.destroy" "write")
+18:45:03.515 [Test worker] WARN  org.springframework.beans.factory.support.DisposableBeanAdapter - Destroy method 'destroy' on bean with name 'custom-destroy' threw an exception: java.security.AccessControlException: access denied ("java.util.PropertyPermission" "security.destroy" "write")
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

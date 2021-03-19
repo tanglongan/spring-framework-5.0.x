@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.beans.factory.annotation.LookupAnnotationTests" tests="7" skipped="0" failures="0" errors="0" timestamp="2021-03-19T02:33:14" hostname="Dream.local" time="0.124">
+<testsuite name="org.springframework.beans.factory.annotation.LookupAnnotationTests" tests="7" skipped="0" failures="0" errors="0" timestamp="2021-03-19T10:45:01" hostname="Dream.local" time="0.126">
   <properties/>
-  <testcase name="testWithoutConstructorArg" classname="org.springframework.beans.factory.annotation.LookupAnnotationTests" time="0.08"/>
-  <testcase name="testWithOverloadedArg" classname="org.springframework.beans.factory.annotation.LookupAnnotationTests" time="0.008"/>
-  <testcase name="testWithThreeArgsShouldFail" classname="org.springframework.beans.factory.annotation.LookupAnnotationTests" time="0.007"/>
-  <testcase name="testWithEarlyInjection" classname="org.springframework.beans.factory.annotation.LookupAnnotationTests" time="0.009"/>
-  <testcase name="testWithOneConstructorArg" classname="org.springframework.beans.factory.annotation.LookupAnnotationTests" time="0.007"/>
+  <testcase name="testWithoutConstructorArg" classname="org.springframework.beans.factory.annotation.LookupAnnotationTests" time="0.089"/>
+  <testcase name="testWithOverloadedArg" classname="org.springframework.beans.factory.annotation.LookupAnnotationTests" time="0.007"/>
+  <testcase name="testWithThreeArgsShouldFail" classname="org.springframework.beans.factory.annotation.LookupAnnotationTests" time="0.005"/>
+  <testcase name="testWithEarlyInjection" classname="org.springframework.beans.factory.annotation.LookupAnnotationTests" time="0.006"/>
+  <testcase name="testWithOneConstructorArg" classname="org.springframework.beans.factory.annotation.LookupAnnotationTests" time="0.006"/>
   <testcase name="testWithNullBean" classname="org.springframework.beans.factory.annotation.LookupAnnotationTests" time="0.007"/>
   <testcase name="testWithTwoConstructorArg" classname="org.springframework.beans.factory.annotation.LookupAnnotationTests" time="0.006"/>
   <system-out><![CDATA[]]></system-out>

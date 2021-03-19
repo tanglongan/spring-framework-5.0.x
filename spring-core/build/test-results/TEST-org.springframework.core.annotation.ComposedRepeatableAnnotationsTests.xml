@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.core.annotation.ComposedRepeatableAnnotationsTests" tests="22" skipped="0" failures="0" errors="0" timestamp="2021-03-19T02:33:23" hostname="Dream.local" time="0.021">
+<testsuite name="org.springframework.core.annotation.ComposedRepeatableAnnotationsTests" tests="22" skipped="0" failures="0" errors="0" timestamp="2021-03-19T10:45:11" hostname="Dream.local" time="0.023">
   <properties/>
-  <testcase name="findNonRepeatableAnnotation" classname="org.springframework.core.annotation.ComposedRepeatableAnnotationsTests" time="0.001"/>
+  <testcase name="findNonRepeatableAnnotation" classname="org.springframework.core.annotation.ComposedRepeatableAnnotationsTests" time="0.0"/>
   <testcase name="getNoninheritedComposedRepeatableAnnotationsOnSuperclass" classname="org.springframework.core.annotation.ComposedRepeatableAnnotationsTests" time="0.004"/>
   <testcase name="getComposedRepeatableAnnotationsOnClass" classname="org.springframework.core.annotation.ComposedRepeatableAnnotationsTests" time="0.004"/>
-  <testcase name="getRepeatableAnnotationsOnSuperclass" classname="org.springframework.core.annotation.ComposedRepeatableAnnotationsTests" time="0.002"/>
+  <testcase name="getRepeatableAnnotationsOnSuperclass" classname="org.springframework.core.annotation.ComposedRepeatableAnnotationsTests" time="0.001"/>
   <testcase name="getNonRepeatableAnnotation" classname="org.springframework.core.annotation.ComposedRepeatableAnnotationsTests" time="0.0"/>
   <testcase name="getComposedContainerForRepeatableAnnotationsOnClass" classname="org.springframework.core.annotation.ComposedRepeatableAnnotationsTests" time="0.002"/>
-  <testcase name="getNoninheritedComposedRepeatableAnnotationsOnClass" classname="org.springframework.core.annotation.ComposedRepeatableAnnotationsTests" time="0.001"/>
+  <testcase name="getNoninheritedComposedRepeatableAnnotationsOnClass" classname="org.springframework.core.annotation.ComposedRepeatableAnnotationsTests" time="0.002"/>
   <testcase name="findRepeatableAnnotationsOnClass" classname="org.springframework.core.annotation.ComposedRepeatableAnnotationsTests" time="0.0"/>
   <testcase name="getRepeatableAnnotationsOnClass" classname="org.springframework.core.annotation.ComposedRepeatableAnnotationsTests" time="0.0"/>
-  <testcase name="findInvalidRepeatableAnnotationContainerWithArrayValueAttributeButWrongComponentType" classname="org.springframework.core.annotation.ComposedRepeatableAnnotationsTests" time="0.002"/>
+  <testcase name="findInvalidRepeatableAnnotationContainerWithArrayValueAttributeButWrongComponentType" classname="org.springframework.core.annotation.ComposedRepeatableAnnotationsTests" time="0.001"/>
   <testcase name="getInvalidRepeatableAnnotationContainerMissingValueAttribute" classname="org.springframework.core.annotation.ComposedRepeatableAnnotationsTests" time="0.001"/>
   <testcase name="findComposedRepeatableAnnotationsMixedWithContainerOnClass" classname="org.springframework.core.annotation.ComposedRepeatableAnnotationsTests" time="0.001"/>
   <testcase name="findComposedContainerForRepeatableAnnotationsOnClass" classname="org.springframework.core.annotation.ComposedRepeatableAnnotationsTests" time="0.0"/>

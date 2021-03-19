@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.scheduling.config.ScheduledTasksBeanDefinitionParserTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2021-03-19T02:34:35" hostname="Dream.local" time="0.07">
+<testsuite name="org.springframework.scheduling.config.ScheduledTasksBeanDefinitionParserTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2021-03-19T10:46:44" hostname="Dream.local" time="0.078">
   <properties/>
-  <testcase name="fixedDelayTasks" classname="org.springframework.scheduling.config.ScheduledTasksBeanDefinitionParserTests" time="0.021"/>
-  <testcase name="triggerTasks" classname="org.springframework.scheduling.config.ScheduledTasksBeanDefinitionParserTests" time="0.009"/>
-  <testcase name="fixedRateTasks" classname="org.springframework.scheduling.config.ScheduledTasksBeanDefinitionParserTests" time="0.011"/>
-  <testcase name="checkTarget" classname="org.springframework.scheduling.config.ScheduledTasksBeanDefinitionParserTests" time="0.009"/>
-  <testcase name="cronTasks" classname="org.springframework.scheduling.config.ScheduledTasksBeanDefinitionParserTests" time="0.009"/>
-  <testcase name="checkScheduler" classname="org.springframework.scheduling.config.ScheduledTasksBeanDefinitionParserTests" time="0.011"/>
+  <testcase name="fixedDelayTasks" classname="org.springframework.scheduling.config.ScheduledTasksBeanDefinitionParserTests" time="0.024"/>
+  <testcase name="triggerTasks" classname="org.springframework.scheduling.config.ScheduledTasksBeanDefinitionParserTests" time="0.011"/>
+  <testcase name="fixedRateTasks" classname="org.springframework.scheduling.config.ScheduledTasksBeanDefinitionParserTests" time="0.012"/>
+  <testcase name="checkTarget" classname="org.springframework.scheduling.config.ScheduledTasksBeanDefinitionParserTests" time="0.012"/>
+  <testcase name="cronTasks" classname="org.springframework.scheduling.config.ScheduledTasksBeanDefinitionParserTests" time="0.011"/>
+  <testcase name="checkScheduler" classname="org.springframework.scheduling.config.ScheduledTasksBeanDefinitionParserTests" time="0.008"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

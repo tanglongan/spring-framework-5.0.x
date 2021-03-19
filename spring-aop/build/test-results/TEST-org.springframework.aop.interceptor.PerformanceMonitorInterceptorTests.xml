@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.aop.interceptor.PerformanceMonitorInterceptorTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2021-03-19T02:33:09" hostname="Dream.local" time="0.002">
+<testsuite name="org.springframework.aop.interceptor.PerformanceMonitorInterceptorTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2021-03-19T10:44:56" hostname="Dream.local" time="0.002">
   <properties/>
-  <testcase name="testExceptionPathStillLogsPerformanceMetricsCorrectly" classname="org.springframework.aop.interceptor.PerformanceMonitorInterceptorTests" time="0.002"/>
+  <testcase name="testExceptionPathStillLogsPerformanceMetricsCorrectly" classname="org.springframework.aop.interceptor.PerformanceMonitorInterceptorTests" time="0.001"/>
   <testcase name="testSuffixAndPrefixAssignment" classname="org.springframework.aop.interceptor.PerformanceMonitorInterceptorTests" time="0.0"/>
-  <testcase name="testSunnyDayPathLogsPerformanceMetricsCorrectly" classname="org.springframework.aop.interceptor.PerformanceMonitorInterceptorTests" time="0.0"/>
+  <testcase name="testSunnyDayPathLogsPerformanceMetricsCorrectly" classname="org.springframework.aop.interceptor.PerformanceMonitorInterceptorTests" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

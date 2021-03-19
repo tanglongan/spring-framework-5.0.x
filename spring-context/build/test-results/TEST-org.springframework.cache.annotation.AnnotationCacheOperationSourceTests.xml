@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.cache.annotation.AnnotationCacheOperationSourceTests" tests="28" skipped="0" failures="0" errors="0" timestamp="2021-03-19T02:34:34" hostname="Dream.local" time="0.026">
+<testsuite name="org.springframework.cache.annotation.AnnotationCacheOperationSourceTests" tests="28" skipped="0" failures="0" errors="0" timestamp="2021-03-19T10:46:43" hostname="Dream.local" time="0.022">
   <properties/>
   <testcase name="customCacheResolverInherited" classname="org.springframework.cache.annotation.AnnotationCacheOperationSourceTests" time="0.002"/>
-  <testcase name="multipleAnnotation" classname="org.springframework.cache.annotation.AnnotationCacheOperationSourceTests" time="0.001"/>
+  <testcase name="multipleAnnotation" classname="org.springframework.cache.annotation.AnnotationCacheOperationSourceTests" time="0.0"/>
   <testcase name="singleComposedAnnotation" classname="org.springframework.cache.annotation.AnnotationCacheOperationSourceTests" time="0.002"/>
   <testcase name="customCacheResolver" classname="org.springframework.cache.annotation.AnnotationCacheOperationSourceTests" time="0.001"/>
   <testcase name="cacheResolverAndCacheManagerCannotBeSetTogether" classname="org.springframework.cache.annotation.AnnotationCacheOperationSourceTests" time="0.0"/>
@@ -11,17 +11,17 @@
   <testcase name="fullClassLevelWithCustomCacheName" classname="org.springframework.cache.annotation.AnnotationCacheOperationSourceTests" time="0.001"/>
   <testcase name="singularAnnotation" classname="org.springframework.cache.annotation.AnnotationCacheOperationSourceTests" time="0.0"/>
   <testcase name="fullClassLevelWithCustomCacheResolver" classname="org.springframework.cache.annotation.AnnotationCacheOperationSourceTests" time="0.0"/>
-  <testcase name="partialClassLevelWithNoCustomization" classname="org.springframework.cache.annotation.AnnotationCacheOperationSourceTests" time="0.001"/>
+  <testcase name="partialClassLevelWithNoCustomization" classname="org.springframework.cache.annotation.AnnotationCacheOperationSourceTests" time="0.0"/>
   <testcase name="fullClassLevelWithCustomKeyManager" classname="org.springframework.cache.annotation.AnnotationCacheOperationSourceTests" time="0.0"/>
   <testcase name="customKeyGeneratorInherited" classname="org.springframework.cache.annotation.AnnotationCacheOperationSourceTests" time="0.001"/>
   <testcase name="keyAndKeyGeneratorCannotBeSetTogether" classname="org.springframework.cache.annotation.AnnotationCacheOperationSourceTests" time="0.001"/>
   <testcase name="multipleComposedAnnotations" classname="org.springframework.cache.annotation.AnnotationCacheOperationSourceTests" time="0.003"/>
   <testcase name="fullClassLevelWithCustomCacheManager" classname="org.springframework.cache.annotation.AnnotationCacheOperationSourceTests" time="0.0"/>
   <testcase name="validateNoCacheIsValid" classname="org.springframework.cache.annotation.AnnotationCacheOperationSourceTests" time="0.0"/>
-  <testcase name="emptyCaching" classname="org.springframework.cache.annotation.AnnotationCacheOperationSourceTests" time="0.001"/>
-  <testcase name="customCacheManager" classname="org.springframework.cache.annotation.AnnotationCacheOperationSourceTests" time="0.0"/>
+  <testcase name="emptyCaching" classname="org.springframework.cache.annotation.AnnotationCacheOperationSourceTests" time="0.0"/>
+  <testcase name="customCacheManager" classname="org.springframework.cache.annotation.AnnotationCacheOperationSourceTests" time="0.001"/>
   <testcase name="caching" classname="org.springframework.cache.annotation.AnnotationCacheOperationSourceTests" time="0.0"/>
-  <testcase name="singularStereotype" classname="org.springframework.cache.annotation.AnnotationCacheOperationSourceTests" time="0.002"/>
+  <testcase name="singularStereotype" classname="org.springframework.cache.annotation.AnnotationCacheOperationSourceTests" time="0.001"/>
   <testcase name="cacheConfigFromInterface" classname="org.springframework.cache.annotation.AnnotationCacheOperationSourceTests" time="0.002"/>
   <testcase name="cacheAnnotationOverride" classname="org.springframework.cache.annotation.AnnotationCacheOperationSourceTests" time="0.0"/>
   <testcase name="multipleStereotypes" classname="org.springframework.cache.annotation.AnnotationCacheOperationSourceTests" time="0.001"/>

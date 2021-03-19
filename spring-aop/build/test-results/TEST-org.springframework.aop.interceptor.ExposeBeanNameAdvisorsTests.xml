@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.aop.interceptor.ExposeBeanNameAdvisorsTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2021-03-19T02:33:09" hostname="Dream.local" time="0.005">
+<testsuite name="org.springframework.aop.interceptor.ExposeBeanNameAdvisorsTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2021-03-19T10:44:56" hostname="Dream.local" time="0.005">
   <properties/>
   <testcase name="testNoIntroduction" classname="org.springframework.aop.interceptor.ExposeBeanNameAdvisorsTests" time="0.002"/>
   <testcase name="testWithIntroduction" classname="org.springframework.aop.interceptor.ExposeBeanNameAdvisorsTests" time="0.003"/>

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.scripting.support.ScriptFactoryPostProcessorTests" tests="9" skipped="9" failures="0" errors="0" timestamp="2021-03-19T02:34:26" hostname="Dream.local" time="0.001">
+<testsuite name="org.springframework.scripting.support.ScriptFactoryPostProcessorTests" tests="9" skipped="9" failures="0" errors="0" timestamp="2021-03-19T10:46:34" hostname="Dream.local" time="0.001">
   <properties/>
   <testcase name="testChangeScriptWithRefreshableBeanFunctionality" classname="org.springframework.scripting.support.ScriptFactoryPostProcessorTests" time="0.0">
     <skipped/>
   </testcase>
-  <testcase name="testForRefreshedScriptHavingErrorPickedUpOnFirstCall" classname="org.springframework.scripting.support.ScriptFactoryPostProcessorTests" time="0.001">
+  <testcase name="testForRefreshedScriptHavingErrorPickedUpOnFirstCall" classname="org.springframework.scripting.support.ScriptFactoryPostProcessorTests" time="0.0">
     <skipped/>
   </testcase>
   <testcase name="testThrowsExceptionIfGivenNonAbstractBeanFactoryImplementation" classname="org.springframework.scripting.support.ScriptFactoryPostProcessorTests" time="0.0">

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.beans.factory.config.YamlProcessorTests" tests="8" skipped="0" failures="0" errors="0" timestamp="2021-03-19T02:33:13" hostname="Dream.local" time="0.012">
+<testsuite name="org.springframework.beans.factory.config.YamlProcessorTests" tests="8" skipped="0" failures="0" errors="0" timestamp="2021-03-19T10:45:01" hostname="Dream.local" time="0.01">
   <properties/>
-  <testcase name="arrayConvertedToIndexedBeanReference" classname="org.springframework.beans.factory.config.YamlProcessorTests" time="0.004"/>
+  <testcase name="arrayConvertedToIndexedBeanReference" classname="org.springframework.beans.factory.config.YamlProcessorTests" time="0.003"/>
   <testcase name="integerKeyBehaves" classname="org.springframework.beans.factory.config.YamlProcessorTests" time="0.001"/>
   <testcase name="integerDeepKeyBehaves" classname="org.springframework.beans.factory.config.YamlProcessorTests" time="0.001"/>
   <testcase name="mapConvertedToIndexedBeanReference" classname="org.springframework.beans.factory.config.YamlProcessorTests" time="0.001"/>

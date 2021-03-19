@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.core.io.support.PathMatchingResourcePatternResolverTests" tests="7" skipped="1" failures="0" errors="0" timestamp="2021-03-19T02:33:22" hostname="Dream.local" time="0.081">
+<testsuite name="org.springframework.core.io.support.PathMatchingResourcePatternResolverTests" tests="7" skipped="1" failures="0" errors="0" timestamp="2021-03-19T10:45:10" hostname="Dream.local" time="0.085">
   <properties/>
-  <testcase name="rootPatternRetrievalInJarFiles" classname="org.springframework.core.io.support.PathMatchingResourcePatternResolverTests" time="0.076"/>
-  <testcase name="singleResourceInJar" classname="org.springframework.core.io.support.PathMatchingResourcePatternResolverTests" time="0.002"/>
+  <testcase name="rootPatternRetrievalInJarFiles" classname="org.springframework.core.io.support.PathMatchingResourcePatternResolverTests" time="0.08"/>
+  <testcase name="singleResourceInJar" classname="org.springframework.core.io.support.PathMatchingResourcePatternResolverTests" time="0.001"/>
   <testcase name="invalidPrefixWithPatternElementInIt" classname="org.springframework.core.io.support.PathMatchingResourcePatternResolverTests" time="0.0"/>
   <testcase name="singleResourceOnFileSystem" classname="org.springframework.core.io.support.PathMatchingResourcePatternResolverTests" time="0.001"/>
   <testcase name="classpathStarWithPatternOnFileSystem" classname="org.springframework.core.io.support.PathMatchingResourcePatternResolverTests" time="0.0">

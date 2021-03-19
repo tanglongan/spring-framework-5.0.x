@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.scripting.support.StaticScriptSourceTests" tests="8" skipped="0" failures="0" errors="0" timestamp="2021-03-19T02:34:26" hostname="Dream.local" time="0.0">
+<testsuite name="org.springframework.scripting.support.StaticScriptSourceTests" tests="8" skipped="0" failures="0" errors="0" timestamp="2021-03-19T10:46:35" hostname="Dream.local" time="0.001">
   <properties/>
   <testcase name="isModifiedNotToggledWhenSameScriptIsSet" classname="org.springframework.scripting.support.StaticScriptSourceTests" time="0.0"/>
   <testcase name="createWithWhitespaceOnlyScript" classname="org.springframework.scripting.support.StaticScriptSourceTests" time="0.0"/>
@@ -7,7 +7,7 @@
   <testcase name="gettingScriptViaToStringDoesNotToggleIsModified" classname="org.springframework.scripting.support.StaticScriptSourceTests" time="0.0"/>
   <testcase name="isModifiedToggledWhenDifferentScriptIsSet" classname="org.springframework.scripting.support.StaticScriptSourceTests" time="0.0"/>
   <testcase name="createWithEmptyScript" classname="org.springframework.scripting.support.StaticScriptSourceTests" time="0.0"/>
-  <testcase name="gettingScriptTogglesIsModified" classname="org.springframework.scripting.support.StaticScriptSourceTests" time="0.0"/>
+  <testcase name="gettingScriptTogglesIsModified" classname="org.springframework.scripting.support.StaticScriptSourceTests" time="0.001"/>
   <testcase name="createWithNullScript" classname="org.springframework.scripting.support.StaticScriptSourceTests" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.cache.interceptor.SimpleKeyGeneratorTests" tests="7" skipped="0" failures="0" errors="0" timestamp="2021-03-19T02:34:34" hostname="Dream.local" time="0.0">
+<testsuite name="org.springframework.cache.interceptor.SimpleKeyGeneratorTests" tests="7" skipped="0" failures="0" errors="0" timestamp="2021-03-19T10:46:43" hostname="Dream.local" time="0.0">
   <properties/>
   <testcase name="singleValue" classname="org.springframework.cache.interceptor.SimpleKeyGeneratorTests" time="0.0"/>
   <testcase name="arrayWithExtraParameter" classname="org.springframework.cache.interceptor.SimpleKeyGeneratorTests" time="0.0"/>

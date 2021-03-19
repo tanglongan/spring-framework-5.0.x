@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.context.support.ConversionServiceFactoryBeanTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2021-03-19T02:34:23" hostname="Dream.local" time="0.019">
+<testsuite name="org.springframework.context.support.ConversionServiceFactoryBeanTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2021-03-19T10:46:32" hostname="Dream.local" time="0.025">
   <properties/>
   <testcase name="createDefaultConversionService" classname="org.springframework.context.support.ConversionServiceFactoryBeanTests" time="0.001"/>
-  <testcase name="conversionServiceInApplicationContext" classname="org.springframework.context.support.ConversionServiceFactoryBeanTests" time="0.008"/>
-  <testcase name="conversionServiceInApplicationContextWithResourceOverriding" classname="org.springframework.context.support.ConversionServiceFactoryBeanTests" time="0.006"/>
+  <testcase name="conversionServiceInApplicationContext" classname="org.springframework.context.support.ConversionServiceFactoryBeanTests" time="0.009"/>
+  <testcase name="conversionServiceInApplicationContextWithResourceOverriding" classname="org.springframework.context.support.ConversionServiceFactoryBeanTests" time="0.008"/>
   <testcase name="createDefaultConversionServiceWithInvalidSupplements" classname="org.springframework.context.support.ConversionServiceFactoryBeanTests" time="0.0"/>
-  <testcase name="createDefaultConversionServiceWithSupplements" classname="org.springframework.context.support.ConversionServiceFactoryBeanTests" time="0.004"/>
+  <testcase name="createDefaultConversionServiceWithSupplements" classname="org.springframework.context.support.ConversionServiceFactoryBeanTests" time="0.006"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

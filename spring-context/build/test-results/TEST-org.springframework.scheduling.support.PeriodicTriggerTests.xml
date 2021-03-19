@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.scheduling.support.PeriodicTriggerTests" tests="15" skipped="0" failures="0" errors="0" timestamp="2021-03-19T02:34:41" hostname="Dream.local" time="0.002">
+<testsuite name="org.springframework.scheduling.support.PeriodicTriggerTests" tests="15" skipped="0" failures="0" errors="0" timestamp="2021-03-19T10:46:50" hostname="Dream.local" time="0.003">
   <properties/>
-  <testcase name="fixedRateSubsequentExecution" classname="org.springframework.scheduling.support.PeriodicTriggerTests" time="0.001"/>
+  <testcase name="fixedRateSubsequentExecution" classname="org.springframework.scheduling.support.PeriodicTriggerTests" time="0.002"/>
   <testcase name="fixedRateWithTimeUnitFirstExecution" classname="org.springframework.scheduling.support.PeriodicTriggerTests" time="0.0"/>
   <testcase name="fixedDelayWithTimeUnitFirstExecution" classname="org.springframework.scheduling.support.PeriodicTriggerTests" time="0.0"/>
   <testcase name="fixedRateWithTimeUnitAndInitialDelayFirstExecution" classname="org.springframework.scheduling.support.PeriodicTriggerTests" time="0.0"/>
@@ -10,7 +10,7 @@
   <testcase name="fixedDelayWithTimeUnitAndInitialDelayFirstExecution" classname="org.springframework.scheduling.support.PeriodicTriggerTests" time="0.0"/>
   <testcase name="fixedDelayFirstExecution" classname="org.springframework.scheduling.support.PeriodicTriggerTests" time="0.0"/>
   <testcase name="fixedRateFirstExecution" classname="org.springframework.scheduling.support.PeriodicTriggerTests" time="0.0"/>
-  <testcase name="fixedRateWithTimeUnitSubsequentExecution" classname="org.springframework.scheduling.support.PeriodicTriggerTests" time="0.0"/>
+  <testcase name="fixedRateWithTimeUnitSubsequentExecution" classname="org.springframework.scheduling.support.PeriodicTriggerTests" time="0.001"/>
   <testcase name="fixedRateWithInitialDelaySubsequentExecution" classname="org.springframework.scheduling.support.PeriodicTriggerTests" time="0.0"/>
   <testcase name="equalsVerification" classname="org.springframework.scheduling.support.PeriodicTriggerTests" time="0.0"/>
   <testcase name="fixedDelayWithInitialDelaySubsequentExecution" classname="org.springframework.scheduling.support.PeriodicTriggerTests" time="0.0"/>

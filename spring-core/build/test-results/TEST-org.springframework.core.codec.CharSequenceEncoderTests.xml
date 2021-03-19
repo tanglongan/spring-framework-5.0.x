@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.core.codec.CharSequenceEncoderTests" tests="18" skipped="0" failures="0" errors="0" timestamp="2021-03-19T02:33:22" hostname="Dream.local" time="0.013">
+<testsuite name="org.springframework.core.codec.CharSequenceEncoderTests" tests="18" skipped="0" failures="0" errors="0" timestamp="2021-03-19T10:45:09" hostname="Dream.local" time="0.014">
   <properties/>
   <testcase name="writeStringBuilder[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.core.codec.CharSequenceEncoderTests" time="0.007"/>
-  <testcase name="canWrite[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.core.codec.CharSequenceEncoderTests" time="0.0"/>
+  <testcase name="canWrite[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.core.codec.CharSequenceEncoderTests" time="0.001"/>
   <testcase name="writeString[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.core.codec.CharSequenceEncoderTests" time="0.0"/>
-  <testcase name="writeStringBuilder[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.core.codec.CharSequenceEncoderTests" time="0.001"/>
+  <testcase name="writeStringBuilder[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.core.codec.CharSequenceEncoderTests" time="0.0"/>
   <testcase name="canWrite[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.core.codec.CharSequenceEncoderTests" time="0.0"/>
   <testcase name="writeString[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.core.codec.CharSequenceEncoderTests" time="0.0"/>
-  <testcase name="writeStringBuilder[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.core.codec.CharSequenceEncoderTests" time="0.0"/>
+  <testcase name="writeStringBuilder[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.core.codec.CharSequenceEncoderTests" time="0.001"/>
   <testcase name="canWrite[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.core.codec.CharSequenceEncoderTests" time="0.0"/>
   <testcase name="writeString[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.core.codec.CharSequenceEncoderTests" time="0.0"/>
-  <testcase name="writeStringBuilder[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.core.codec.CharSequenceEncoderTests" time="0.001"/>
+  <testcase name="writeStringBuilder[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.core.codec.CharSequenceEncoderTests" time="0.0"/>
   <testcase name="canWrite[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.core.codec.CharSequenceEncoderTests" time="0.0"/>
-  <testcase name="writeString[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.core.codec.CharSequenceEncoderTests" time="0.0"/>
+  <testcase name="writeString[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.core.codec.CharSequenceEncoderTests" time="0.001"/>
   <testcase name="writeStringBuilder[DefaultDataBufferFactory (preferDirect=true)]" classname="org.springframework.core.codec.CharSequenceEncoderTests" time="0.0"/>
   <testcase name="canWrite[DefaultDataBufferFactory (preferDirect=true)]" classname="org.springframework.core.codec.CharSequenceEncoderTests" time="0.0"/>
-  <testcase name="writeString[DefaultDataBufferFactory (preferDirect=true)]" classname="org.springframework.core.codec.CharSequenceEncoderTests" time="0.0"/>
+  <testcase name="writeString[DefaultDataBufferFactory (preferDirect=true)]" classname="org.springframework.core.codec.CharSequenceEncoderTests" time="0.001"/>
   <testcase name="writeStringBuilder[DefaultDataBufferFactory (preferDirect=false)]" classname="org.springframework.core.codec.CharSequenceEncoderTests" time="0.001"/>
   <testcase name="canWrite[DefaultDataBufferFactory (preferDirect=false)]" classname="org.springframework.core.codec.CharSequenceEncoderTests" time="0.0"/>
   <testcase name="writeString[DefaultDataBufferFactory (preferDirect=false)]" classname="org.springframework.core.codec.CharSequenceEncoderTests" time="0.0"/>

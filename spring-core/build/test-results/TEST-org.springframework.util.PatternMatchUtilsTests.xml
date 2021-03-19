@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.util.PatternMatchUtilsTests" tests="8" skipped="0" failures="0" errors="0" timestamp="2021-03-19T02:33:29" hostname="Dream.local" time="0.002">
+<testsuite name="org.springframework.util.PatternMatchUtilsTests" tests="8" skipped="0" failures="0" errors="0" timestamp="2021-03-19T10:45:16" hostname="Dream.local" time="0.001">
   <properties/>
-  <testcase name="testEndsWith" classname="org.springframework.util.PatternMatchUtilsTests" time="0.001"/>
+  <testcase name="testEndsWith" classname="org.springframework.util.PatternMatchUtilsTests" time="0.0"/>
   <testcase name="testTrivial" classname="org.springframework.util.PatternMatchUtilsTests" time="0.0"/>
   <testcase name="testBetween" classname="org.springframework.util.PatternMatchUtilsTests" time="0.0"/>
   <testcase name="testStartsEndsBetween" classname="org.springframework.util.PatternMatchUtilsTests" time="0.0"/>

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.core.ConventionsTests" tests="9" skipped="0" failures="0" errors="0" timestamp="2021-03-19T02:33:21" hostname="Dream.local" time="0.049">
+<testsuite name="org.springframework.core.ConventionsTests" tests="9" skipped="0" failures="0" errors="0" timestamp="2021-03-19T10:45:09" hostname="Dream.local" time="0.044">
   <properties/>
   <testcase name="reactiveParameters" classname="org.springframework.core.ConventionsTests" time="0.008"/>
-  <testcase name="simpleObject" classname="org.springframework.core.ConventionsTests" time="0.002"/>
-  <testcase name="emptyList" classname="org.springframework.core.ConventionsTests" time="0.004"/>
+  <testcase name="simpleObject" classname="org.springframework.core.ConventionsTests" time="0.001"/>
+  <testcase name="emptyList" classname="org.springframework.core.ConventionsTests" time="0.003"/>
   <testcase name="attributeNameToPropertyName" classname="org.springframework.core.ConventionsTests" time="0.0"/>
   <testcase name="getQualifiedAttributeName" classname="org.springframework.core.ConventionsTests" time="0.0"/>
-  <testcase name="set" classname="org.springframework.core.ConventionsTests" time="0.031"/>
+  <testcase name="set" classname="org.springframework.core.ConventionsTests" time="0.028"/>
   <testcase name="list" classname="org.springframework.core.ConventionsTests" time="0.001"/>
   <testcase name="array" classname="org.springframework.core.ConventionsTests" time="0.0"/>
   <testcase name="reactiveReturnTypes" classname="org.springframework.core.ConventionsTests" time="0.001"/>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.beans.factory.wiring.BeanWiringInfoTests" tests="9" skipped="0" failures="0" errors="0" timestamp="2021-03-19T02:33:15" hostname="Dream.local" time="0.001">
+<testsuite name="org.springframework.beans.factory.wiring.BeanWiringInfoTests" tests="9" skipped="0" failures="0" errors="0" timestamp="2021-03-19T10:45:03" hostname="Dream.local" time="0.001">
   <properties/>
-  <testcase name="ctorWithEmptyBeanName" classname="org.springframework.beans.factory.wiring.BeanWiringInfoTests" time="0.0"/>
+  <testcase name="ctorWithEmptyBeanName" classname="org.springframework.beans.factory.wiring.BeanWiringInfoTests" time="0.001"/>
   <testcase name="usingAutowireCtorIndicatesAutowiring" classname="org.springframework.beans.factory.wiring.BeanWiringInfoTests" time="0.0"/>
-  <testcase name="ctorWithPositiveOutOfRangeAutowiringValue" classname="org.springframework.beans.factory.wiring.BeanWiringInfoTests" time="0.001"/>
+  <testcase name="ctorWithPositiveOutOfRangeAutowiringValue" classname="org.springframework.beans.factory.wiring.BeanWiringInfoTests" time="0.0"/>
   <testcase name="noDependencyCheckValueIsPreserved" classname="org.springframework.beans.factory.wiring.BeanWiringInfoTests" time="0.0"/>
   <testcase name="ctorWithNullBeanName" classname="org.springframework.beans.factory.wiring.BeanWiringInfoTests" time="0.0"/>
   <testcase name="ctorWithWhitespacedBeanName" classname="org.springframework.beans.factory.wiring.BeanWiringInfoTests" time="0.0"/>

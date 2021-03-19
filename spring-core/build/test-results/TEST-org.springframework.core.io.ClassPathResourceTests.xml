@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.core.io.ClassPathResourceTests" tests="11" skipped="0" failures="0" errors="0" timestamp="2021-03-19T02:33:22" hostname="Dream.local" time="0.004">
+<testsuite name="org.springframework.core.io.ClassPathResourceTests" tests="11" skipped="0" failures="0" errors="0" timestamp="2021-03-19T10:45:09" hostname="Dream.local" time="0.003">
   <properties/>
   <testcase name="stringConstructorRaisesExceptionWithFullyQualifiedPath" classname="org.springframework.core.io.ClassPathResourceTests" time="0.001"/>
-  <testcase name="getDescriptionWithClassLoaderConstructorAndLeadingSlash" classname="org.springframework.core.io.ClassPathResourceTests" time="0.001"/>
+  <testcase name="getDescriptionWithClassLoaderConstructorAndLeadingSlash" classname="org.springframework.core.io.ClassPathResourceTests" time="0.0"/>
   <testcase name="getDescriptionWithStringConstructor" classname="org.springframework.core.io.ClassPathResourceTests" time="0.0"/>
-  <testcase name="classLiteralConstructorRaisesExceptionWithFullyQualifiedPath" classname="org.springframework.core.io.ClassPathResourceTests" time="0.0"/>
+  <testcase name="classLiteralConstructorRaisesExceptionWithFullyQualifiedPath" classname="org.springframework.core.io.ClassPathResourceTests" time="0.001"/>
   <testcase name="getDescriptionWithStringConstructorAndLeadingSlash" classname="org.springframework.core.io.ClassPathResourceTests" time="0.0"/>
   <testcase name="dropLeadingSlashForClassLoaderAccess" classname="org.springframework.core.io.ClassPathResourceTests" time="0.0"/>
   <testcase name="preserveLeadingSlashForClassRelativeAccess" classname="org.springframework.core.io.ClassPathResourceTests" time="0.0"/>
   <testcase name="getDescriptionWithClassLiteralConstructor" classname="org.springframework.core.io.ClassPathResourceTests" time="0.0"/>
-  <testcase name="classLoaderConstructorRaisesExceptionWithFullyQualifiedPath" classname="org.springframework.core.io.ClassPathResourceTests" time="0.0"/>
+  <testcase name="classLoaderConstructorRaisesExceptionWithFullyQualifiedPath" classname="org.springframework.core.io.ClassPathResourceTests" time="0.001"/>
   <testcase name="getDescriptionWithClassLiteralConstructorAndLeadingSlash" classname="org.springframework.core.io.ClassPathResourceTests" time="0.0"/>
-  <testcase name="getDescriptionWithClassLoaderConstructor" classname="org.springframework.core.io.ClassPathResourceTests" time="0.001"/>
+  <testcase name="getDescriptionWithClassLoaderConstructor" classname="org.springframework.core.io.ClassPathResourceTests" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

@@ -1,26 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.context.annotation.AnnotationConfigApplicationContextTests" tests="20" skipped="0" failures="0" errors="0" timestamp="2021-03-19T02:34:16" hostname="Dream.local" time="0.113">
+<testsuite name="org.springframework.context.annotation.AnnotationConfigApplicationContextTests" tests="20" skipped="0" failures="0" errors="0" timestamp="2021-03-19T10:46:25" hostname="Dream.local" time="0.115">
   <properties/>
-  <testcase name="getBeanByType" classname="org.springframework.context.annotation.AnnotationConfigApplicationContextTests" time="0.007"/>
-  <testcase name="individualBeanWithSupplier" classname="org.springframework.context.annotation.AnnotationConfigApplicationContextTests" time="0.008"/>
-  <testcase name="scanAndRefresh" classname="org.springframework.context.annotation.AnnotationConfigApplicationContextTests" time="0.014"/>
+  <testcase name="getBeanByType" classname="org.springframework.context.annotation.AnnotationConfigApplicationContextTests" time="0.01"/>
+  <testcase name="individualBeanWithSupplier" classname="org.springframework.context.annotation.AnnotationConfigApplicationContextTests" time="0.009"/>
+  <testcase name="scanAndRefresh" classname="org.springframework.context.annotation.AnnotationConfigApplicationContextTests" time="0.015"/>
   <testcase name="defaultConfigClassBeanNameIsGeneratedProperly" classname="org.springframework.context.annotation.AnnotationConfigApplicationContextTests" time="0.003"/>
-  <testcase name="individualBeanWithSpecifiedConstructorArguments" classname="org.springframework.context.annotation.AnnotationConfigApplicationContextTests" time="0.004"/>
-  <testcase name="autowiringIsEnabledByDefault" classname="org.springframework.context.annotation.AnnotationConfigApplicationContextTests" time="0.015"/>
-  <testcase name="individualNamedBeanWithMixedConstructorArguments" classname="org.springframework.context.annotation.AnnotationConfigApplicationContextTests" time="0.004"/>
-  <testcase name="individualNamedBeanWithSupplier" classname="org.springframework.context.annotation.AnnotationConfigApplicationContextTests" time="0.004"/>
+  <testcase name="individualBeanWithSpecifiedConstructorArguments" classname="org.springframework.context.annotation.AnnotationConfigApplicationContextTests" time="0.003"/>
+  <testcase name="autowiringIsEnabledByDefault" classname="org.springframework.context.annotation.AnnotationConfigApplicationContextTests" time="0.012"/>
+  <testcase name="individualNamedBeanWithMixedConstructorArguments" classname="org.springframework.context.annotation.AnnotationConfigApplicationContextTests" time="0.003"/>
+  <testcase name="individualNamedBeanWithSupplier" classname="org.springframework.context.annotation.AnnotationConfigApplicationContextTests" time="0.003"/>
   <testcase name="registerAndRefresh" classname="org.springframework.context.annotation.AnnotationConfigApplicationContextTests" time="0.003"/>
   <testcase name="individualBeanWithMixedConstructorArguments" classname="org.springframework.context.annotation.AnnotationConfigApplicationContextTests" time="0.003"/>
-  <testcase name="getBeanByTypeRaisesNoSuchBeanDefinitionException" classname="org.springframework.context.annotation.AnnotationConfigApplicationContextTests" time="0.005"/>
+  <testcase name="getBeanByTypeRaisesNoSuchBeanDefinitionException" classname="org.springframework.context.annotation.AnnotationConfigApplicationContextTests" time="0.003"/>
   <testcase name="explicitConfigClassBeanNameIsRespected" classname="org.springframework.context.annotation.AnnotationConfigApplicationContextTests" time="0.008"/>
-  <testcase name="individualBeanWithSupplierAndCustomizer" classname="org.springframework.context.annotation.AnnotationConfigApplicationContextTests" time="0.003"/>
-  <testcase name="nullReturningBeanPostProcessor" classname="org.springframework.context.annotation.AnnotationConfigApplicationContextTests" time="0.005"/>
-  <testcase name="getBeansWithAnnotation" classname="org.springframework.context.annotation.AnnotationConfigApplicationContextTests" time="0.006"/>
-  <testcase name="individualNamedBeanWithSpecifiedConstructorArguments" classname="org.springframework.context.annotation.AnnotationConfigApplicationContextTests" time="0.003"/>
+  <testcase name="individualBeanWithSupplierAndCustomizer" classname="org.springframework.context.annotation.AnnotationConfigApplicationContextTests" time="0.005"/>
+  <testcase name="nullReturningBeanPostProcessor" classname="org.springframework.context.annotation.AnnotationConfigApplicationContextTests" time="0.006"/>
+  <testcase name="getBeansWithAnnotation" classname="org.springframework.context.annotation.AnnotationConfigApplicationContextTests" time="0.008"/>
+  <testcase name="individualNamedBeanWithSpecifiedConstructorArguments" classname="org.springframework.context.annotation.AnnotationConfigApplicationContextTests" time="0.002"/>
   <testcase name="individualNamedBeanWithSupplierAndCustomizer" classname="org.springframework.context.annotation.AnnotationConfigApplicationContextTests" time="0.003"/>
-  <testcase name="individualBeans" classname="org.springframework.context.annotation.AnnotationConfigApplicationContextTests" time="0.003"/>
-  <testcase name="getBeanByTypeAmbiguityRaisesException" classname="org.springframework.context.annotation.AnnotationConfigApplicationContextTests" time="0.01"/>
-  <testcase name="individualNamedBeans" classname="org.springframework.context.annotation.AnnotationConfigApplicationContextTests" time="0.002"/>
+  <testcase name="individualBeans" classname="org.springframework.context.annotation.AnnotationConfigApplicationContextTests" time="0.002"/>
+  <testcase name="getBeanByTypeAmbiguityRaisesException" classname="org.springframework.context.annotation.AnnotationConfigApplicationContextTests" time="0.009"/>
+  <testcase name="individualNamedBeans" classname="org.springframework.context.annotation.AnnotationConfigApplicationContextTests" time="0.003"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

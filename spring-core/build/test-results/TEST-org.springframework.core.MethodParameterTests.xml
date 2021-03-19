@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.core.MethodParameterTests" tests="10" skipped="0" failures="0" errors="0" timestamp="2021-03-19T02:33:21" hostname="Dream.local" time="0.011">
+<testsuite name="org.springframework.core.MethodParameterTests" tests="10" skipped="0" failures="0" errors="0" timestamp="2021-03-19T10:45:09" hostname="Dream.local" time="0.01">
   <properties/>
-  <testcase name="equalsAndHashCodeConsidersNesting" classname="org.springframework.core.MethodParameterTests" time="0.005"/>
+  <testcase name="equalsAndHashCodeConsidersNesting" classname="org.springframework.core.MethodParameterTests" time="0.004"/>
   <testcase name="annotatedConstructorParameterInInnerClass" classname="org.springframework.core.MethodParameterTests" time="0.002"/>
   <testcase name="genericConstructorParameterInInnerClass" classname="org.springframework.core.MethodParameterTests" time="0.001"/>
-  <testcase name="annotatedConstructorParameterInStaticNestedClass" classname="org.springframework.core.MethodParameterTests" time="0.0"/>
-  <testcase name="multipleResolveParameterTypeCalls" classname="org.springframework.core.MethodParameterTests" time="0.001"/>
-  <testcase name="testFactoryMethods" classname="org.springframework.core.MethodParameterTests" time="0.0"/>
+  <testcase name="annotatedConstructorParameterInStaticNestedClass" classname="org.springframework.core.MethodParameterTests" time="0.001"/>
+  <testcase name="multipleResolveParameterTypeCalls" classname="org.springframework.core.MethodParameterTests" time="0.0"/>
+  <testcase name="testFactoryMethods" classname="org.springframework.core.MethodParameterTests" time="0.001"/>
   <testcase name="testHashCode" classname="org.springframework.core.MethodParameterTests" time="0.0"/>
   <testcase name="equalsAndHashCodeConsidersContainingClass" classname="org.springframework.core.MethodParameterTests" time="0.0"/>
   <testcase name="testEquals" classname="org.springframework.core.MethodParameterTests" time="0.001"/>

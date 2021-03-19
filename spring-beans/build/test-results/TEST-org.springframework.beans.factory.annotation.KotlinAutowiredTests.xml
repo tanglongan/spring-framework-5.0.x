@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.beans.factory.annotation.KotlinAutowiredTests" tests="10" skipped="0" failures="0" errors="0" timestamp="2021-03-19T02:33:18" hostname="Dream.local" time="0.493">
+<testsuite name="org.springframework.beans.factory.annotation.KotlinAutowiredTests" tests="10" skipped="0" failures="0" errors="0" timestamp="2021-03-19T10:45:06" hostname="Dream.local" time="0.519">
   <properties/>
-  <testcase name="Autowiring by annotated primary constructor with optional parameter" classname="org.springframework.beans.factory.annotation.KotlinAutowiredTests" time="0.171"/>
-  <testcase name="Instantiation via secondary constructor when a default primary is defined" classname="org.springframework.beans.factory.annotation.KotlinAutowiredTests" time="0.008"/>
-  <testcase name="Fallback on the default constructor when no autowirable primary constructor is defined" classname="org.springframework.beans.factory.annotation.KotlinAutowiredTests" time="0.006"/>
+  <testcase name="Autowiring by annotated primary constructor with optional parameter" classname="org.springframework.beans.factory.annotation.KotlinAutowiredTests" time="0.174"/>
+  <testcase name="Instantiation via secondary constructor when a default primary is defined" classname="org.springframework.beans.factory.annotation.KotlinAutowiredTests" time="0.007"/>
+  <testcase name="Fallback on the default constructor when no autowirable primary constructor is defined" classname="org.springframework.beans.factory.annotation.KotlinAutowiredTests" time="0.005"/>
   <testcase name="No autowiring with primary and secondary non annotated constructors" classname="org.springframework.beans.factory.annotation.KotlinAutowiredTests" time="0.003"/>
-  <testcase name="Autowiring by annotated secondary constructor with optional parameter" classname="org.springframework.beans.factory.annotation.KotlinAutowiredTests" time="0.006"/>
-  <testcase name="Autowiring by primary constructor with optional parameters" classname="org.springframework.beans.factory.annotation.KotlinAutowiredTests" time="0.005"/>
+  <testcase name="Autowiring by annotated secondary constructor with optional parameter" classname="org.springframework.beans.factory.annotation.KotlinAutowiredTests" time="0.007"/>
+  <testcase name="Autowiring by primary constructor with optional parameters" classname="org.springframework.beans.factory.annotation.KotlinAutowiredTests" time="0.006"/>
   <testcase name="Autowiring with target" classname="org.springframework.beans.factory.annotation.KotlinAutowiredTests" time="0.009"/>
-  <testcase name="Instantiation via primary constructor when a default is defined" classname="org.springframework.beans.factory.annotation.KotlinAutowiredTests" time="0.0"/>
-  <testcase name="Autowiring by primary constructor with mandatory and optional parameters" classname="org.springframework.beans.factory.annotation.KotlinAutowiredTests" time="0.005"/>
-  <testcase name="Autowiring without target" classname="org.springframework.beans.factory.annotation.KotlinAutowiredTests" time="0.277"/>
+  <testcase name="Instantiation via primary constructor when a default is defined" classname="org.springframework.beans.factory.annotation.KotlinAutowiredTests" time="0.001"/>
+  <testcase name="Autowiring by primary constructor with mandatory and optional parameters" classname="org.springframework.beans.factory.annotation.KotlinAutowiredTests" time="0.006"/>
+  <testcase name="Autowiring without target" classname="org.springframework.beans.factory.annotation.KotlinAutowiredTests" time="0.301"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

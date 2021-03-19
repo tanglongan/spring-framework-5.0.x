@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.util.AssertTests" tests="100" skipped="0" failures="0" errors="0" timestamp="2021-03-19T02:33:29" hostname="Dream.local" time="0.017">
+<testsuite name="org.springframework.util.AssertTests" tests="100" skipped="0" failures="0" errors="0" timestamp="2021-03-19T10:45:16" hostname="Dream.local" time="0.016">
   <properties/>
   <testcase name="hasLengthWithEmptyStringAndMessageSupplier" classname="org.springframework.util.AssertTests" time="0.0"/>
   <testcase name="isAssignableWithNullSupertype" classname="org.springframework.util.AssertTests" time="0.0"/>
   <testcase name="stateWithMessage" classname="org.springframework.util.AssertTests" time="0.0"/>
-  <testcase name="stateWithFalseExpressionAndNullMessageSupplier" classname="org.springframework.util.AssertTests" time="0.001"/>
+  <testcase name="stateWithFalseExpressionAndNullMessageSupplier" classname="org.springframework.util.AssertTests" time="0.0"/>
   <testcase name="isAssignableWithTypeMismatchAndCustomMessage" classname="org.springframework.util.AssertTests" time="0.0"/>
   <testcase name="hasTextWithEmptyString" classname="org.springframework.util.AssertTests" time="0.0"/>
   <testcase name="noNullElementsWithNullElementsAndNullMessageSupplier" classname="org.springframework.util.AssertTests" time="0.0"/>
@@ -12,34 +12,34 @@
   <testcase name="stateWithFalseExpressionAndMessageSupplier" classname="org.springframework.util.AssertTests" time="0.001"/>
   <testcase name="noNullElementsWithMessageSupplier" classname="org.springframework.util.AssertTests" time="0.0"/>
   <testcase name="stateWithFalseExpression" classname="org.springframework.util.AssertTests" time="0.0"/>
-  <testcase name="isAssignableWithNullSubtypeAndMessageSupplier" classname="org.springframework.util.AssertTests" time="0.0"/>
-  <testcase name="isNullWithNonNullObjectAndMessageSupplier" classname="org.springframework.util.AssertTests" time="0.001"/>
+  <testcase name="isAssignableWithNullSubtypeAndMessageSupplier" classname="org.springframework.util.AssertTests" time="0.001"/>
+  <testcase name="isNullWithNonNullObjectAndMessageSupplier" classname="org.springframework.util.AssertTests" time="0.0"/>
   <testcase name="isInstanceOfWithTypeMismatchAndCustomMessageWithSeparator" classname="org.springframework.util.AssertTests" time="0.0"/>
   <testcase name="isAssignableWithTypeMismatchAndCustomMessageWithSpace" classname="org.springframework.util.AssertTests" time="0.0"/>
   <testcase name="notEmptyMapWithNullMapAndMessageSupplier" classname="org.springframework.util.AssertTests" time="0.0"/>
   <testcase name="isNullWithMessage" classname="org.springframework.util.AssertTests" time="0.0"/>
   <testcase name="hasLengthWithNull" classname="org.springframework.util.AssertTests" time="0.0"/>
-  <testcase name="notNullWithMessageSupplier" classname="org.springframework.util.AssertTests" time="0.0"/>
+  <testcase name="notNullWithMessageSupplier" classname="org.springframework.util.AssertTests" time="0.001"/>
   <testcase name="noNullElementsWithNullArrayAndMessageSupplier" classname="org.springframework.util.AssertTests" time="0.0"/>
-  <testcase name="noNullElementsWithNullElementsAndMessageSupplier" classname="org.springframework.util.AssertTests" time="0.001"/>
+  <testcase name="noNullElementsWithNullElementsAndMessageSupplier" classname="org.springframework.util.AssertTests" time="0.0"/>
   <testcase name="isInstanceOf" classname="org.springframework.util.AssertTests" time="0.0"/>
   <testcase name="hasTextWithNullAndNullMessageSupplier" classname="org.springframework.util.AssertTests" time="0.0"/>
   <testcase name="hasLengthWithEmptyString" classname="org.springframework.util.AssertTests" time="0.0"/>
-  <testcase name="notEmptyCollectionWithMessageSupplier" classname="org.springframework.util.AssertTests" time="0.0"/>
+  <testcase name="notEmptyCollectionWithMessageSupplier" classname="org.springframework.util.AssertTests" time="0.001"/>
   <testcase name="isAssignable" classname="org.springframework.util.AssertTests" time="0.0"/>
   <testcase name="notEmptyArrayWithEmptyArrayAndMessageSupplier" classname="org.springframework.util.AssertTests" time="0.0"/>
   <testcase name="doesNotContainWithNullSearchStringAndMessageSupplier" classname="org.springframework.util.AssertTests" time="0.0"/>
-  <testcase name="notEmptyCollectionWithEmptyCollectionAndMessageSupplier" classname="org.springframework.util.AssertTests" time="0.001"/>
+  <testcase name="notEmptyCollectionWithEmptyCollectionAndMessageSupplier" classname="org.springframework.util.AssertTests" time="0.0"/>
   <testcase name="notEmptyArrayWithEmptyArrayAndNullMessageSupplier" classname="org.springframework.util.AssertTests" time="0.0"/>
   <testcase name="isNullWithMessageSupplier" classname="org.springframework.util.AssertTests" time="0.0"/>
   <testcase name="notEmptyCollectionWithEmptyCollection" classname="org.springframework.util.AssertTests" time="0.0"/>
-  <testcase name="hasTextWithEmptyStringAndMessageSupplier" classname="org.springframework.util.AssertTests" time="0.001"/>
+  <testcase name="hasTextWithEmptyStringAndMessageSupplier" classname="org.springframework.util.AssertTests" time="0.0"/>
   <testcase name="notEmptyCollectionWithEmptyCollectionAndNullMessageSupplier" classname="org.springframework.util.AssertTests" time="0.0"/>
   <testcase name="hasLengthWithWhitespaceOnly" classname="org.springframework.util.AssertTests" time="0.0"/>
   <testcase name="hasLength" classname="org.springframework.util.AssertTests" time="0.0"/>
   <testcase name="doesNotContainWithNullSearchStringAndNullSubstringAndMessageSupplier" classname="org.springframework.util.AssertTests" time="0.0"/>
   <testcase name="isNullWithNonNullObjectAndNullMessageSupplier" classname="org.springframework.util.AssertTests" time="0.0"/>
-  <testcase name="doesNotContainWithNullSubstringAndMessageSupplier" classname="org.springframework.util.AssertTests" time="0.001"/>
+  <testcase name="doesNotContainWithNullSubstringAndMessageSupplier" classname="org.springframework.util.AssertTests" time="0.0"/>
   <testcase name="notNullWithMessage" classname="org.springframework.util.AssertTests" time="0.0"/>
   <testcase name="isAssignableWithTypeMismatchAndNullMessageSupplier" classname="org.springframework.util.AssertTests" time="0.0"/>
   <testcase name="doesNotContainWithNullSearchStringAndNullSubstring" classname="org.springframework.util.AssertTests" time="0.0"/>
@@ -55,50 +55,50 @@
   <testcase name="hasLengthWithNullAndNullMessageSupplier" classname="org.springframework.util.AssertTests" time="0.0"/>
   <testcase name="isInstanceOfWithTypeMismatchAndCustomMessage" classname="org.springframework.util.AssertTests" time="0.0"/>
   <testcase name="isTrueWithMessageSupplier" classname="org.springframework.util.AssertTests" time="0.0"/>
-  <testcase name="notEmptyMapWithNullMap" classname="org.springframework.util.AssertTests" time="0.001"/>
-  <testcase name="isAssignableWithMessageSupplier" classname="org.springframework.util.AssertTests" time="0.0"/>
+  <testcase name="notEmptyMapWithNullMap" classname="org.springframework.util.AssertTests" time="0.0"/>
+  <testcase name="isAssignableWithMessageSupplier" classname="org.springframework.util.AssertTests" time="0.001"/>
   <testcase name="isTrueWithFalse" classname="org.springframework.util.AssertTests" time="0.0"/>
   <testcase name="notNullWithNullAndMessageSupplier" classname="org.springframework.util.AssertTests" time="0.0"/>
-  <testcase name="hasLengthWithNullAndMessageSupplier" classname="org.springframework.util.AssertTests" time="0.001"/>
+  <testcase name="hasLengthWithNullAndMessageSupplier" classname="org.springframework.util.AssertTests" time="0.0"/>
   <testcase name="isInstanceOfWithTypeMismatchAndNullMessageSupplier" classname="org.springframework.util.AssertTests" time="0.0"/>
   <testcase name="isAssignableWithNullSubtype" classname="org.springframework.util.AssertTests" time="0.0"/>
   <testcase name="hasLengthWithMessageSupplier" classname="org.springframework.util.AssertTests" time="0.0"/>
-  <testcase name="notEmptyCollectionWithNullCollection" classname="org.springframework.util.AssertTests" time="0.0"/>
+  <testcase name="notEmptyCollectionWithNullCollection" classname="org.springframework.util.AssertTests" time="0.001"/>
   <testcase name="hasTextWithNullAndMessageSupplier" classname="org.springframework.util.AssertTests" time="0.0"/>
   <testcase name="hasText" classname="org.springframework.util.AssertTests" time="0.0"/>
-  <testcase name="stateWithMessageSupplier" classname="org.springframework.util.AssertTests" time="0.001"/>
+  <testcase name="stateWithMessageSupplier" classname="org.springframework.util.AssertTests" time="0.0"/>
   <testcase name="doesNotContainWithNullMessageSupplier" classname="org.springframework.util.AssertTests" time="0.0"/>
-  <testcase name="isInstanceOfWithTypeMismatchAndMessageSupplier" classname="org.springframework.util.AssertTests" time="0.0"/>
+  <testcase name="isInstanceOfWithTypeMismatchAndMessageSupplier" classname="org.springframework.util.AssertTests" time="0.001"/>
   <testcase name="notEmptyCollectionWithNullCollectionAndMessageSupplier" classname="org.springframework.util.AssertTests" time="0.0"/>
   <testcase name="isInstanceOfWithNullInstanceAndMessageSupplier" classname="org.springframework.util.AssertTests" time="0.0"/>
   <testcase name="notEmptyArrayWithEmptyArray" classname="org.springframework.util.AssertTests" time="0.0"/>
-  <testcase name="doesNotContainWithSubstringPresentInSearchStringAndMessageSupplier" classname="org.springframework.util.AssertTests" time="0.001"/>
+  <testcase name="doesNotContainWithSubstringPresentInSearchStringAndMessageSupplier" classname="org.springframework.util.AssertTests" time="0.0"/>
   <testcase name="hasTextWithWhitespaceOnlyAndMessageSupplier" classname="org.springframework.util.AssertTests" time="0.0"/>
   <testcase name="notEmptyCollection" classname="org.springframework.util.AssertTests" time="0.0"/>
   <testcase name="isInstanceOfWithMessageSupplier" classname="org.springframework.util.AssertTests" time="0.0"/>
   <testcase name="isTrueWithMessage" classname="org.springframework.util.AssertTests" time="0.0"/>
   <testcase name="isInstanceOfWithTypeMismatchAndCustomMessageWithSpace" classname="org.springframework.util.AssertTests" time="0.0"/>
-  <testcase name="notEmptyArrayWithNullArrayAndMessageSupplier" classname="org.springframework.util.AssertTests" time="0.001"/>
+  <testcase name="notEmptyArrayWithNullArrayAndMessageSupplier" classname="org.springframework.util.AssertTests" time="0.0"/>
   <testcase name="stateWithFalseExpressionAndMessage" classname="org.springframework.util.AssertTests" time="0.0"/>
-  <testcase name="noNullElementsWithEmptyArrayAndMessageSupplier" classname="org.springframework.util.AssertTests" time="0.0"/>
+  <testcase name="noNullElementsWithEmptyArrayAndMessageSupplier" classname="org.springframework.util.AssertTests" time="0.001"/>
   <testcase name="notNullWithNullAndNullMessageSupplier" classname="org.springframework.util.AssertTests" time="0.0"/>
   <testcase name="isTrueWithFalseAndNullMessageSupplier" classname="org.springframework.util.AssertTests" time="0.0"/>
-  <testcase name="isAssignableWithNullSupertypeAndMessageSupplier" classname="org.springframework.util.AssertTests" time="0.001"/>
+  <testcase name="isAssignableWithNullSupertypeAndMessageSupplier" classname="org.springframework.util.AssertTests" time="0.0"/>
   <testcase name="isTrueWithFalseAndMessageSupplier" classname="org.springframework.util.AssertTests" time="0.0"/>
   <testcase name="notEmptyMap" classname="org.springframework.util.AssertTests" time="0.0"/>
-  <testcase name="isAssignableWithTypeMismatchAndCustomMessageWithSeparator" classname="org.springframework.util.AssertTests" time="0.0"/>
+  <testcase name="isAssignableWithTypeMismatchAndCustomMessageWithSeparator" classname="org.springframework.util.AssertTests" time="0.001"/>
   <testcase name="doesNotContainWithMessageSupplier" classname="org.springframework.util.AssertTests" time="0.0"/>
   <testcase name="doesNotContainWithNullSubstring" classname="org.springframework.util.AssertTests" time="0.0"/>
-  <testcase name="isAssignableWithTypeMismatchAndMessageSupplier" classname="org.springframework.util.AssertTests" time="0.001"/>
+  <testcase name="isAssignableWithTypeMismatchAndMessageSupplier" classname="org.springframework.util.AssertTests" time="0.0"/>
   <testcase name="notEmptyArrayWithMessageSupplier" classname="org.springframework.util.AssertTests" time="0.0"/>
   <testcase name="notEmptyMapWithEmptyMapAndMessageSupplier" classname="org.springframework.util.AssertTests" time="0.0"/>
   <testcase name="hasTextWithWhitespaceOnly" classname="org.springframework.util.AssertTests" time="0.0"/>
   <testcase name="notEmptyMapWithEmptyMapAndNullMessageSupplier" classname="org.springframework.util.AssertTests" time="0.0"/>
   <testcase name="isAssignableWithTypeMismatchAndNullMessage" classname="org.springframework.util.AssertTests" time="0.0"/>
-  <testcase name="isInstanceOfWithNullType" classname="org.springframework.util.AssertTests" time="0.0"/>
+  <testcase name="isInstanceOfWithNullType" classname="org.springframework.util.AssertTests" time="0.001"/>
   <testcase name="isInstanceOfWithNullInstance" classname="org.springframework.util.AssertTests" time="0.0"/>
   <testcase name="noNullElements" classname="org.springframework.util.AssertTests" time="0.0"/>
-  <testcase name="hasLengthWithWhitespaceOnlyAndMessageSupplier" classname="org.springframework.util.AssertTests" time="0.001"/>
+  <testcase name="hasLengthWithWhitespaceOnlyAndMessageSupplier" classname="org.springframework.util.AssertTests" time="0.0"/>
   <testcase name="notEmptyMapWithMessageSupplier" classname="org.springframework.util.AssertTests" time="0.0"/>
   <testcase name="notEmptyArray" classname="org.springframework.util.AssertTests" time="0.0"/>
   <system-out><![CDATA[]]></system-out>

@@ -1,35 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.context.event.ApplicationContextEventTests" tests="28" skipped="0" failures="0" errors="0" timestamp="2021-03-19T02:34:25" hostname="Dream.local" time="0.069">
+<testsuite name="org.springframework.context.event.ApplicationContextEventTests" tests="28" skipped="0" failures="0" errors="0" timestamp="2021-03-19T10:46:34" hostname="Dream.local" time="0.077">
   <properties/>
-  <testcase name="nonSingletonListenerInApplicationContext" classname="org.springframework.context.event.ApplicationContextEventTests" time="0.002"/>
-  <testcase name="orderedListenersWithAnnotation" classname="org.springframework.context.event.ApplicationContextEventTests" time="0.002"/>
+  <testcase name="nonSingletonListenerInApplicationContext" classname="org.springframework.context.event.ApplicationContextEventTests" time="0.001"/>
+  <testcase name="orderedListenersWithAnnotation" classname="org.springframework.context.event.ApplicationContextEventTests" time="0.001"/>
   <testcase name="lambdaAsListenerWithJava9StyleClassCastMessage" classname="org.springframework.context.event.ApplicationContextEventTests" time="0.001"/>
   <testcase name="multicastSimpleEvent" classname="org.springframework.context.event.ApplicationContextEventTests" time="0.004"/>
   <testcase name="listenerAndBroadcasterWithCircularReference" classname="org.springframework.context.event.ApplicationContextEventTests" time="0.002"/>
   <testcase name="innerBeanAsListener" classname="org.springframework.context.event.ApplicationContextEventTests" time="0.001"/>
   <testcase name="lambdaAsListenerWithErrorHandler" classname="org.springframework.context.event.ApplicationContextEventTests" time="0.001"/>
-  <testcase name="multicastSmartGenericWrongTypeGenericListener" classname="org.springframework.context.event.ApplicationContextEventTests" time="0.0"/>
-  <testcase name="simpleApplicationEventMulticasterWithTaskExecutor" classname="org.springframework.context.event.ApplicationContextEventTests" time="0.002"/>
-  <testcase name="multicastConcreteTypeGenericListener" classname="org.springframework.context.event.ApplicationContextEventTests" time="0.0"/>
+  <testcase name="multicastSmartGenericWrongTypeGenericListener" classname="org.springframework.context.event.ApplicationContextEventTests" time="0.001"/>
+  <testcase name="simpleApplicationEventMulticasterWithTaskExecutor" classname="org.springframework.context.event.ApplicationContextEventTests" time="0.001"/>
+  <testcase name="multicastConcreteTypeGenericListener" classname="org.springframework.context.event.ApplicationContextEventTests" time="0.001"/>
   <testcase name="beanPostProcessorPublishesEvents" classname="org.springframework.context.event.ApplicationContextEventTests" time="0.001"/>
   <testcase name="multicastConcreteWrongTypeGenericListener" classname="org.springframework.context.event.ApplicationContextEventTests" time="0.0"/>
   <testcase name="orderedListeners" classname="org.springframework.context.event.ApplicationContextEventTests" time="0.003"/>
-  <testcase name="multicastGenericEvent" classname="org.springframework.context.event.ApplicationContextEventTests" time="0.0"/>
+  <testcase name="multicastGenericEvent" classname="org.springframework.context.event.ApplicationContextEventTests" time="0.001"/>
   <testcase name="proxiedListeners" classname="org.springframework.context.event.ApplicationContextEventTests" time="0.004"/>
-  <testcase name="simpleApplicationEventMulticasterWithErrorHandler" classname="org.springframework.context.event.ApplicationContextEventTests" time="0.006"/>
+  <testcase name="simpleApplicationEventMulticasterWithErrorHandler" classname="org.springframework.context.event.ApplicationContextEventTests" time="0.009"/>
   <testcase name="multicastSmartGenericTypeGenericListener" classname="org.springframework.context.event.ApplicationContextEventTests" time="0.001"/>
-  <testcase name="lambdaAsListenerWithJava8StyleClassCastMessage" classname="org.springframework.context.event.ApplicationContextEventTests" time="0.0"/>
+  <testcase name="lambdaAsListenerWithJava8StyleClassCastMessage" classname="org.springframework.context.event.ApplicationContextEventTests" time="0.001"/>
   <testcase name="anonymousClassAsListener" classname="org.springframework.context.event.ApplicationContextEventTests" time="0.001"/>
   <testcase name="lambdaAsListener" classname="org.springframework.context.event.ApplicationContextEventTests" time="0.001"/>
   <testcase name="proxiedListenersMixedWithTargetListeners" classname="org.springframework.context.event.ApplicationContextEventTests" time="0.0"/>
-  <testcase name="testEventPublicationInterceptor" classname="org.springframework.context.event.ApplicationContextEventTests" time="0.025"/>
+  <testcase name="testEventPublicationInterceptor" classname="org.springframework.context.event.ApplicationContextEventTests" time="0.03"/>
   <testcase name="multicastGenericEventWrongType" classname="org.springframework.context.event.ApplicationContextEventTests" time="0.0"/>
-  <testcase name="simpleApplicationEventMulticasterWithException" classname="org.springframework.context.event.ApplicationContextEventTests" time="0.001"/>
+  <testcase name="simpleApplicationEventMulticasterWithException" classname="org.springframework.context.event.ApplicationContextEventTests" time="0.0"/>
   <testcase name="listenersInApplicationContext" classname="org.springframework.context.event.ApplicationContextEventTests" time="0.001"/>
   <testcase name="listenersInApplicationContextWithPayloadEvents" classname="org.springframework.context.event.ApplicationContextEventTests" time="0.001"/>
   <testcase name="multicastGenericEventWildcardSubType" classname="org.springframework.context.event.ApplicationContextEventTests" time="0.0"/>
   <testcase name="listenersInApplicationContextWithNestedChild" classname="org.springframework.context.event.ApplicationContextEventTests" time="0.006"/>
-  <system-out><![CDATA[10:34:25.833 [Test worker] ERROR org.springframework.scheduling.support.TaskUtils$LoggingErrorHandler - Unexpected error occurred in scheduled task.
+  <system-out><![CDATA[18:46:34.529 [Test worker] ERROR org.springframework.scheduling.support.TaskUtils$LoggingErrorHandler - Unexpected error occurred in scheduled task.
 java.lang.RuntimeException: null
 	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172) ~[main/:?]
 	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:158) [main/:?]

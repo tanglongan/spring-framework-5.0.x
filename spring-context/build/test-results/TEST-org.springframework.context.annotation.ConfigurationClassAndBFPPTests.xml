@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.context.annotation.ConfigurationClassAndBFPPTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2021-03-19T02:34:14" hostname="Dream.local" time="0.035">
+<testsuite name="org.springframework.context.annotation.ConfigurationClassAndBFPPTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2021-03-19T10:46:22" hostname="Dream.local" time="0.033">
   <properties/>
   <testcase name="autowiringSucceedsWithBFPPAsStaticMethod" classname="org.springframework.context.annotation.ConfigurationClassAndBFPPTests" time="0.014"/>
-  <testcase name="autowiringFailsWithBFPPAsInstanceMethod" classname="org.springframework.context.annotation.ConfigurationClassAndBFPPTests" time="0.013"/>
+  <testcase name="autowiringFailsWithBFPPAsInstanceMethod" classname="org.springframework.context.annotation.ConfigurationClassAndBFPPTests" time="0.011"/>
   <testcase name="staticBeanMethodsDoNotRespectScoping" classname="org.springframework.context.annotation.ConfigurationClassAndBFPPTests" time="0.008"/>
-  <system-out><![CDATA[10:34:14.249 [Test worker] WARN  org.springframework.context.annotation.ConfigurationClassEnhancer - @Bean method AutowiredConfigWithBFPPAsInstanceMethod.bfpp is non-static and returns an object assignable to Spring's BeanFactoryPostProcessor interface. This will result in a failure to process annotations such as @Autowired, @Resource and @PostConstruct within the method's declaring @Configuration class. Add the 'static' modifier to this method to avoid these container lifecycle issues; see @Bean javadoc for complete details.
+  <system-out><![CDATA[18:46:22.916 [Test worker] WARN  org.springframework.context.annotation.ConfigurationClassEnhancer - @Bean method AutowiredConfigWithBFPPAsInstanceMethod.bfpp is non-static and returns an object assignable to Spring's BeanFactoryPostProcessor interface. This will result in a failure to process annotations such as @Autowired, @Resource and @PostConstruct within the method's declaring @Configuration class. Add the 'static' modifier to this method to avoid these container lifecycle issues; see @Bean javadoc for complete details.
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

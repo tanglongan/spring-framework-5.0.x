@@ -1,99 +1,99 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.beans.factory.xml.XmlBeanFactoryTests" tests="91" skipped="0" failures="0" errors="0" timestamp="2021-03-19T02:34:56" hostname="Dream.local" time="0.454">
+<testsuite name="org.springframework.beans.factory.xml.XmlBeanFactoryTests" tests="91" skipped="0" failures="0" errors="0" timestamp="2021-03-19T10:47:05" hostname="Dream.local" time="0.461">
   <properties/>
-  <testcase name="testAutowire" classname="org.springframework.beans.factory.xml.XmlBeanFactoryTests" time="0.049"/>
+  <testcase name="testAutowire" classname="org.springframework.beans.factory.xml.XmlBeanFactoryTests" time="0.045"/>
   <testcase name="testInitMethodThrowsException" classname="org.springframework.beans.factory.xml.XmlBeanFactoryTests" time="0.003"/>
-  <testcase name="testConstructorArgWithDoubleSimpleTypeMatch" classname="org.springframework.beans.factory.xml.XmlBeanFactoryTests" time="0.004"/>
-  <testcase name="testCircularReferencesWithWrapping" classname="org.springframework.beans.factory.xml.XmlBeanFactoryTests" time="0.004"/>
-  <testcase name="testNestedPropertyValue" classname="org.springframework.beans.factory.xml.XmlBeanFactoryTests" time="0.005"/>
-  <testcase name="testAutowireByConstructorWithSimpleValues" classname="org.springframework.beans.factory.xml.XmlBeanFactoryTests" time="0.004"/>
-  <testcase name="testCircularReferencesWithWrappingAndRawInjectionAllowed" classname="org.springframework.beans.factory.xml.XmlBeanFactoryTests" time="0.001"/>
+  <testcase name="testConstructorArgWithDoubleSimpleTypeMatch" classname="org.springframework.beans.factory.xml.XmlBeanFactoryTests" time="0.005"/>
+  <testcase name="testCircularReferencesWithWrapping" classname="org.springframework.beans.factory.xml.XmlBeanFactoryTests" time="0.003"/>
+  <testcase name="testNestedPropertyValue" classname="org.springframework.beans.factory.xml.XmlBeanFactoryTests" time="0.004"/>
+  <testcase name="testAutowireByConstructorWithSimpleValues" classname="org.springframework.beans.factory.xml.XmlBeanFactoryTests" time="0.005"/>
+  <testcase name="testCircularReferencesWithWrappingAndRawInjectionAllowed" classname="org.springframework.beans.factory.xml.XmlBeanFactoryTests" time="0.002"/>
   <testcase name="testInnerBeansWithoutDestroy" classname="org.springframework.beans.factory.xml.XmlBeanFactoryTests" time="0.004"/>
-  <testcase name="testDependenciesThroughConstructorArguments" classname="org.springframework.beans.factory.xml.XmlBeanFactoryTests" time="0.006"/>
-  <testcase name="testDependenciesMaterializeThis" classname="org.springframework.beans.factory.xml.XmlBeanFactoryTests" time="0.008"/>
-  <testcase name="testInnerBeanInheritsScopeFromConcreteChildDefinition" classname="org.springframework.beans.factory.xml.XmlBeanFactoryTests" time="0.003"/>
-  <testcase name="testFailsOnInnerBean" classname="org.springframework.beans.factory.xml.XmlBeanFactoryTests" time="0.004"/>
+  <testcase name="testDependenciesThroughConstructorArguments" classname="org.springframework.beans.factory.xml.XmlBeanFactoryTests" time="0.005"/>
+  <testcase name="testDependenciesMaterializeThis" classname="org.springframework.beans.factory.xml.XmlBeanFactoryTests" time="0.006"/>
+  <testcase name="testInnerBeanInheritsScopeFromConcreteChildDefinition" classname="org.springframework.beans.factory.xml.XmlBeanFactoryTests" time="0.002"/>
+  <testcase name="testFailsOnInnerBean" classname="org.springframework.beans.factory.xml.XmlBeanFactoryTests" time="0.005"/>
   <testcase name="testRefToSeparatePrototypeInstances" classname="org.springframework.beans.factory.xml.XmlBeanFactoryTests" time="0.002"/>
-  <testcase name="testInheritanceWithClass" classname="org.springframework.beans.factory.xml.XmlBeanFactoryTests" time="0.004"/>
-  <testcase name="testPrototypeInheritanceFromParentFactoryPrototype" classname="org.springframework.beans.factory.xml.XmlBeanFactoryTests" time="0.003"/>
-  <testcase name="testOverrideMethodByArgTypeElement" classname="org.springframework.beans.factory.xml.XmlBeanFactoryTests" time="0.007"/>
-  <testcase name="testResourceAndInputStream" classname="org.springframework.beans.factory.xml.XmlBeanFactoryTests" time="0.004"/>
-  <testcase name="testLenientDependencyMatchingFactoryMethod" classname="org.springframework.beans.factory.xml.XmlBeanFactoryTests" time="0.005"/>
-  <testcase name="testStringConstructorArrayNoTypeNonLenient" classname="org.springframework.beans.factory.xml.XmlBeanFactoryTests" time="0.005"/>
+  <testcase name="testInheritanceWithClass" classname="org.springframework.beans.factory.xml.XmlBeanFactoryTests" time="0.003"/>
+  <testcase name="testPrototypeInheritanceFromParentFactoryPrototype" classname="org.springframework.beans.factory.xml.XmlBeanFactoryTests" time="0.005"/>
+  <testcase name="testOverrideMethodByArgTypeElement" classname="org.springframework.beans.factory.xml.XmlBeanFactoryTests" time="0.008"/>
+  <testcase name="testResourceAndInputStream" classname="org.springframework.beans.factory.xml.XmlBeanFactoryTests" time="0.007"/>
+  <testcase name="testLenientDependencyMatchingFactoryMethod" classname="org.springframework.beans.factory.xml.XmlBeanFactoryTests" time="0.007"/>
+  <testcase name="testStringConstructorArrayNoTypeNonLenient" classname="org.springframework.beans.factory.xml.XmlBeanFactoryTests" time="0.006"/>
   <testcase name="testCircularReferences" classname="org.springframework.beans.factory.xml.XmlBeanFactoryTests" time="0.002"/>
-  <testcase name="testJavaLangStringConstructor" classname="org.springframework.beans.factory.xml.XmlBeanFactoryTests" time="0.004"/>
-  <testcase name="testDependenciesThroughProperties" classname="org.springframework.beans.factory.xml.XmlBeanFactoryTests" time="0.003"/>
+  <testcase name="testJavaLangStringConstructor" classname="org.springframework.beans.factory.xml.XmlBeanFactoryTests" time="0.005"/>
+  <testcase name="testDependenciesThroughProperties" classname="org.springframework.beans.factory.xml.XmlBeanFactoryTests" time="0.004"/>
   <testcase name="testLenientDependencyMatching" classname="org.springframework.beans.factory.xml.XmlBeanFactoryTests" time="0.004"/>
-  <testcase name="testFactoryReferenceCircle" classname="org.springframework.beans.factory.xml.XmlBeanFactoryTests" time="0.002"/>
-  <testcase name="testDependenciesThroughPropertyAutowiringByName" classname="org.springframework.beans.factory.xml.XmlBeanFactoryTests" time="0.002"/>
+  <testcase name="testFactoryReferenceCircle" classname="org.springframework.beans.factory.xml.XmlBeanFactoryTests" time="0.003"/>
+  <testcase name="testDependenciesThroughPropertyAutowiringByName" classname="org.springframework.beans.factory.xml.XmlBeanFactoryTests" time="0.003"/>
   <testcase name="testDependenciesThroughPropertyAutowiringByType" classname="org.springframework.beans.factory.xml.XmlBeanFactoryTests" time="0.002"/>
   <testcase name="testDoubleBooleanAutowire" classname="org.springframework.beans.factory.xml.XmlBeanFactoryTests" time="0.005"/>
-  <testcase name="testComplexFactoryReferenceCircle" classname="org.springframework.beans.factory.xml.XmlBeanFactoryTests" time="0.005"/>
+  <testcase name="testComplexFactoryReferenceCircle" classname="org.springframework.beans.factory.xml.XmlBeanFactoryTests" time="0.006"/>
   <testcase name="testNoSuchInitMethod" classname="org.springframework.beans.factory.xml.XmlBeanFactoryTests" time="0.002"/>
-  <testcase name="testInitMethodIsInvoked" classname="org.springframework.beans.factory.xml.XmlBeanFactoryTests" time="0.001"/>
-  <testcase name="testSingletonInheritsFromParentFactoryPrototype" classname="org.springframework.beans.factory.xml.XmlBeanFactoryTests" time="0.006"/>
+  <testcase name="testInitMethodIsInvoked" classname="org.springframework.beans.factory.xml.XmlBeanFactoryTests" time="0.002"/>
+  <testcase name="testSingletonInheritsFromParentFactoryPrototype" classname="org.springframework.beans.factory.xml.XmlBeanFactoryTests" time="0.004"/>
   <testcase name="testUrlResourceWithImport" classname="org.springframework.beans.factory.xml.XmlBeanFactoryTests" time="0.004"/>
   <testcase name="testWithDuplicateName" classname="org.springframework.beans.factory.xml.XmlBeanFactoryTests" time="0.002"/>
-  <testcase name="testConstructorArgWithSingleMatch" classname="org.springframework.beans.factory.xml.XmlBeanFactoryTests" time="0.006"/>
-  <testcase name="testConstructorWithUnresolvableParameterName" classname="org.springframework.beans.factory.xml.XmlBeanFactoryTests" time="0.005"/>
-  <testcase name="testDependsOn" classname="org.springframework.beans.factory.xml.XmlBeanFactoryTests" time="0.002"/>
+  <testcase name="testConstructorArgWithSingleMatch" classname="org.springframework.beans.factory.xml.XmlBeanFactoryTests" time="0.005"/>
+  <testcase name="testConstructorWithUnresolvableParameterName" classname="org.springframework.beans.factory.xml.XmlBeanFactoryTests" time="0.004"/>
+  <testcase name="testDependsOn" classname="org.springframework.beans.factory.xml.XmlBeanFactoryTests" time="0.003"/>
   <testcase name="throwsExceptionOnTooManyArguments" classname="org.springframework.beans.factory.xml.XmlBeanFactoryTests" time="0.005"/>
   <testcase name="testClassNotFoundWithDefaultBeanClassLoader" classname="org.springframework.beans.factory.xml.XmlBeanFactoryTests" time="0.002"/>
   <testcase name="testNonLenientDependencyMatchingFactoryMethod" classname="org.springframework.beans.factory.xml.XmlBeanFactoryTests" time="0.005"/>
   <testcase name="testInheritanceFromParentFactoryPrototype" classname="org.springframework.beans.factory.xml.XmlBeanFactoryTests" time="0.005"/>
-  <testcase name="testWithDuplicateNameInAlias" classname="org.springframework.beans.factory.xml.XmlBeanFactoryTests" time="0.002"/>
+  <testcase name="testWithDuplicateNameInAlias" classname="org.springframework.beans.factory.xml.XmlBeanFactoryTests" time="0.003"/>
   <testcase name="recursiveImport" classname="org.springframework.beans.factory.xml.XmlBeanFactoryTests" time="0.002"/>
   <testcase name="testCircularReferenceWithTwoFactoryBeans" classname="org.springframework.beans.factory.xml.XmlBeanFactoryTests" time="0.002"/>
-  <testcase name="testAutowireModeNotInherited" classname="org.springframework.beans.factory.xml.XmlBeanFactoryTests" time="0.002"/>
+  <testcase name="testAutowireModeNotInherited" classname="org.springframework.beans.factory.xml.XmlBeanFactoryTests" time="0.003"/>
   <testcase name="testInnerBeans" classname="org.springframework.beans.factory.xml.XmlBeanFactoryTests" time="0.003"/>
   <testcase name="testChildOverridesParentBean" classname="org.springframework.beans.factory.xml.XmlBeanFactoryTests" time="0.004"/>
-  <testcase name="testDependenciesThroughConstructorArgumentAutowiring" classname="org.springframework.beans.factory.xml.XmlBeanFactoryTests" time="0.002"/>
+  <testcase name="testDependenciesThroughConstructorArgumentAutowiring" classname="org.springframework.beans.factory.xml.XmlBeanFactoryTests" time="0.003"/>
   <testcase name="lookupOverrideOneMethodWithConstructorInjection" classname="org.springframework.beans.factory.xml.XmlBeanFactoryTests" time="0.007"/>
-  <testcase name="testAutowireWithParent" classname="org.springframework.beans.factory.xml.XmlBeanFactoryTests" time="0.022"/>
-  <testcase name="testCircularReferenceWithFactoryBeanFirst" classname="org.springframework.beans.factory.xml.XmlBeanFactoryTests" time="0.002"/>
+  <testcase name="testAutowireWithParent" classname="org.springframework.beans.factory.xml.XmlBeanFactoryTests" time="0.031"/>
+  <testcase name="testCircularReferenceWithFactoryBeanFirst" classname="org.springframework.beans.factory.xml.XmlBeanFactoryTests" time="0.001"/>
   <testcase name="testInitializingBeanAndSameInitMethod" classname="org.springframework.beans.factory.xml.XmlBeanFactoryTests" time="0.002"/>
-  <testcase name="testConstructorArgWithSingleSimpleTypeMatch" classname="org.springframework.beans.factory.xml.XmlBeanFactoryTests" time="0.004"/>
-  <testcase name="testInitializingBeanAndInitMethod" classname="org.springframework.beans.factory.xml.XmlBeanFactoryTests" time="0.002"/>
-  <testcase name="methodInjectedBeanMustBeOfSameEnhancedCglibSubclassTypeAcrossBeanFactories" classname="org.springframework.beans.factory.xml.XmlBeanFactoryTests" time="0.019"/>
+  <testcase name="testConstructorArgWithSingleSimpleTypeMatch" classname="org.springframework.beans.factory.xml.XmlBeanFactoryTests" time="0.005"/>
+  <testcase name="testInitializingBeanAndInitMethod" classname="org.springframework.beans.factory.xml.XmlBeanFactoryTests" time="0.001"/>
+  <testcase name="methodInjectedBeanMustBeOfSameEnhancedCglibSubclassTypeAcrossBeanFactories" classname="org.springframework.beans.factory.xml.XmlBeanFactoryTests" time="0.021"/>
   <testcase name="testReplaceMethodOverrideWithSetterInjection" classname="org.springframework.beans.factory.xml.XmlBeanFactoryTests" time="0.008"/>
   <testcase name="testDefaultLazyInit" classname="org.springframework.beans.factory.xml.XmlBeanFactoryTests" time="0.002"/>
   <testcase name="testCollectionsReferredToAsRefLocals" classname="org.springframework.beans.factory.xml.XmlBeanFactoryTests" time="0.007"/>
   <testcase name="testAbstractParentBeans" classname="org.springframework.beans.factory.xml.XmlBeanFactoryTests" time="0.002"/>
-  <testcase name="lookupOverrideMethodsWithSetterInjection" classname="org.springframework.beans.factory.xml.XmlBeanFactoryTests" time="0.02"/>
+  <testcase name="lookupOverrideMethodsWithSetterInjection" classname="org.springframework.beans.factory.xml.XmlBeanFactoryTests" time="0.016"/>
   <testcase name="testDoubleBooleanAutowireWithIndex" classname="org.springframework.beans.factory.xml.XmlBeanFactoryTests" time="0.005"/>
-  <testcase name="testRelatedCausesFromConstructorResolution" classname="org.springframework.beans.factory.xml.XmlBeanFactoryTests" time="0.005"/>
+  <testcase name="testRelatedCausesFromConstructorResolution" classname="org.springframework.beans.factory.xml.XmlBeanFactoryTests" time="0.008"/>
   <testcase name="testPrimitiveConstructorArray" classname="org.springframework.beans.factory.xml.XmlBeanFactoryTests" time="0.004"/>
-  <testcase name="noSuchXmlFile" classname="org.springframework.beans.factory.xml.XmlBeanFactoryTests" time="0.0"/>
-  <testcase name="serializableMethodReplacerAndSuperclass" classname="org.springframework.beans.factory.xml.XmlBeanFactoryTests" time="0.01"/>
-  <testcase name="testIndexedPrimitiveConstructorArray" classname="org.springframework.beans.factory.xml.XmlBeanFactoryTests" time="0.006"/>
+  <testcase name="noSuchXmlFile" classname="org.springframework.beans.factory.xml.XmlBeanFactoryTests" time="0.001"/>
+  <testcase name="serializableMethodReplacerAndSuperclass" classname="org.springframework.beans.factory.xml.XmlBeanFactoryTests" time="0.007"/>
+  <testcase name="testIndexedPrimitiveConstructorArray" classname="org.springframework.beans.factory.xml.XmlBeanFactoryTests" time="0.004"/>
   <testcase name="testDependsOnInInnerBean" classname="org.springframework.beans.factory.xml.XmlBeanFactoryTests" time="0.003"/>
-  <testcase name="testRejectsOverrideOfBogusMethodName" classname="org.springframework.beans.factory.xml.XmlBeanFactoryTests" time="0.003"/>
-  <testcase name="testCustomStringConstructor" classname="org.springframework.beans.factory.xml.XmlBeanFactoryTests" time="0.004"/>
-  <testcase name="testFileSystemResourceWithImport" classname="org.springframework.beans.factory.xml.XmlBeanFactoryTests" time="0.004"/>
-  <testcase name="testClassPathResourceWithImport" classname="org.springframework.beans.factory.xml.XmlBeanFactoryTests" time="0.004"/>
-  <testcase name="throwsExceptionOnAmbiguousResolution" classname="org.springframework.beans.factory.xml.XmlBeanFactoryTests" time="0.005"/>
-  <testcase name="testClassNotFoundWithNoBeanClassLoader" classname="org.springframework.beans.factory.xml.XmlBeanFactoryTests" time="0.001"/>
-  <testcase name="testDependenciesThroughPropertiesInInnerBean" classname="org.springframework.beans.factory.xml.XmlBeanFactoryTests" time="0.002"/>
-  <testcase name="testPrototypeWithExplicitArguments" classname="org.springframework.beans.factory.xml.XmlBeanFactoryTests" time="0.005"/>
+  <testcase name="testRejectsOverrideOfBogusMethodName" classname="org.springframework.beans.factory.xml.XmlBeanFactoryTests" time="0.002"/>
+  <testcase name="testCustomStringConstructor" classname="org.springframework.beans.factory.xml.XmlBeanFactoryTests" time="0.005"/>
+  <testcase name="testFileSystemResourceWithImport" classname="org.springframework.beans.factory.xml.XmlBeanFactoryTests" time="0.003"/>
+  <testcase name="testClassPathResourceWithImport" classname="org.springframework.beans.factory.xml.XmlBeanFactoryTests" time="0.006"/>
+  <testcase name="throwsExceptionOnAmbiguousResolution" classname="org.springframework.beans.factory.xml.XmlBeanFactoryTests" time="0.006"/>
+  <testcase name="testClassNotFoundWithNoBeanClassLoader" classname="org.springframework.beans.factory.xml.XmlBeanFactoryTests" time="0.003"/>
+  <testcase name="testDependenciesThroughPropertiesInInnerBean" classname="org.springframework.beans.factory.xml.XmlBeanFactoryTests" time="0.003"/>
+  <testcase name="testPrototypeWithExplicitArguments" classname="org.springframework.beans.factory.xml.XmlBeanFactoryTests" time="0.006"/>
   <testcase name="testAutowireWithDefault" classname="org.springframework.beans.factory.xml.XmlBeanFactoryTests" time="0.003"/>
   <testcase name="testFactoryReferenceWithDoublePrefix" classname="org.springframework.beans.factory.xml.XmlBeanFactoryTests" time="0.002"/>
-  <testcase name="testStringConstructorArrayNoType" classname="org.springframework.beans.factory.xml.XmlBeanFactoryTests" time="0.005"/>
-  <testcase name="testRefToSingleton" classname="org.springframework.beans.factory.xml.XmlBeanFactoryTests" time="0.003"/>
+  <testcase name="testStringConstructorArrayNoType" classname="org.springframework.beans.factory.xml.XmlBeanFactoryTests" time="0.004"/>
+  <testcase name="testRefToSingleton" classname="org.springframework.beans.factory.xml.XmlBeanFactoryTests" time="0.002"/>
   <testcase name="testConstructorArgResolution" classname="org.springframework.beans.factory.xml.XmlBeanFactoryTests" time="0.006"/>
-  <testcase name="testAutowireByConstructor" classname="org.springframework.beans.factory.xml.XmlBeanFactoryTests" time="0.006"/>
-  <testcase name="testSingletonFromParent" classname="org.springframework.beans.factory.xml.XmlBeanFactoryTests" time="0.004"/>
+  <testcase name="testAutowireByConstructor" classname="org.springframework.beans.factory.xml.XmlBeanFactoryTests" time="0.005"/>
+  <testcase name="testSingletonFromParent" classname="org.springframework.beans.factory.xml.XmlBeanFactoryTests" time="0.005"/>
   <testcase name="testDependenciesThroughConstructorArgumentsInInnerBean" classname="org.springframework.beans.factory.xml.XmlBeanFactoryTests" time="0.002"/>
   <testcase name="testInheritanceWithDifferentClass" classname="org.springframework.beans.factory.xml.XmlBeanFactoryTests" time="0.004"/>
-  <testcase name="testDependenciesThroughPropertiesWithInTheMiddle" classname="org.springframework.beans.factory.xml.XmlBeanFactoryTests" time="0.004"/>
-  <testcase name="testCircularReferencesWithNotAllowed" classname="org.springframework.beans.factory.xml.XmlBeanFactoryTests" time="0.001"/>
-  <testcase name="testOverrideMethodByArgTypeAttribute" classname="org.springframework.beans.factory.xml.XmlBeanFactoryTests" time="0.005"/>
-  <testcase name="testPrototypeInheritanceFromParentFactorySingleton" classname="org.springframework.beans.factory.xml.XmlBeanFactoryTests" time="0.005"/>
+  <testcase name="testDependenciesThroughPropertiesWithInTheMiddle" classname="org.springframework.beans.factory.xml.XmlBeanFactoryTests" time="0.003"/>
+  <testcase name="testCircularReferencesWithNotAllowed" classname="org.springframework.beans.factory.xml.XmlBeanFactoryTests" time="0.002"/>
+  <testcase name="testOverrideMethodByArgTypeAttribute" classname="org.springframework.beans.factory.xml.XmlBeanFactoryTests" time="0.004"/>
+  <testcase name="testPrototypeInheritanceFromParentFactorySingleton" classname="org.springframework.beans.factory.xml.XmlBeanFactoryTests" time="0.003"/>
   <testcase name="testNonLenientDependencyMatching" classname="org.springframework.beans.factory.xml.XmlBeanFactoryTests" time="0.005"/>
   <testcase name="invalidXmlFile" classname="org.springframework.beans.factory.xml.XmlBeanFactoryTests" time="0.004"/>
   <testcase name="noSuchFactoryBeanMethod" classname="org.springframework.beans.factory.xml.XmlBeanFactoryTests" time="0.004"/>
   <testcase name="testBogusParentageFromParentFactory" classname="org.springframework.beans.factory.xml.XmlBeanFactoryTests" time="0.004"/>
   <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'failsOnInnerBean' defined in class path resource [org/springframework/beans/factory/xml/XmlBeanFactoryTests-reftypes.xml]: Cannot create inner bean 'org.springframework.tests.sample.beans.TestBean#217eb0b2' of type [org.springframework.tests.sample.beans.TestBean] while setting bean property 'someMap' with key [TypedStringValue: value [someKey], target type [null]]; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.tests.sample.beans.TestBean#217eb0b2' defined in class path resource [org/springframework/beans/factory/xml/XmlBeanFactoryTests-reftypes.xml]: Error setting property values; nested exception is org.springframework.beans.PropertyBatchUpdateException; nested PropertyAccessExceptions (1) are:
+  <system-err><![CDATA[org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'failsOnInnerBean' defined in class path resource [org/springframework/beans/factory/xml/XmlBeanFactoryTests-reftypes.xml]: Cannot create inner bean 'org.springframework.tests.sample.beans.TestBean#210de7ae' of type [org.springframework.tests.sample.beans.TestBean] while setting bean property 'someMap' with key [TypedStringValue: value [someKey], target type [null]]; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.tests.sample.beans.TestBean#210de7ae' defined in class path resource [org/springframework/beans/factory/xml/XmlBeanFactoryTests-reftypes.xml]: Error setting property values; nested exception is org.springframework.beans.PropertyBatchUpdateException; nested PropertyAccessExceptions (1) are:
 PropertyAccessException 1: org.springframework.beans.MethodInvocationException: Property 'touchy' threw exception; nested exception is java.lang.Exception: Can't contain a .
 	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveInnerBean(BeanDefinitionValueResolver.java:361)
 	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:124)
@@ -154,7 +154,7 @@ PropertyAccessException 1: org.springframework.beans.MethodInvocationException: 
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
 	at java.lang.Thread.run(Thread.java:748)
-Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.tests.sample.beans.TestBean#217eb0b2' defined in class path resource [org/springframework/beans/factory/xml/XmlBeanFactoryTests-reftypes.xml]: Error setting property values; nested exception is org.springframework.beans.PropertyBatchUpdateException; nested PropertyAccessExceptions (1) are:
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.tests.sample.beans.TestBean#210de7ae' defined in class path resource [org/springframework/beans/factory/xml/XmlBeanFactoryTests-reftypes.xml]: Error setting property values; nested exception is org.springframework.beans.PropertyBatchUpdateException; nested PropertyAccessExceptions (1) are:
 PropertyAccessException 1: org.springframework.beans.MethodInvocationException: Property 'touchy' threw exception; nested exception is java.lang.Exception: Can't contain a .
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyPropertyValues(AbstractAutowireCapableBeanFactory.java:1630)
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1345)

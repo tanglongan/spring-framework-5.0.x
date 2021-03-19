@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.util.StringUtilsTests" tests="63" skipped="0" failures="0" errors="0" timestamp="2021-03-19T02:33:24" hostname="Dream.local" time="0.022">
+<testsuite name="org.springframework.util.StringUtilsTests" tests="63" skipped="0" failures="0" errors="0" timestamp="2021-03-19T10:45:12" hostname="Dream.local" time="0.025">
   <properties/>
   <testcase name="testParseLocaleWithMultiValuedVariantUsingSpacesAsSeparatorsWithLotsOfLeadingWhitespace" classname="org.springframework.util.StringUtilsTests" time="0.0"/>
   <testcase name="testEndsWithIgnoreCase" classname="org.springframework.util.StringUtilsTests" time="0.0"/>
   <testcase name="testParseLocaleWithVariantContainingCountryCode" classname="org.springframework.util.StringUtilsTests" time="0.0"/>
-  <testcase name="testAvailableLocalesWithLanguageTag" classname="org.springframework.util.StringUtilsTests" time="0.016"/>
+  <testcase name="testAvailableLocalesWithLanguageTag" classname="org.springframework.util.StringUtilsTests" time="0.019"/>
   <testcase name="testParseLocaleWithMultiValuedVariantUsingMixtureOfUnderscoresAndSpacesAsSeparators" classname="org.springframework.util.StringUtilsTests" time="0.0"/>
   <testcase name="testTrimLeadingCharacter" classname="org.springframework.util.StringUtilsTests" time="0.0"/>
   <testcase name="testTokenizeToStringArrayWithNotTrimTokens" classname="org.springframework.util.StringUtilsTests" time="0.0"/>
@@ -16,7 +16,7 @@
   <testcase name="testParseLocaleStringSunnyDay" classname="org.springframework.util.StringUtilsTests" time="0.0"/>
   <testcase name="testTrimLeadingWhitespace" classname="org.springframework.util.StringUtilsTests" time="0.0"/>
   <testcase name="testStripFilenameExtension" classname="org.springframework.util.StringUtilsTests" time="0.0"/>
-  <testcase name="testMergeStringArrays" classname="org.springframework.util.StringUtilsTests" time="0.0"/>
+  <testcase name="testMergeStringArrays" classname="org.springframework.util.StringUtilsTests" time="0.001"/>
   <testcase name="testHasTextBlank" classname="org.springframework.util.StringUtilsTests" time="0.0"/>
   <testcase name="testTrimTrailingWhitespace" classname="org.springframework.util.StringUtilsTests" time="0.0"/>
   <testcase name="testHasTextValid" classname="org.springframework.util.StringUtilsTests" time="0.0"/>
@@ -27,7 +27,7 @@
   <testcase name="testParseLocaleWithMultiSpecialCharactersInVariant" classname="org.springframework.util.StringUtilsTests" time="0.0"/>
   <testcase name="testDelimitedListToStringArrayWithNullDelimiter" classname="org.springframework.util.StringUtilsTests" time="0.0"/>
   <testcase name="testCommaDelimitedListToStringArrayMatchWords" classname="org.springframework.util.StringUtilsTests" time="0.0"/>
-  <testcase name="testPathEquals" classname="org.springframework.util.StringUtilsTests" time="0.001"/>
+  <testcase name="testPathEquals" classname="org.springframework.util.StringUtilsTests" time="0.0"/>
   <testcase name="testRemoveDuplicateStrings" classname="org.springframework.util.StringUtilsTests" time="0.0"/>
   <testcase name="testParseLocaleWithMultiValuedVariantUsingSpacesAsSeparators" classname="org.springframework.util.StringUtilsTests" time="0.0"/>
   <testcase name="testParseLocaleStringWithEmptyLocaleStringYieldsNullLocale" classname="org.springframework.util.StringUtilsTests" time="0.0"/>
@@ -41,11 +41,11 @@
   <testcase name="testGetFilenameExtension" classname="org.springframework.util.StringUtilsTests" time="0.0"/>
   <testcase name="testGetFilename" classname="org.springframework.util.StringUtilsTests" time="0.0"/>
   <testcase name="testParseLocaleWithMultiValuedVariant" classname="org.springframework.util.StringUtilsTests" time="0.0"/>
-  <testcase name="testReplace" classname="org.springframework.util.StringUtilsTests" time="0.001"/>
+  <testcase name="testReplace" classname="org.springframework.util.StringUtilsTests" time="0.0"/>
   <testcase name="testDelimitedListToStringArrayWithSemicolon" classname="org.springframework.util.StringUtilsTests" time="0.0"/>
   <testcase name="testConcatenateStringArrays" classname="org.springframework.util.StringUtilsTests" time="0.0"/>
   <testcase name="testCommaDelimitedListToStringArrayWithEmptyStringProducesEmptyArray" classname="org.springframework.util.StringUtilsTests" time="0.0"/>
-  <testcase name="testInvalidLocaleWithLanguageTag" classname="org.springframework.util.StringUtilsTests" time="0.0"/>
+  <testcase name="testInvalidLocaleWithLanguageTag" classname="org.springframework.util.StringUtilsTests" time="0.001"/>
   <testcase name="testSplitArrayElementsIntoPropertiesAndDeletedChars" classname="org.springframework.util.StringUtilsTests" time="0.0"/>
   <testcase name="testParseLocaleWithSameLowercaseTokenForLanguageAndCountry" classname="org.springframework.util.StringUtilsTests" time="0.0"/>
   <testcase name="testQuoteIfString" classname="org.springframework.util.StringUtilsTests" time="0.0"/>

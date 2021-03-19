@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.aop.interceptor.JamonPerformanceMonitorInterceptorTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2021-03-19T02:33:09" hostname="Dream.local" time="0.028">
+<testsuite name="org.springframework.aop.interceptor.JamonPerformanceMonitorInterceptorTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2021-03-19T10:44:56" hostname="Dream.local" time="0.024">
   <properties/>
-  <testcase name="testInvokeUnderTraceWithNormalProcessing" classname="org.springframework.aop.interceptor.JamonPerformanceMonitorInterceptorTests" time="0.025"/>
+  <testcase name="testInvokeUnderTraceWithNormalProcessing" classname="org.springframework.aop.interceptor.JamonPerformanceMonitorInterceptorTests" time="0.021"/>
   <testcase name="testInvokeUnderTraceWithExceptionTracking" classname="org.springframework.aop.interceptor.JamonPerformanceMonitorInterceptorTests" time="0.003"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.ejb.access.LocalSlsbInvokerInterceptorTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2021-03-19T02:34:57" hostname="Dream.local" time="0.023">
+<testsuite name="org.springframework.ejb.access.LocalSlsbInvokerInterceptorTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2021-03-19T10:47:06" hostname="Dream.local" time="0.026">
   <properties/>
-  <testcase name="testInvokesMethodOnEjbInstance" classname="org.springframework.ejb.access.LocalSlsbInvokerInterceptorTests" time="0.012"/>
-  <testcase name="testApplicationException" classname="org.springframework.ejb.access.LocalSlsbInvokerInterceptorTests" time="0.003"/>
-  <testcase name="testPerformsLookup" classname="org.springframework.ejb.access.LocalSlsbInvokerInterceptorTests" time="0.001"/>
-  <testcase name="testInvokesMethodOnEjbInstanceWithSeparateBusinessMethods" classname="org.springframework.ejb.access.LocalSlsbInvokerInterceptorTests" time="0.007"/>
-  <testcase name="testLookupFailure" classname="org.springframework.ejb.access.LocalSlsbInvokerInterceptorTests" time="0.0"/>
+  <testcase name="testInvokesMethodOnEjbInstance" classname="org.springframework.ejb.access.LocalSlsbInvokerInterceptorTests" time="0.015"/>
+  <testcase name="testApplicationException" classname="org.springframework.ejb.access.LocalSlsbInvokerInterceptorTests" time="0.004"/>
+  <testcase name="testPerformsLookup" classname="org.springframework.ejb.access.LocalSlsbInvokerInterceptorTests" time="0.0"/>
+  <testcase name="testInvokesMethodOnEjbInstanceWithSeparateBusinessMethods" classname="org.springframework.ejb.access.LocalSlsbInvokerInterceptorTests" time="0.006"/>
+  <testcase name="testLookupFailure" classname="org.springframework.ejb.access.LocalSlsbInvokerInterceptorTests" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

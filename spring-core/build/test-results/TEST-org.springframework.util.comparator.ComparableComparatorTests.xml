@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.util.comparator.ComparableComparatorTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2021-03-19T02:33:24" hostname="Dream.local" time="0.001">
+<testsuite name="org.springframework.util.comparator.ComparableComparatorTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2021-03-19T10:45:12" hostname="Dream.local" time="0.0">
   <properties/>
   <testcase name="testComparableComparator" classname="org.springframework.util.comparator.ComparableComparatorTests" time="0.0"/>
   <testcase name="shouldNeedComparable" classname="org.springframework.util.comparator.ComparableComparatorTests" time="0.0"/>

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.core.codec.ResourceEncoderTests" tests="12" skipped="0" failures="0" errors="0" timestamp="2021-03-19T02:33:22" hostname="Dream.local" time="0.013">
+<testsuite name="org.springframework.core.codec.ResourceEncoderTests" tests="12" skipped="0" failures="0" errors="0" timestamp="2021-03-19T10:45:09" hostname="Dream.local" time="0.012">
   <properties/>
-  <testcase name="encode[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.core.codec.ResourceEncoderTests" time="0.009"/>
+  <testcase name="encode[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.core.codec.ResourceEncoderTests" time="0.008"/>
   <testcase name="canEncode[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.core.codec.ResourceEncoderTests" time="0.0"/>
-  <testcase name="encode[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.core.codec.ResourceEncoderTests" time="0.001"/>
+  <testcase name="encode[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.core.codec.ResourceEncoderTests" time="0.0"/>
   <testcase name="canEncode[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.core.codec.ResourceEncoderTests" time="0.0"/>
   <testcase name="encode[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.core.codec.ResourceEncoderTests" time="0.0"/>
-  <testcase name="canEncode[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.core.codec.ResourceEncoderTests" time="0.0"/>
+  <testcase name="canEncode[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.core.codec.ResourceEncoderTests" time="0.001"/>
   <testcase name="encode[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.core.codec.ResourceEncoderTests" time="0.001"/>
   <testcase name="canEncode[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.core.codec.ResourceEncoderTests" time="0.0"/>
   <testcase name="encode[DefaultDataBufferFactory (preferDirect=true)]" classname="org.springframework.core.codec.ResourceEncoderTests" time="0.0"/>

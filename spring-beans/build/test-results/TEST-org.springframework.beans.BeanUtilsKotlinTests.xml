@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.beans.BeanUtilsKotlinTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2021-03-19T02:33:16" hostname="Dream.local" time="2.477">
+<testsuite name="org.springframework.beans.BeanUtilsKotlinTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2021-03-19T10:45:03" hostname="Dream.local" time="2.423">
   <properties/>
-  <testcase name="Instantiate immutable class with optional parameter and all parameters specified" classname="org.springframework.beans.BeanUtilsKotlinTests" time="2.448"/>
-  <testcase name="Instantiate immutable class with optional parameter and only mandatory parameters specified by position" classname="org.springframework.beans.BeanUtilsKotlinTests" time="0.025"/>
+  <testcase name="Instantiate immutable class with optional parameter and all parameters specified" classname="org.springframework.beans.BeanUtilsKotlinTests" time="2.4"/>
+  <testcase name="Instantiate immutable class with optional parameter and only mandatory parameters specified by position" classname="org.springframework.beans.BeanUtilsKotlinTests" time="0.018"/>
   <testcase name="Instantiate immutable class with optional parameter specified with null value" classname="org.springframework.beans.BeanUtilsKotlinTests" time="0.0"/>
   <testcase name="Instantiate mutable class with declared constructor and default values for all parameters" classname="org.springframework.beans.BeanUtilsKotlinTests" time="0.002"/>
-  <testcase name="Instantiate immutable class" classname="org.springframework.beans.BeanUtilsKotlinTests" time="0.001"/>
+  <testcase name="Instantiate immutable class" classname="org.springframework.beans.BeanUtilsKotlinTests" time="0.002"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

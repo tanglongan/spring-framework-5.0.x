@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.core.style.ToStringCreatorTests" tests="7" skipped="0" failures="0" errors="0" timestamp="2021-03-19T02:33:23" hostname="Dream.local" time="0.005">
+<testsuite name="org.springframework.core.style.ToStringCreatorTests" tests="7" skipped="0" failures="0" errors="0" timestamp="2021-03-19T10:45:11" hostname="Dream.local" time="0.005">
   <properties/>
-  <testcase name="appendList" classname="org.springframework.core.style.ToStringCreatorTests" time="0.004"/>
+  <testcase name="appendList" classname="org.springframework.core.style.ToStringCreatorTests" time="0.003"/>
   <testcase name="appendClass" classname="org.springframework.core.style.ToStringCreatorTests" time="0.0"/>
   <testcase name="primitiveArrays" classname="org.springframework.core.style.ToStringCreatorTests" time="0.0"/>
-  <testcase name="defaultStyleMap" classname="org.springframework.core.style.ToStringCreatorTests" time="0.001"/>
+  <testcase name="defaultStyleMap" classname="org.springframework.core.style.ToStringCreatorTests" time="0.0"/>
   <testcase name="defaultStyleArray" classname="org.springframework.core.style.ToStringCreatorTests" time="0.0"/>
   <testcase name="appendMethod" classname="org.springframework.core.style.ToStringCreatorTests" time="0.0"/>
   <testcase name="appendSet" classname="org.springframework.core.style.ToStringCreatorTests" time="0.0"/>

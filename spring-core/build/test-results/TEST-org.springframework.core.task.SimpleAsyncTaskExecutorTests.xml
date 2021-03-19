@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.core.task.SimpleAsyncTaskExecutorTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2021-03-19T02:33:24" hostname="Dream.local" time="0.005">
+<testsuite name="org.springframework.core.task.SimpleAsyncTaskExecutorTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2021-03-19T10:45:11" hostname="Dream.local" time="0.003">
   <properties/>
-  <testcase name="threadFactoryOverridesDefaults" classname="org.springframework.core.task.SimpleAsyncTaskExecutorTests" time="0.003"/>
+  <testcase name="threadFactoryOverridesDefaults" classname="org.springframework.core.task.SimpleAsyncTaskExecutorTests" time="0.002"/>
   <testcase name="threadNameGetsSetCorrectly" classname="org.springframework.core.task.SimpleAsyncTaskExecutorTests" time="0.001"/>
   <testcase name="cannotExecuteWhenConcurrencyIsSwitchedOff" classname="org.springframework.core.task.SimpleAsyncTaskExecutorTests" time="0.0"/>
   <testcase name="throttleIsNotActiveByDefault" classname="org.springframework.core.task.SimpleAsyncTaskExecutorTests" time="0.0"/>

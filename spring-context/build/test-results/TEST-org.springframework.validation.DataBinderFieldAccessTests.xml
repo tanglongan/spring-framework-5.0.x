@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.validation.DataBinderFieldAccessTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2021-03-19T02:34:58" hostname="Dream.local" time="0.005">
+<testsuite name="org.springframework.validation.DataBinderFieldAccessTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2021-03-19T10:47:07" hostname="Dream.local" time="0.004">
   <properties/>
   <testcase name="nestedBindingWithDisabledAutoGrow" classname="org.springframework.validation.DataBinderFieldAccessTests" time="0.001"/>
-  <testcase name="bindingNoErrorsNotIgnoreUnknown" classname="org.springframework.validation.DataBinderFieldAccessTests" time="0.002"/>
+  <testcase name="bindingNoErrorsNotIgnoreUnknown" classname="org.springframework.validation.DataBinderFieldAccessTests" time="0.001"/>
   <testcase name="bindingWithErrorsAndCustomEditors" classname="org.springframework.validation.DataBinderFieldAccessTests" time="0.001"/>
-  <testcase name="bindingWithErrors" classname="org.springframework.validation.DataBinderFieldAccessTests" time="0.0"/>
+  <testcase name="bindingWithErrors" classname="org.springframework.validation.DataBinderFieldAccessTests" time="0.001"/>
   <testcase name="nestedBindingWithDefaultConversionNoErrors" classname="org.springframework.validation.DataBinderFieldAccessTests" time="0.0"/>
   <testcase name="bindingNoErrors" classname="org.springframework.validation.DataBinderFieldAccessTests" time="0.0"/>
   <system-out><![CDATA[]]></system-out>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.context.groovy.GroovyApplicationContextDynamicBeanPropertyTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2021-03-19T02:34:58" hostname="Dream.local" time="0.057">
+<testsuite name="org.springframework.context.groovy.GroovyApplicationContextDynamicBeanPropertyTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2021-03-19T10:47:07" hostname="Dream.local" time="0.063">
   <properties/>
-  <testcase name="testAccessDynamicBeanProperties" classname="org.springframework.context.groovy.GroovyApplicationContextDynamicBeanPropertyTests" time="0.03"/>
+  <testcase name="testAccessDynamicBeanProperties" classname="org.springframework.context.groovy.GroovyApplicationContextDynamicBeanPropertyTests" time="0.036"/>
   <testcase name="testAccessingNonExistentBeanViaDynamicProperty" classname="org.springframework.context.groovy.GroovyApplicationContextDynamicBeanPropertyTests" time="0.027"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>

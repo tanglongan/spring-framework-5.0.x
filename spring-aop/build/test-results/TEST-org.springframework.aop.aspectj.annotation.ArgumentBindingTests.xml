@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.aop.aspectj.annotation.ArgumentBindingTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2021-03-19T02:33:08" hostname="Dream.local" time="0.011">
+<testsuite name="org.springframework.aop.aspectj.annotation.ArgumentBindingTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2021-03-19T10:44:55" hostname="Dream.local" time="0.011">
   <properties/>
   <testcase name="testAnnotationArgumentNameBinding" classname="org.springframework.aop.aspectj.annotation.ArgumentBindingTests" time="0.007"/>
   <testcase name="testParameterNameDiscoverWithReferencePointcut" classname="org.springframework.aop.aspectj.annotation.ArgumentBindingTests" time="0.0"/>

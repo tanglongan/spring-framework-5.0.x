@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.core.annotation.OrderUtilsTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2021-03-19T02:33:23" hostname="Dream.local" time="0.004">
+<testsuite name="org.springframework.core.annotation.OrderUtilsTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2021-03-19T10:45:10" hostname="Dream.local" time="0.004">
   <properties/>
   <testcase name="getSimpleOrder" classname="org.springframework.core.annotation.OrderUtilsTests" time="0.001"/>
   <testcase name="getPriorityOrder" classname="org.springframework.core.annotation.OrderUtilsTests" time="0.001"/>

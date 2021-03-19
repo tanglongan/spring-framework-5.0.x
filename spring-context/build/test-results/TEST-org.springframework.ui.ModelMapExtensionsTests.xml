@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.ui.ModelMapExtensionsTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-03-19T02:34:58" hostname="Dream.local" time="0.007">
+<testsuite name="org.springframework.ui.ModelMapExtensionsTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-03-19T10:47:07" hostname="Dream.local" time="0.005">
   <properties/>
-  <testcase name="setAttribute" classname="org.springframework.ui.ModelMapExtensionsTests" time="0.007"/>
+  <testcase name="setAttribute" classname="org.springframework.ui.ModelMapExtensionsTests" time="0.005"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

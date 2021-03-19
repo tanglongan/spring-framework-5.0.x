@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.beans.factory.FactoryBeanLookupTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2021-03-19T02:33:13" hostname="Dream.local" time="0.033">
+<testsuite name="org.springframework.beans.factory.FactoryBeanLookupTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2021-03-19T10:45:01" hostname="Dream.local" time="0.03">
   <properties/>
-  <testcase name="factoryBeanLookupByNameDereferencing" classname="org.springframework.beans.factory.FactoryBeanLookupTests" time="0.009"/>
+  <testcase name="factoryBeanLookupByNameDereferencing" classname="org.springframework.beans.factory.FactoryBeanLookupTests" time="0.006"/>
   <testcase name="factoryBeanLookupByType" classname="org.springframework.beans.factory.FactoryBeanLookupTests" time="0.005"/>
-  <testcase name="factoryBeanObjectLookupByName" classname="org.springframework.beans.factory.FactoryBeanLookupTests" time="0.005"/>
+  <testcase name="factoryBeanObjectLookupByName" classname="org.springframework.beans.factory.FactoryBeanLookupTests" time="0.006"/>
   <testcase name="factoryBeanObjectLookupByNameAndType" classname="org.springframework.beans.factory.FactoryBeanLookupTests" time="0.006"/>
-  <testcase name="factoryBeanLookupByTypeAndNameDereference" classname="org.springframework.beans.factory.FactoryBeanLookupTests" time="0.007"/>
+  <testcase name="factoryBeanLookupByTypeAndNameDereference" classname="org.springframework.beans.factory.FactoryBeanLookupTests" time="0.006"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.scripting.groovy.GroovyScriptEvaluatorTests" tests="8" skipped="0" failures="0" errors="0" timestamp="2021-03-19T02:34:29" hostname="Dream.local" time="0.066">
+<testsuite name="org.springframework.scripting.groovy.GroovyScriptEvaluatorTests" tests="8" skipped="0" failures="0" errors="0" timestamp="2021-03-19T10:46:38" hostname="Dream.local" time="0.06">
   <properties/>
-  <testcase name="testGroovyScriptWithArguments" classname="org.springframework.scripting.groovy.GroovyScriptEvaluatorTests" time="0.019"/>
-  <testcase name="testGroovyScriptWithImportCustomizer" classname="org.springframework.scripting.groovy.GroovyScriptEvaluatorTests" time="0.01"/>
-  <testcase name="testGroovyScriptFromFileUsingJsr223" classname="org.springframework.scripting.groovy.GroovyScriptEvaluatorTests" time="0.007"/>
-  <testcase name="testGroovyScriptWithArgumentsUsingJsr223" classname="org.springframework.scripting.groovy.GroovyScriptEvaluatorTests" time="0.007"/>
+  <testcase name="testGroovyScriptWithArguments" classname="org.springframework.scripting.groovy.GroovyScriptEvaluatorTests" time="0.016"/>
+  <testcase name="testGroovyScriptWithImportCustomizer" classname="org.springframework.scripting.groovy.GroovyScriptEvaluatorTests" time="0.009"/>
+  <testcase name="testGroovyScriptFromFileUsingJsr223" classname="org.springframework.scripting.groovy.GroovyScriptEvaluatorTests" time="0.006"/>
+  <testcase name="testGroovyScriptWithArgumentsUsingJsr223" classname="org.springframework.scripting.groovy.GroovyScriptEvaluatorTests" time="0.008"/>
   <testcase name="testGroovyScriptFromFile" classname="org.springframework.scripting.groovy.GroovyScriptEvaluatorTests" time="0.007"/>
   <testcase name="testGroovyScriptFromStringUsingJsr223" classname="org.springframework.scripting.groovy.GroovyScriptEvaluatorTests" time="0.006"/>
-  <testcase name="testGroovyScriptWithCompilerConfiguration" classname="org.springframework.scripting.groovy.GroovyScriptEvaluatorTests" time="0.005"/>
-  <testcase name="testGroovyScriptFromString" classname="org.springframework.scripting.groovy.GroovyScriptEvaluatorTests" time="0.005"/>
+  <testcase name="testGroovyScriptWithCompilerConfiguration" classname="org.springframework.scripting.groovy.GroovyScriptEvaluatorTests" time="0.004"/>
+  <testcase name="testGroovyScriptFromString" classname="org.springframework.scripting.groovy.GroovyScriptEvaluatorTests" time="0.004"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

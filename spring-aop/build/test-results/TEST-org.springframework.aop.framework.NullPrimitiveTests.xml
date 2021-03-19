@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.aop.framework.NullPrimitiveTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2021-03-19T02:33:06" hostname="Dream.local" time="0.018">
+<testsuite name="org.springframework.aop.framework.NullPrimitiveTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2021-03-19T10:44:54" hostname="Dream.local" time="0.019">
   <properties/>
-  <testcase name="testNullPrimitiveWithCglibProxy" classname="org.springframework.aop.framework.NullPrimitiveTests" time="0.014"/>
+  <testcase name="testNullPrimitiveWithCglibProxy" classname="org.springframework.aop.framework.NullPrimitiveTests" time="0.015"/>
   <testcase name="testNullPrimitiveWithJdkProxy" classname="org.springframework.aop.framework.NullPrimitiveTests" time="0.004"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>

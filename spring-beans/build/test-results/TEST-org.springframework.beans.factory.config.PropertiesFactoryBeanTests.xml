@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.beans.factory.config.PropertiesFactoryBeanTests" tests="7" skipped="0" failures="0" errors="0" timestamp="2021-03-19T02:33:13" hostname="Dream.local" time="0.006">
+<testsuite name="org.springframework.beans.factory.config.PropertiesFactoryBeanTests" tests="7" skipped="0" failures="0" errors="0" timestamp="2021-03-19T10:45:00" hostname="Dream.local" time="0.005">
   <properties/>
-  <testcase name="testWithPrototype" classname="org.springframework.beans.factory.config.PropertiesFactoryBeanTests" time="0.001"/>
-  <testcase name="testWithPropertiesFileAndMultipleLocalProperties" classname="org.springframework.beans.factory.config.PropertiesFactoryBeanTests" time="0.0"/>
-  <testcase name="testWithPropertiesXmlFile" classname="org.springframework.beans.factory.config.PropertiesFactoryBeanTests" time="0.004"/>
+  <testcase name="testWithPrototype" classname="org.springframework.beans.factory.config.PropertiesFactoryBeanTests" time="0.0"/>
+  <testcase name="testWithPropertiesFileAndMultipleLocalProperties" classname="org.springframework.beans.factory.config.PropertiesFactoryBeanTests" time="0.001"/>
+  <testcase name="testWithPropertiesXmlFile" classname="org.springframework.beans.factory.config.PropertiesFactoryBeanTests" time="0.003"/>
   <testcase name="testWithPropertiesFileAndLocalProperties" classname="org.springframework.beans.factory.config.PropertiesFactoryBeanTests" time="0.0"/>
   <testcase name="testWithLocalProperties" classname="org.springframework.beans.factory.config.PropertiesFactoryBeanTests" time="0.0"/>
   <testcase name="testWithPropertiesFile" classname="org.springframework.beans.factory.config.PropertiesFactoryBeanTests" time="0.001"/>

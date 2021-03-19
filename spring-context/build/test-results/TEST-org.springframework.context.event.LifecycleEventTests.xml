@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.context.event.LifecycleEventTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2021-03-19T02:34:25" hostname="Dream.local" time="0.002">
+<testsuite name="org.springframework.context.event.LifecycleEventTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2021-03-19T10:46:34" hostname="Dream.local" time="0.002">
   <properties/>
   <testcase name="contextStoppedEvent" classname="org.springframework.context.event.LifecycleEventTests" time="0.001"/>
   <testcase name="contextStartedEvent" classname="org.springframework.context.event.LifecycleEventTests" time="0.001"/>

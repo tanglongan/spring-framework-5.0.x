@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.jndi.JndiTemplateEditorTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2021-03-19T02:34:56" hostname="Dream.local" time="0.001">
+<testsuite name="org.springframework.jndi.JndiTemplateEditorTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2021-03-19T10:47:04" hostname="Dream.local" time="0.001">
   <properties/>
   <testcase name="testCustomEnvironment" classname="org.springframework.jndi.JndiTemplateEditorTests" time="0.001"/>
   <testcase name="testNullIsIllegalArgument" classname="org.springframework.jndi.JndiTemplateEditorTests" time="0.0"/>

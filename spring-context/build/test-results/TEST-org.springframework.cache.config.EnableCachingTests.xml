@@ -1,77 +1,77 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.cache.config.EnableCachingTests" tests="68" skipped="0" failures="0" errors="0" timestamp="2021-03-19T02:34:33" hostname="Dream.local" time="0.69">
+<testsuite name="org.springframework.cache.config.EnableCachingTests" tests="68" skipped="0" failures="0" errors="0" timestamp="2021-03-19T10:46:41" hostname="Dream.local" time="0.689">
   <properties/>
-  <testcase name="multipleCacheManagerBeans_implementsCachingConfigurer" classname="org.springframework.cache.config.EnableCachingTests" time="0.038"/>
-  <testcase name="bothSetOnlyResolverIsUsed" classname="org.springframework.cache.config.EnableCachingTests" time="0.054"/>
-  <testcase name="emptyConfigSupport" classname="org.springframework.cache.config.EnableCachingTests" time="0.018"/>
-  <testcase name="testKeyStrategy" classname="org.springframework.cache.config.EnableCachingTests" time="0.008"/>
-  <testcase name="testCacheErrorHandler" classname="org.springframework.cache.config.EnableCachingTests" time="0.008"/>
-  <testcase name="multipleCacheManagerBeans" classname="org.springframework.cache.config.EnableCachingTests" time="0.024"/>
-  <testcase name="multipleCachingConfigurers" classname="org.springframework.cache.config.EnableCachingTests" time="0.016"/>
-  <testcase name="noCacheManagerBeans" classname="org.springframework.cache.config.EnableCachingTests" time="0.018"/>
-  <testcase name="singleCacheManagerBean" classname="org.springframework.cache.config.EnableCachingTests" time="0.02"/>
+  <testcase name="multipleCacheManagerBeans_implementsCachingConfigurer" classname="org.springframework.cache.config.EnableCachingTests" time="0.031"/>
+  <testcase name="bothSetOnlyResolverIsUsed" classname="org.springframework.cache.config.EnableCachingTests" time="0.022"/>
+  <testcase name="emptyConfigSupport" classname="org.springframework.cache.config.EnableCachingTests" time="0.026"/>
+  <testcase name="testKeyStrategy" classname="org.springframework.cache.config.EnableCachingTests" time="0.009"/>
+  <testcase name="testCacheErrorHandler" classname="org.springframework.cache.config.EnableCachingTests" time="0.01"/>
+  <testcase name="multipleCacheManagerBeans" classname="org.springframework.cache.config.EnableCachingTests" time="0.021"/>
+  <testcase name="multipleCachingConfigurers" classname="org.springframework.cache.config.EnableCachingTests" time="0.019"/>
+  <testcase name="noCacheManagerBeans" classname="org.springframework.cache.config.EnableCachingTests" time="0.019"/>
+  <testcase name="singleCacheManagerBean" classname="org.springframework.cache.config.EnableCachingTests" time="0.021"/>
   <testcase name="testMultiConditionalCacheAndEvict" classname="org.springframework.cache.config.EnableCachingTests" time="0.008"/>
-  <testcase name="testClassCheckedExceptionSync" classname="org.springframework.cache.config.EnableCachingTests" time="0.011"/>
-  <testcase name="testKeyExpression" classname="org.springframework.cache.config.EnableCachingTests" time="0.008"/>
-  <testcase name="testConditionalUpdate" classname="org.springframework.cache.config.EnableCachingTests" time="0.008"/>
-  <testcase name="testClassMultiCacheAndEvict" classname="org.springframework.cache.config.EnableCachingTests" time="0.008"/>
-  <testcase name="testCacheableSyncNull" classname="org.springframework.cache.config.EnableCachingTests" time="0.009"/>
-  <testcase name="testUnknownCustomKeyGenerator" classname="org.springframework.cache.config.EnableCachingTests" time="0.011"/>
-  <testcase name="testClassRootVars" classname="org.springframework.cache.config.EnableCachingTests" time="0.011"/>
-  <testcase name="testMethodName" classname="org.springframework.cache.config.EnableCachingTests" time="0.01"/>
+  <testcase name="testClassCheckedExceptionSync" classname="org.springframework.cache.config.EnableCachingTests" time="0.012"/>
+  <testcase name="testKeyExpression" classname="org.springframework.cache.config.EnableCachingTests" time="0.016"/>
+  <testcase name="testConditionalUpdate" classname="org.springframework.cache.config.EnableCachingTests" time="0.015"/>
+  <testcase name="testClassMultiCacheAndEvict" classname="org.springframework.cache.config.EnableCachingTests" time="0.015"/>
+  <testcase name="testCacheableSyncNull" classname="org.springframework.cache.config.EnableCachingTests" time="0.01"/>
+  <testcase name="testUnknownCustomKeyGenerator" classname="org.springframework.cache.config.EnableCachingTests" time="0.01"/>
+  <testcase name="testClassRootVars" classname="org.springframework.cache.config.EnableCachingTests" time="0.009"/>
+  <testcase name="testMethodName" classname="org.springframework.cache.config.EnableCachingTests" time="0.008"/>
   <testcase name="testEvictWithException" classname="org.springframework.cache.config.EnableCachingTests" time="0.009"/>
-  <testcase name="testClassUpdate" classname="org.springframework.cache.config.EnableCachingTests" time="0.007"/>
+  <testcase name="testClassUpdate" classname="org.springframework.cache.config.EnableCachingTests" time="0.008"/>
   <testcase name="testClassEarlyInvalidate" classname="org.springframework.cache.config.EnableCachingTests" time="0.008"/>
-  <testcase name="testCustomCacheManager" classname="org.springframework.cache.config.EnableCachingTests" time="0.008"/>
-  <testcase name="testCheckedExceptionSync" classname="org.springframework.cache.config.EnableCachingTests" time="0.008"/>
-  <testcase name="testClassNullArg" classname="org.springframework.cache.config.EnableCachingTests" time="0.007"/>
-  <testcase name="testClassEvictAll" classname="org.springframework.cache.config.EnableCachingTests" time="0.007"/>
-  <testcase name="testPutRefersToResult" classname="org.springframework.cache.config.EnableCachingTests" time="0.007"/>
-  <testcase name="testClassCacheUnlessExpression" classname="org.springframework.cache.config.EnableCachingTests" time="0.01"/>
-  <testcase name="testConditionalExpressionSync" classname="org.springframework.cache.config.EnableCachingTests" time="0.008"/>
+  <testcase name="testCustomCacheManager" classname="org.springframework.cache.config.EnableCachingTests" time="0.009"/>
+  <testcase name="testCheckedExceptionSync" classname="org.springframework.cache.config.EnableCachingTests" time="0.011"/>
+  <testcase name="testClassNullArg" classname="org.springframework.cache.config.EnableCachingTests" time="0.013"/>
+  <testcase name="testClassEvictAll" classname="org.springframework.cache.config.EnableCachingTests" time="0.011"/>
+  <testcase name="testPutRefersToResult" classname="org.springframework.cache.config.EnableCachingTests" time="0.011"/>
+  <testcase name="testClassCacheUnlessExpression" classname="org.springframework.cache.config.EnableCachingTests" time="0.008"/>
+  <testcase name="testConditionalExpressionSync" classname="org.springframework.cache.config.EnableCachingTests" time="0.01"/>
   <testcase name="testClassConditionalUpdate" classname="org.springframework.cache.config.EnableCachingTests" time="0.008"/>
-  <testcase name="testConditionalExpression" classname="org.springframework.cache.config.EnableCachingTests" time="0.007"/>
+  <testcase name="testConditionalExpression" classname="org.springframework.cache.config.EnableCachingTests" time="0.009"/>
   <testcase name="testClassMultiPut" classname="org.springframework.cache.config.EnableCachingTests" time="0.008"/>
-  <testcase name="testInvalidateWithKey" classname="org.springframework.cache.config.EnableCachingTests" time="0.007"/>
-  <testcase name="testEarlyInvalidate" classname="org.springframework.cache.config.EnableCachingTests" time="0.01"/>
-  <testcase name="testClassUncheckedException" classname="org.springframework.cache.config.EnableCachingTests" time="0.008"/>
-  <testcase name="testClassNullValue" classname="org.springframework.cache.config.EnableCachingTests" time="0.009"/>
+  <testcase name="testInvalidateWithKey" classname="org.springframework.cache.config.EnableCachingTests" time="0.008"/>
+  <testcase name="testEarlyInvalidate" classname="org.springframework.cache.config.EnableCachingTests" time="0.009"/>
+  <testcase name="testClassUncheckedException" classname="org.springframework.cache.config.EnableCachingTests" time="0.009"/>
+  <testcase name="testClassNullValue" classname="org.springframework.cache.config.EnableCachingTests" time="0.008"/>
   <testcase name="testEarlyInvalidateWithKey" classname="org.springframework.cache.config.EnableCachingTests" time="0.008"/>
   <testcase name="testClassEarlyInvalidateWithKey" classname="org.springframework.cache.config.EnableCachingTests" time="0.008"/>
-  <testcase name="testUncheckedExceptionSync" classname="org.springframework.cache.config.EnableCachingTests" time="0.008"/>
-  <testcase name="testClassUncheckedExceptionSync" classname="org.springframework.cache.config.EnableCachingTests" time="0.007"/>
-  <testcase name="testClassCacheCacheable" classname="org.springframework.cache.config.EnableCachingTests" time="0.007"/>
-  <testcase name="testClassMethodName" classname="org.springframework.cache.config.EnableCachingTests" time="0.008"/>
-  <testcase name="testCustomKeyGenerator" classname="org.springframework.cache.config.EnableCachingTests" time="0.008"/>
+  <testcase name="testUncheckedExceptionSync" classname="org.springframework.cache.config.EnableCachingTests" time="0.012"/>
+  <testcase name="testClassUncheckedExceptionSync" classname="org.springframework.cache.config.EnableCachingTests" time="0.012"/>
+  <testcase name="testClassCacheCacheable" classname="org.springframework.cache.config.EnableCachingTests" time="0.008"/>
+  <testcase name="testClassMethodName" classname="org.springframework.cache.config.EnableCachingTests" time="0.007"/>
+  <testcase name="testCustomKeyGenerator" classname="org.springframework.cache.config.EnableCachingTests" time="0.007"/>
   <testcase name="testCacheable" classname="org.springframework.cache.config.EnableCachingTests" time="0.007"/>
-  <testcase name="testCheckedException" classname="org.springframework.cache.config.EnableCachingTests" time="0.008"/>
-  <testcase name="testClassPutRefersToResult" classname="org.springframework.cache.config.EnableCachingTests" time="0.008"/>
+  <testcase name="testCheckedException" classname="org.springframework.cache.config.EnableCachingTests" time="0.007"/>
+  <testcase name="testClassPutRefersToResult" classname="org.springframework.cache.config.EnableCachingTests" time="0.006"/>
   <testcase name="testVarArgsKey" classname="org.springframework.cache.config.EnableCachingTests" time="0.007"/>
-  <testcase name="testMultiCache" classname="org.springframework.cache.config.EnableCachingTests" time="0.008"/>
-  <testcase name="testMultiEvict" classname="org.springframework.cache.config.EnableCachingTests" time="0.008"/>
+  <testcase name="testMultiCache" classname="org.springframework.cache.config.EnableCachingTests" time="0.007"/>
+  <testcase name="testMultiEvict" classname="org.springframework.cache.config.EnableCachingTests" time="0.007"/>
   <testcase name="testMultiCacheAndEvict" classname="org.springframework.cache.config.EnableCachingTests" time="0.007"/>
-  <testcase name="testRootVars" classname="org.springframework.cache.config.EnableCachingTests" time="0.012"/>
-  <testcase name="testClassMultiConditionalCacheAndEvict" classname="org.springframework.cache.config.EnableCachingTests" time="0.009"/>
-  <testcase name="testClassCacheInvalidateWKey" classname="org.springframework.cache.config.EnableCachingTests" time="0.008"/>
-  <testcase name="testClassEvictWithException" classname="org.springframework.cache.config.EnableCachingTests" time="0.008"/>
-  <testcase name="testClassCheckedException" classname="org.springframework.cache.config.EnableCachingTests" time="0.009"/>
+  <testcase name="testRootVars" classname="org.springframework.cache.config.EnableCachingTests" time="0.008"/>
+  <testcase name="testClassMultiConditionalCacheAndEvict" classname="org.springframework.cache.config.EnableCachingTests" time="0.007"/>
+  <testcase name="testClassCacheInvalidateWKey" classname="org.springframework.cache.config.EnableCachingTests" time="0.007"/>
+  <testcase name="testClassEvictWithException" classname="org.springframework.cache.config.EnableCachingTests" time="0.007"/>
+  <testcase name="testClassCheckedException" classname="org.springframework.cache.config.EnableCachingTests" time="0.007"/>
   <testcase name="testUnlessExpression" classname="org.springframework.cache.config.EnableCachingTests" time="0.007"/>
-  <testcase name="testEvictAll" classname="org.springframework.cache.config.EnableCachingTests" time="0.007"/>
+  <testcase name="testEvictAll" classname="org.springframework.cache.config.EnableCachingTests" time="0.009"/>
   <testcase name="testCacheableNull" classname="org.springframework.cache.config.EnableCachingTests" time="0.007"/>
-  <testcase name="testCacheableSync" classname="org.springframework.cache.config.EnableCachingTests" time="0.008"/>
-  <testcase name="testClassCacheInvalidate" classname="org.springframework.cache.config.EnableCachingTests" time="0.008"/>
+  <testcase name="testCacheableSync" classname="org.springframework.cache.config.EnableCachingTests" time="0.006"/>
+  <testcase name="testClassCacheInvalidate" classname="org.springframework.cache.config.EnableCachingTests" time="0.006"/>
   <testcase name="testMultiPut" classname="org.springframework.cache.config.EnableCachingTests" time="0.008"/>
-  <testcase name="testUnknownCustomCacheManager" classname="org.springframework.cache.config.EnableCachingTests" time="0.008"/>
+  <testcase name="testUnknownCustomCacheManager" classname="org.springframework.cache.config.EnableCachingTests" time="0.007"/>
   <testcase name="testUncheckedException" classname="org.springframework.cache.config.EnableCachingTests" time="0.007"/>
   <testcase name="testNullValue" classname="org.springframework.cache.config.EnableCachingTests" time="0.007"/>
-  <testcase name="testInvalidate" classname="org.springframework.cache.config.EnableCachingTests" time="0.008"/>
-  <testcase name="testUpdate" classname="org.springframework.cache.config.EnableCachingTests" time="0.008"/>
+  <testcase name="testInvalidate" classname="org.springframework.cache.config.EnableCachingTests" time="0.006"/>
+  <testcase name="testUpdate" classname="org.springframework.cache.config.EnableCachingTests" time="0.007"/>
   <testcase name="testNullArg" classname="org.springframework.cache.config.EnableCachingTests" time="0.007"/>
-  <testcase name="testClassMultiCache" classname="org.springframework.cache.config.EnableCachingTests" time="0.01"/>
-  <testcase name="testClassMultiEvict" classname="org.springframework.cache.config.EnableCachingTests" time="0.01"/>
-  <system-out><![CDATA[10:34:33.421 [Test worker] WARN  org.springframework.context.annotation.AnnotationConfigApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.context.event.internalEventListenerProcessor': Initialization of bean failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.cache.annotation.ProxyCachingConfiguration': Injection of autowired dependencies failed; nested exception is java.lang.IllegalStateException: 2 implementations of CachingConfigurer were found when only 1 was expected. Refactor the configuration such that CachingConfigurer is implemented only once or not at all.
+  <testcase name="testClassMultiCache" classname="org.springframework.cache.config.EnableCachingTests" time="0.009"/>
+  <testcase name="testClassMultiEvict" classname="org.springframework.cache.config.EnableCachingTests" time="0.008"/>
+  <system-out><![CDATA[18:46:42.067 [Test worker] WARN  org.springframework.context.annotation.AnnotationConfigApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.context.event.internalEventListenerProcessor': Initialization of bean failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.cache.annotation.ProxyCachingConfiguration': Injection of autowired dependencies failed; nested exception is java.lang.IllegalStateException: 2 implementations of CachingConfigurer were found when only 1 was expected. Refactor the configuration such that CachingConfigurer is implemented only once or not at all.
 ]]></system-out>
-  <system-err><![CDATA[java.io.IOException: 0b228641-9a0d-4c49-bff4-d5d3f99ee528
+  <system-err><![CDATA[java.io.IOException: 714aa361-40a7-4228-8e82-f973c567ab32
 	at org.springframework.cache.config.AnnotatedClassCacheableService.throwCheckedSync(AnnotatedClassCacheableService.java:194)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
@@ -140,7 +140,7 @@
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
 	at java.lang.Thread.run(Thread.java:748)
-java.io.IOException: cf9e1667-8a14-455b-a79a-63681964f036
+java.io.IOException: 15ab458d-06f2-4446-9dcb-8d1bef8d32b7
 	at org.springframework.cache.config.DefaultCacheableService.throwCheckedSync(DefaultCacheableService.java:203)
 	at org.springframework.cache.config.DefaultCacheableService.throwCheckedSync(DefaultCacheableService.java:34)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)

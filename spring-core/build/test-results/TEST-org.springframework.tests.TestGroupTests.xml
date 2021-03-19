@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.tests.TestGroupTests" tests="9" skipped="0" failures="0" errors="0" timestamp="2021-03-19T02:33:29" hostname="Dream.local" time="0.001">
+<testsuite name="org.springframework.tests.TestGroupTests" tests="9" skipped="0" failures="0" errors="0" timestamp="2021-03-19T10:45:16" hostname="Dream.local" time="0.001">
   <properties/>
   <testcase name="parseNull" classname="org.springframework.tests.TestGroupTests" time="0.0"/>
   <testcase name="parseInMixedCase" classname="org.springframework.tests.TestGroupTests" time="0.0"/>
-  <testcase name="parseMissing" classname="org.springframework.tests.TestGroupTests" time="0.0"/>
+  <testcase name="parseMissing" classname="org.springframework.tests.TestGroupTests" time="0.001"/>
   <testcase name="parseAllExceptMissing" classname="org.springframework.tests.TestGroupTests" time="0.0"/>
-  <testcase name="parseEmptyString" classname="org.springframework.tests.TestGroupTests" time="0.001"/>
+  <testcase name="parseEmptyString" classname="org.springframework.tests.TestGroupTests" time="0.0"/>
   <testcase name="parseAll" classname="org.springframework.tests.TestGroupTests" time="0.0"/>
   <testcase name="parseWithSpaces" classname="org.springframework.tests.TestGroupTests" time="0.0"/>
   <testcase name="parseBlankString" classname="org.springframework.tests.TestGroupTests" time="0.0"/>

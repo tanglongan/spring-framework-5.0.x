@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.scripting.config.ScriptingDefaultsTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2021-03-19T02:34:25" hostname="Dream.local" time="0.245">
+<testsuite name="org.springframework.scripting.config.ScriptingDefaultsTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2021-03-19T10:46:34" hostname="Dream.local" time="0.254">
   <properties/>
-  <testcase name="defaultAutowire" classname="org.springframework.scripting.config.ScriptingDefaultsTests" time="0.08"/>
-  <testcase name="nameAsAlias" classname="org.springframework.scripting.config.ScriptingDefaultsTests" time="0.034"/>
-  <testcase name="defaultInitMethod" classname="org.springframework.scripting.config.ScriptingDefaultsTests" time="0.039"/>
-  <testcase name="defaultProxyTargetClass" classname="org.springframework.scripting.config.ScriptingDefaultsTests" time="0.024"/>
-  <testcase name="defaultRefreshCheckDelay" classname="org.springframework.scripting.config.ScriptingDefaultsTests" time="0.027"/>
-  <testcase name="defaultDestroyMethod" classname="org.springframework.scripting.config.ScriptingDefaultsTests" time="0.041"/>
+  <testcase name="defaultAutowire" classname="org.springframework.scripting.config.ScriptingDefaultsTests" time="0.083"/>
+  <testcase name="nameAsAlias" classname="org.springframework.scripting.config.ScriptingDefaultsTests" time="0.029"/>
+  <testcase name="defaultInitMethod" classname="org.springframework.scripting.config.ScriptingDefaultsTests" time="0.036"/>
+  <testcase name="defaultProxyTargetClass" classname="org.springframework.scripting.config.ScriptingDefaultsTests" time="0.03"/>
+  <testcase name="defaultRefreshCheckDelay" classname="org.springframework.scripting.config.ScriptingDefaultsTests" time="0.031"/>
+  <testcase name="defaultDestroyMethod" classname="org.springframework.scripting.config.ScriptingDefaultsTests" time="0.043"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

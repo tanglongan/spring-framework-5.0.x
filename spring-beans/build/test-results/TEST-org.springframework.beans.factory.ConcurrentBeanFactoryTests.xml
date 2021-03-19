@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.beans.factory.ConcurrentBeanFactoryTests" tests="2" skipped="2" failures="0" errors="0" timestamp="2021-03-19T02:33:13" hostname="Dream.local" time="0.0">
+<testsuite name="org.springframework.beans.factory.ConcurrentBeanFactoryTests" tests="2" skipped="2" failures="0" errors="0" timestamp="2021-03-19T10:45:01" hostname="Dream.local" time="0.0">
   <properties/>
   <testcase name="testSingleThread" classname="org.springframework.beans.factory.ConcurrentBeanFactoryTests" time="0.0">
     <skipped/>

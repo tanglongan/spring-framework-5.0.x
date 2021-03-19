@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.aop.interceptor.ConcurrencyThrottleInterceptorTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2021-03-19T02:33:08" hostname="Dream.local" time="0.281">
+<testsuite name="org.springframework.aop.interceptor.ConcurrencyThrottleInterceptorTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2021-03-19T10:44:56" hostname="Dream.local" time="0.275">
   <properties/>
-  <testcase name="testMultipleThreadsWithLimit1" classname="org.springframework.aop.interceptor.ConcurrencyThrottleInterceptorTests" time="0.202"/>
-  <testcase name="testMultipleThreadsWithLimit10" classname="org.springframework.aop.interceptor.ConcurrencyThrottleInterceptorTests" time="0.073"/>
-  <testcase name="testSerializable" classname="org.springframework.aop.interceptor.ConcurrencyThrottleInterceptorTests" time="0.005"/>
+  <testcase name="testMultipleThreadsWithLimit1" classname="org.springframework.aop.interceptor.ConcurrencyThrottleInterceptorTests" time="0.205"/>
+  <testcase name="testMultipleThreadsWithLimit10" classname="org.springframework.aop.interceptor.ConcurrencyThrottleInterceptorTests" time="0.061"/>
+  <testcase name="testSerializable" classname="org.springframework.aop.interceptor.ConcurrencyThrottleInterceptorTests" time="0.007"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

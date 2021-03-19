@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.scheduling.annotation.AsyncAnnotationBeanPostProcessorTests" tests="11" skipped="0" failures="0" errors="0" timestamp="2021-03-19T02:34:41" hostname="Dream.local" time="0.047">
+<testsuite name="org.springframework.scheduling.annotation.AsyncAnnotationBeanPostProcessorTests" tests="11" skipped="0" failures="0" errors="0" timestamp="2021-03-19T10:46:50" hostname="Dream.local" time="0.045">
   <properties/>
-  <testcase name="configuredThroughNamespace" classname="org.springframework.scheduling.annotation.AsyncAnnotationBeanPostProcessorTests" time="0.014"/>
+  <testcase name="configuredThroughNamespace" classname="org.springframework.scheduling.annotation.AsyncAnnotationBeanPostProcessorTests" time="0.013"/>
   <testcase name="taskExecutorByBeanName" classname="org.springframework.scheduling.annotation.AsyncAnnotationBeanPostProcessorTests" time="0.002"/>
-  <testcase name="taskExecutorByBeanType" classname="org.springframework.scheduling.annotation.AsyncAnnotationBeanPostProcessorTests" time="0.001"/>
-  <testcase name="exceptionHandlerThrowsUnexpectedException" classname="org.springframework.scheduling.annotation.AsyncAnnotationBeanPostProcessorTests" time="0.003"/>
-  <testcase name="handleExceptionWithCustomExceptionHandler" classname="org.springframework.scheduling.annotation.AsyncAnnotationBeanPostProcessorTests" time="0.002"/>
-  <testcase name="threadNamePrefix" classname="org.springframework.scheduling.annotation.AsyncAnnotationBeanPostProcessorTests" time="0.0"/>
-  <testcase name="handleExceptionWithFuture" classname="org.springframework.scheduling.annotation.AsyncAnnotationBeanPostProcessorTests" time="0.016"/>
+  <testcase name="taskExecutorByBeanType" classname="org.springframework.scheduling.annotation.AsyncAnnotationBeanPostProcessorTests" time="0.002"/>
+  <testcase name="exceptionHandlerThrowsUnexpectedException" classname="org.springframework.scheduling.annotation.AsyncAnnotationBeanPostProcessorTests" time="0.004"/>
+  <testcase name="handleExceptionWithCustomExceptionHandler" classname="org.springframework.scheduling.annotation.AsyncAnnotationBeanPostProcessorTests" time="0.001"/>
+  <testcase name="threadNamePrefix" classname="org.springframework.scheduling.annotation.AsyncAnnotationBeanPostProcessorTests" time="0.001"/>
+  <testcase name="handleExceptionWithFuture" classname="org.springframework.scheduling.annotation.AsyncAnnotationBeanPostProcessorTests" time="0.014"/>
   <testcase name="proxyCreated" classname="org.springframework.scheduling.annotation.AsyncAnnotationBeanPostProcessorTests" time="0.0"/>
-  <testcase name="handleExceptionWithListenableFuture" classname="org.springframework.scheduling.annotation.AsyncAnnotationBeanPostProcessorTests" time="0.006"/>
-  <testcase name="invokedAsynchronously" classname="org.springframework.scheduling.annotation.AsyncAnnotationBeanPostProcessorTests" time="0.001"/>
+  <testcase name="handleExceptionWithListenableFuture" classname="org.springframework.scheduling.annotation.AsyncAnnotationBeanPostProcessorTests" time="0.005"/>
+  <testcase name="invokedAsynchronously" classname="org.springframework.scheduling.annotation.AsyncAnnotationBeanPostProcessorTests" time="0.0"/>
   <testcase name="invokedAsynchronouslyOnProxyTarget" classname="org.springframework.scheduling.annotation.AsyncAnnotationBeanPostProcessorTests" time="0.002"/>
-  <system-out><![CDATA[10:34:41.461 [Test worker] ERROR org.springframework.scheduling.annotation.AnnotationAsyncExecutionInterceptor - Exception handler for async method 'public void org.springframework.scheduling.annotation.AsyncAnnotationBeanPostProcessorTests$TestBean.failWithVoid()' threw unexpected exception itself
+  <system-out><![CDATA[18:46:50.167 [Test worker] ERROR org.springframework.scheduling.annotation.AnnotationAsyncExecutionInterceptor - Exception handler for async method 'public void org.springframework.scheduling.annotation.AsyncAnnotationBeanPostProcessorTests$TestBean.failWithVoid()' threw unexpected exception itself
 java.lang.IllegalStateException: Test exception
 	at org.springframework.scheduling.annotation.TestableAsyncUncaughtExceptionHandler.handleUncaughtException(TestableAsyncUncaughtExceptionHandler.java:53) ~[test/:?]
 	at org.springframework.aop.interceptor.AsyncExecutionAspectSupport.handleError(AsyncExecutionAspectSupport.java:308) ~[spring-aop-5.0.21.BUILD-SNAPSHOT.jar:5.0.21.BUILD-SNAPSHOT]

@@ -1,0 +1,1 @@
+/Users/tanglongan/Codes/spring-framework-5.0.x/tanglongan/build/classes/java/main/org/tanglongan/App.class:/Users/tanglongan/Codes/spring-framework-5.0.x/tanglongan/build/classes/java/main/org/tanglongan/config/AppConfig.class:/Users/tanglongan/Codes/spring-framework-5.0.x/tanglongan/build/classes/java/main/org/tanglongan/model/User.class

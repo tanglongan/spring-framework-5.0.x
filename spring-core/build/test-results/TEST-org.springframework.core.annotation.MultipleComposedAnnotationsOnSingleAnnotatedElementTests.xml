@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.core.annotation.MultipleComposedAnnotationsOnSingleAnnotatedElementTests" tests="19" skipped="1" failures="0" errors="0" timestamp="2021-03-19T02:33:23" hostname="Dream.local" time="0.019">
+<testsuite name="org.springframework.core.annotation.MultipleComposedAnnotationsOnSingleAnnotatedElementTests" tests="19" skipped="1" failures="0" errors="0" timestamp="2021-03-19T10:45:11" hostname="Dream.local" time="0.017">
   <properties/>
-  <testcase name="findMultipleNoninheritedComposedAnnotationsOnClass" classname="org.springframework.core.annotation.MultipleComposedAnnotationsOnSingleAnnotatedElementTests" time="0.004"/>
+  <testcase name="findMultipleNoninheritedComposedAnnotationsOnClass" classname="org.springframework.core.annotation.MultipleComposedAnnotationsOnSingleAnnotatedElementTests" time="0.005"/>
   <testcase name="getMultipleNoninheritedComposedAnnotationsOnClass" classname="org.springframework.core.annotation.MultipleComposedAnnotationsOnSingleAnnotatedElementTests" time="0.0"/>
-  <testcase name="findMultipleInheritedComposedAnnotationsOnSuperclass" classname="org.springframework.core.annotation.MultipleComposedAnnotationsOnSingleAnnotatedElementTests" time="0.002"/>
+  <testcase name="findMultipleInheritedComposedAnnotationsOnSuperclass" classname="org.springframework.core.annotation.MultipleComposedAnnotationsOnSingleAnnotatedElementTests" time="0.001"/>
   <testcase name="getMultipleComposedAnnotationsOnBridgeMethod" classname="org.springframework.core.annotation.MultipleComposedAnnotationsOnSingleAnnotatedElementTests" time="0.0">
     <skipped/>
   </testcase>
   <testcase name="findMultipleComposedAnnotationsOnClass" classname="org.springframework.core.annotation.MultipleComposedAnnotationsOnSingleAnnotatedElementTests" time="0.0"/>
-  <testcase name="findComposedPlusLocalAnnotationsOnMethod" classname="org.springframework.core.annotation.MultipleComposedAnnotationsOnSingleAnnotatedElementTests" time="0.001"/>
+  <testcase name="findComposedPlusLocalAnnotationsOnMethod" classname="org.springframework.core.annotation.MultipleComposedAnnotationsOnSingleAnnotatedElementTests" time="0.0"/>
   <testcase name="findMultipleComposedAnnotationsOnInterface" classname="org.springframework.core.annotation.MultipleComposedAnnotationsOnSingleAnnotatedElementTests" time="0.001"/>
   <testcase name="getComposedPlusLocalAnnotationsOnClass" classname="org.springframework.core.annotation.MultipleComposedAnnotationsOnSingleAnnotatedElementTests" time="0.001"/>
-  <testcase name="getMultipleComposedAnnotationsOnMethod" classname="org.springframework.core.annotation.MultipleComposedAnnotationsOnSingleAnnotatedElementTests" time="0.002"/>
-  <testcase name="getMultipleComposedAnnotationsOnClass" classname="org.springframework.core.annotation.MultipleComposedAnnotationsOnSingleAnnotatedElementTests" time="0.0"/>
+  <testcase name="getMultipleComposedAnnotationsOnMethod" classname="org.springframework.core.annotation.MultipleComposedAnnotationsOnSingleAnnotatedElementTests" time="0.001"/>
+  <testcase name="getMultipleComposedAnnotationsOnClass" classname="org.springframework.core.annotation.MultipleComposedAnnotationsOnSingleAnnotatedElementTests" time="0.001"/>
   <testcase name="findMultipleNoninheritedComposedAnnotationsOnSuperclass" classname="org.springframework.core.annotation.MultipleComposedAnnotationsOnSingleAnnotatedElementTests" time="0.001"/>
-  <testcase name="getMultipleInheritedComposedAnnotationsOnSuperclass" classname="org.springframework.core.annotation.MultipleComposedAnnotationsOnSingleAnnotatedElementTests" time="0.001"/>
+  <testcase name="getMultipleInheritedComposedAnnotationsOnSuperclass" classname="org.springframework.core.annotation.MultipleComposedAnnotationsOnSingleAnnotatedElementTests" time="0.0"/>
   <testcase name="findComposedPlusLocalAnnotationsOnClass" classname="org.springframework.core.annotation.MultipleComposedAnnotationsOnSingleAnnotatedElementTests" time="0.0"/>
-  <testcase name="findMultipleComposedAnnotationsOnMethod" classname="org.springframework.core.annotation.MultipleComposedAnnotationsOnSingleAnnotatedElementTests" time="0.001"/>
-  <testcase name="findComposedCacheOnInterfaceAndLocalCacheOnClass" classname="org.springframework.core.annotation.MultipleComposedAnnotationsOnSingleAnnotatedElementTests" time="0.002"/>
+  <testcase name="findMultipleComposedAnnotationsOnMethod" classname="org.springframework.core.annotation.MultipleComposedAnnotationsOnSingleAnnotatedElementTests" time="0.0"/>
+  <testcase name="findComposedCacheOnInterfaceAndLocalCacheOnClass" classname="org.springframework.core.annotation.MultipleComposedAnnotationsOnSingleAnnotatedElementTests" time="0.001"/>
   <testcase name="getMultipleNoninheritedComposedAnnotationsOnSuperclass" classname="org.springframework.core.annotation.MultipleComposedAnnotationsOnSingleAnnotatedElementTests" time="0.0"/>
   <testcase name="getMultipleComposedAnnotationsOnInterface" classname="org.springframework.core.annotation.MultipleComposedAnnotationsOnSingleAnnotatedElementTests" time="0.0"/>
   <testcase name="findMultipleComposedAnnotationsOnBridgeMethod" classname="org.springframework.core.annotation.MultipleComposedAnnotationsOnSingleAnnotatedElementTests" time="0.002"/>

@@ -41,7 +41,7 @@
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">0.183s</div>
+<div class="counter">0.194s</div>
 <p>duration</p>
 </div>
 </td>
@@ -79,17 +79,17 @@
 </thead>
 <tr>
 <td class="success">testConstructor</td>
-<td>0.005s</td>
+<td>0.006s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">testContainerPrivileges</td>
-<td>0.008s</td>
+<td>0.007s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">testCustomDestroyBean</td>
-<td>0.007s</td>
+<td>0.006s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
@@ -99,52 +99,52 @@
 </tr>
 <tr>
 <td class="success">testCustomFactoryType</td>
-<td>0.056s</td>
+<td>0.075s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">testCustomInitBean</td>
-<td>0.006s</td>
+<td>0.005s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">testCustomInstanceFactoryMethod</td>
-<td>0.006s</td>
+<td>0.005s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">testCustomStaticFactoryMethod</td>
-<td>0.007s</td>
+<td>0.006s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">testInitSecurityAwarePrototypeBean</td>
-<td>0.007s</td>
+<td>0.009s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">testPropertyInjection</td>
-<td>0.015s</td>
+<td>0.013s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">testSecuritySanity</td>
-<td>0.015s</td>
+<td>0.014s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">testSpringDestroyBean</td>
-<td>0.008s</td>
+<td>0.009s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">testSpringInitBean</td>
-<td>0.007s</td>
+<td>0.005s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">testTrustedExecution</td>
-<td>0.021s</td>
+<td>0.019s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
@@ -157,8 +157,8 @@
 <div id="tab1" class="tab">
 <h2>Standard output</h2>
 <span class="code">
-<pre>10:33:15.927 [Test worker] WARN  org.springframework.beans.factory.support.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'spring-destroy': java.security.AccessControlException: access denied (&quot;java.util.PropertyPermission&quot; &quot;security.destroy&quot; &quot;write&quot;)
-10:33:15.934 [Test worker] WARN  org.springframework.beans.factory.support.DefaultListableBeanFactory - FactoryBean threw exception from getObjectType, despite the contract saying that it should return null if the type of its object cannot be determined yet
+<pre>18:45:03.383 [Test worker] WARN  org.springframework.beans.factory.support.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'spring-destroy': java.security.AccessControlException: access denied (&quot;java.util.PropertyPermission&quot; &quot;security.destroy&quot; &quot;write&quot;)
+18:45:03.402 [Test worker] WARN  org.springframework.beans.factory.support.DefaultListableBeanFactory - FactoryBean threw exception from getObjectType, despite the contract saying that it should return null if the type of its object cannot be determined yet
 java.security.AccessControlException: access denied (&quot;java.util.PropertyPermission&quot; &quot;factory.object.type&quot; &quot;write&quot;)
 	at java.security.AccessControlContext.checkPermission(AccessControlContext.java:472) ~[?:1.8.0_261]
 	at java.security.AccessController.checkPermission(AccessController.java:886) ~[?:1.8.0_261]
@@ -215,7 +215,7 @@ java.security.AccessControlException: access denied (&quot;java.util.PropertyPer
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_261]
 	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55) [gradle-base-services-4.4.1.jar:4.4.1]
 	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_261]
-10:33:15.979 [Test worker] WARN  org.springframework.beans.factory.support.DefaultListableBeanFactory - FactoryBean threw exception from getObjectType, despite the contract saying that it should return null if the type of its object cannot be determined yet
+18:45:03.454 [Test worker] WARN  org.springframework.beans.factory.support.DefaultListableBeanFactory - FactoryBean threw exception from getObjectType, despite the contract saying that it should return null if the type of its object cannot be determined yet
 java.security.AccessControlException: access denied (&quot;java.util.PropertyPermission&quot; &quot;factory.object.type&quot; &quot;write&quot;)
 	at java.security.AccessControlContext.checkPermission(AccessControlContext.java:472) ~[?:1.8.0_261]
 	at java.security.AccessController.checkPermission(AccessController.java:886) ~[?:1.8.0_261]
@@ -273,7 +273,7 @@ java.security.AccessControlException: access denied (&quot;java.util.PropertyPer
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_261]
 	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55) [gradle-base-services-4.4.1.jar:4.4.1]
 	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_261]
-10:33:16.049 [Test worker] WARN  org.springframework.beans.factory.support.DisposableBeanAdapter - Destroy method 'destroy' on bean with name 'custom-destroy' threw an exception: java.security.AccessControlException: access denied (&quot;java.util.PropertyPermission&quot; &quot;security.destroy&quot; &quot;write&quot;)
+18:45:03.515 [Test worker] WARN  org.springframework.beans.factory.support.DisposableBeanAdapter - Destroy method 'destroy' on bean with name 'custom-destroy' threw an exception: java.security.AccessControlException: access denied (&quot;java.util.PropertyPermission&quot; &quot;security.destroy&quot; &quot;write&quot;)
 </pre>
 </span>
 </div>
@@ -285,7 +285,7 @@ java.security.AccessControlException: access denied (&quot;java.util.PropertyPer
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="http://www.gradle.org">Gradle 4.4.1</a> at 2021-3-19 10:33:19</p>
+<a href="http://www.gradle.org">Gradle 4.4.1</a> at 2021-3-19 18:45:06</p>
 </div>
 </div>
 </body>

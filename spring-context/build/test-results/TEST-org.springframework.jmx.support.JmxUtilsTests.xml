@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.jmx.support.JmxUtilsTests" tests="12" skipped="0" failures="0" errors="0" timestamp="2021-03-19T02:34:51" hostname="Dream.local" time="0.011">
+<testsuite name="org.springframework.jmx.support.JmxUtilsTests" tests="12" skipped="0" failures="0" errors="0" timestamp="2021-03-19T10:46:59" hostname="Dream.local" time="0.011">
   <properties/>
   <testcase name="testSimpleMBean" classname="org.springframework.jmx.support.JmxUtilsTests" time="0.001"/>
-  <testcase name="testIsMBeanWithDynamicMBean" classname="org.springframework.jmx.support.JmxUtilsTests" time="0.001"/>
+  <testcase name="testIsMBeanWithDynamicMBean" classname="org.springframework.jmx.support.JmxUtilsTests" time="0.0"/>
   <testcase name="testLocatePlatformMBeanServer" classname="org.springframework.jmx.support.JmxUtilsTests" time="0.002"/>
   <testcase name="testGetAttributeNameWithoutStrictCasing" classname="org.springframework.jmx.support.JmxUtilsTests" time="0.002"/>
   <testcase name="testAppendIdentityToObjectName" classname="org.springframework.jmx.support.JmxUtilsTests" time="0.0"/>

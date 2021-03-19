@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.expression.spel.ListTests" tests="18" skipped="0" failures="0" errors="0" timestamp="2021-03-19T02:35:02" hostname="Dream.local" time="0.005">
+<testsuite name="org.springframework.expression.spel.ListTests" tests="18" skipped="0" failures="0" errors="0" timestamp="2021-03-19T10:47:12" hostname="Dream.local" time="0.005">
   <properties/>
-  <testcase name="testSetConstruction01" classname="org.springframework.expression.spel.ListTests" time="0.001"/>
-  <testcase name="testRelOperatorsBetweenErrors02" classname="org.springframework.expression.spel.ListTests" time="0.0"/>
+  <testcase name="testSetConstruction01" classname="org.springframework.expression.spel.ListTests" time="0.0"/>
+  <testcase name="testRelOperatorsBetweenErrors02" classname="org.springframework.expression.spel.ListTests" time="0.001"/>
   <testcase name="testRelOperatorsBetween01" classname="org.springframework.expression.spel.ListTests" time="0.0"/>
   <testcase name="testRelOperatorsBetween02" classname="org.springframework.expression.spel.ListTests" time="0.0"/>
   <testcase name="testRelOperatorsBetween03" classname="org.springframework.expression.spel.ListTests" time="0.0"/>
