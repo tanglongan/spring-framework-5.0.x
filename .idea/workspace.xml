@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bef00200-6a3d-461c-9a6f-f63435d671fb" name="Default Changelist" comment="" />
+    <list default="true" id="bef00200-6a3d-461c-9a6f-f63435d671fb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/buildSrc/build/classes/groovy/main/org/springframework/build/gradle/TestSourceSetDependenciesPlugin$_apply_closure1$_closure4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/buildSrc/build/classes/groovy/main/org/springframework/build/gradle/TestSourceSetDependenciesPlugin$_apply_closure1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/buildSrc/build/classes/groovy/main/org/springframework/build/gradle/TestSourceSetDependenciesPlugin$_collectProjectDependencies_closure2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/buildSrc/build/classes/groovy/main/org/springframework/build/gradle/TestSourceSetDependenciesPlugin$_collectProjectDependencies_closure3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/buildSrc/build/classes/groovy/main/org/springframework/build/gradle/TestSourceSetDependenciesPlugin.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/buildSrc/build/resources/main/META-INF/gradle-plugins/test-source-set-dependencies.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/buildSrc/build/libs/buildSrc.jar" beforeDir="false" afterPath="$PROJECT_DIR$/buildSrc/build/libs/buildSrc.jar" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -90,11 +98,11 @@
                 <list>
                   <RecentBranch>
                     <option name="branchName" value="main" />
-                    <option name="lastUsedInstant" value="1616141038" />
+                    <option name="lastUsedInstant" value="1616141675" />
                   </RecentBranch>
                   <RecentBranch>
                     <option name="branchName" value="master" />
-                    <option name="lastUsedInstant" value="1616141037" />
+                    <option name="lastUsedInstant" value="1616141444" />
                   </RecentBranch>
                 </list>
               </option>
@@ -113,15 +121,19 @@
     </option>
   </component>
   <component name="ProjectId" id="1pvUylWLAWUOmsqnLF32Z4SBJyF" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="false" id="Update" />
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/tanglongan/src/main/resources" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -282,6 +294,8 @@
       <list>
         <item itemvalue="Gradle.tanglongan[buildNeeded]" />
         <item itemvalue="Application.App" />
+        <item itemvalue="Gradle.tanglongan[buildNeeded]" />
+        <item itemvalue="Application.App" />
       </list>
     </recent_temporary>
   </component>
@@ -312,6 +326,7 @@
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="init" />
     <option name="LAST_COMMIT_MESSAGE" value="init" />
   </component>
